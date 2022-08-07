@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>McDelivery CH DCO 2021 UTILS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- STYLES -->
+      <style>
+        body{font-family: Arial, sans-serif;margin: 12px;color: #22522f;}
+        #bg-exit{width:100%;height:100%;}
+        div.wrapper-banner div.alpha,div.wrapper-banner img.alpha,span.alpha{ opacity: 0; }
+        #copy {
+          position: relative;
+        }
+        #copy h4 {
+          margin: 12px 0 4px 4px;
+          color: #264f36;
+        }
+        #copy h4 small {
+          color: #666;
+        }
+        #copy p,#copy p.header {
+          border: 1px solid #999;
+          border-radius: 3px;
+          background-color: #f5f5f5;
+          color: #333;
+          font-size: 15px;
+          line-height: 1.25;
+          word-break: break-word;
+          padding: 8px;
+          margin: 0;
+        }
+        #copy p.header {
+          background-color: transparent;
+          color: #666;
+          font-size: 15px;
+          line-height: 1.25;
+          padding: 8px;
+          margin: 0;
+        }
+        #copy p.small {
+          font-size: 13px;
+          padding: 2px 4px;
+        }
+        #copy .label {
+          font-size: 11px;
+          padding: 4px 0px 4px 12px;
+          background-color: #e48d01;
+          color: #fff;
+          border-radius: 5px 5px 0px 0px;
+        }
+        hr {
+          margin: 24px 0 12px 0;
+        }
+        div.container {
+          display:flex;
+          justify-content: space-around;
+          box-sizing: border-box;
+        }
+        div.col-6 {
+          flex: 1 0 50%;
+          box-sizing: border-box;
+          padding: 4px 8px;
+        }
+      </style>
+  </head>
+  <body>
+    <div id="bg-exit" class="wrapper-banner">
+      <h2>McDelivery CH DCO 2021 UTILS</h2>
+      <div id="copy"></div>
+    </div>
+    <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.5.1_min.js"></script>
+    <script src="./geotargets-CH-2021-07-27.js"></script>
+    <script src="./restaurants.js"></script>
+    <script>
+      // csv to json
+      console.log("McDelivery CH DCO 2021 UTILS");
+      console.log("csv to json", "data:");
+      console.log(data);
+      //+++ CH-DE ++++
+      //+++ CH-FR ++++
+      //Geneve, Lausanne, Le Lignon, Meyrin
+      //Cheseaux, Collonge-Bellerive, Conthey, Crissier, Fribourg, Genève, Granges-Paccot, Marin, Montreux, Morges, Neuchâtel, Nyon, Renens, Sion, Vevey
+      //Bulle, La Chaux-de-Fonds, La Tour-de-Treme, Martigny, Yverdon
+      //Bulle, Cheseaux, Collonge-Bellerive, Conthey, Crissier, Fribourg, Genève, Granges-Paccot, La Chaux-de-Fonds, La Tour-de-Treme, Lausanne, Le Lignon, Marin, Martigny, Meyrin, Montreux, Morges, Neuchâtel, Nyon, Renens, Sion, Vevey, Yverdon
+      //Bulle, La Chaux-de-Fonds, La Tour-de-Treme, Cheseaux, Collonge-Bellerive, Conthey, Crissier, Fribourg, Genève, Granges-Paccot, La Chaux-de-Fonds, La Tour-de-Treme, Lausanne, Le Lignon, Marin, Martigny, Meyrin, Montreux, Morges, Neuchâtel, Nyon, Renens, Sion, Vevey, Yverdon
+      //
+      // JEAT SMOOD: BE Westside (Problematic case inside Bern - would be target via Bern all together)
+      // Marin -> NOT FOUND!
+      /*
+      GE Balexert CC, GE Collonge-Bellerive, Morges, Nyon Centre, Nyon Drive, Montreux, Vevey, Fribourg, Granges-Paccot, Yverdon CC, Yverdon Drive, Marin, Conthey, Sion, NE Centre, NE Gare, Cheseaux, La Chaux de Fonds Drive, La Chaux de Fonds Gare
+
+      GE Autocenter, GE Etoile, GE La Praille, GE Le Lignon, GE Les Cygnes, GE Malbuisson, GE Meyrin, GE Mt Blanc, GE Plainpalais, GE Rive, Renens, LS Deux-Gares, LS Le Flon, LS Rue de Bourg, LS St-Laurent, LS Terreaux, Crissier Drive, Crissier Centre Commercial
+
+      //+++ CH-IT ++++
+      //Bellinzona, Locarno, Lugano, Magliaso, Mendrisio, Morbio, Sant Antonino
+      Locarno -> Locarno
+      Bellinzona -> Bellinzona
+      Lugano Albertolli -> Lugano
+      Lugano Pazallo -> Lugano
+      Magliaso
+      Mendrisio -> Mendrisio
+      Morbio -> Morbio Inferiore
+      Sant Antonino -> Sant'Antonino
+      */
+      var copyElem = document.getElementById('copy'),
+        targetsDE_TEST = "Acacias-Etoile",
+        //+++ CH-DE ++++
+        inputDE_UEAT = 'Regensdorf, Thun, Dierikon, Heimberg, Therwil, Biel Nidaugasse, Biel Bahnhof',
+        targetsDE_UEAT = 'Regensdorf, Thun, Heimberg, Therwil, Biel, Ebikon, Root',
+        inputDE_SMOOD = 'SG Bildstrasse, Spreitenbach',
+        targetsDE_SMOOD = 'St. Gallen, Spreitenbach',
+        inputDE_DIVOO = 'Uster, Chur City, Chur Drive, Wil (SG), Schaffhausen, Egerkingen, Olten, Aarau, Suhr, Hinwil, Oftringen, Solothurn, Wädenswil, Zuchwil, Füllinsdorf, Kaiseraugst',
+        targetsDE_DIVOO = 'Uster, Chur, Wil, Schaffhausen, Egerkingen, Olten, Aarau, Suhr, Hinwil, Oftringen, Solothurn, Wadenswil, Zuchwil, Fullinsdorf, Kaiseraugst',
+        inputDE_UEAT_SMOOD = 'Emmen, Kriens, LU Hertenstein, LU Pilatus, Rümlang, Schlieren, Dietlikon, Glattzentrum',
+        targetsDE_UEAT_SMOOD = 'Emmen, Kriens, Weggis, Kriens, Rumlang, Schlieren, Dietlikon, Wallisellen',
+        inputDE_UEAT_DIVOO = 'Baden Schlossberg',
+        targetsDE_UEAT_DIVOO = 'Baden',
+        inputDE_UEAT_JEAT_SMOOD = 'ZH Badenerstrasse, ZH Bahnhofplatz, ZH Enge, ZH Langstrasse, ZH Letzipark, ZH Löwenstrasse, ZH Stadelhofen, ZH Oerlikon, BS Stücki, BS Badischer Bahnhof, BS Barfüsserplatz, BS Greifengasse, BS Marktplatz, BS Centralbahnstr. 9, BE Hauptbahnhof, BE Postparc, BE Wankdorf, BE Zytglogge, WT Grüzefeld, WT Zürcherstrasse, WT Untertor, SG Markt am Bohl, SG St.Leonhardstrasse, Allschwil, Köniz',
+        targetsDE_UEAT_JEAT_SMOOD = 'Zurich, Basel, Bern, Winterthur, St. Gallen, Allschwil, Koniz',
+        inputDE_UEAT_DIVOO_SMOOD = 'Pratteln, Baar, Münchenstein, Volketswil',
+        targetsDE_UEAT_DIVOO_SMOOD = 'Pratteln, Baar, Munchenstein, Volketswil',
+        //+++ CH-FR ++++
+        inputFR_UEAT = 'Biel Nidaugasse, Biel Bahnhof',
+        targetsFR_UEAT = 'Ebikon, Root',
+        inputFR_JEAT = 'GE Airport',
+        targetsFR_JEAT = 'Geneve Aeroport',
+        inputFR_SMOOD = 'Bulle, La Tour-de-Treme, Martigny, Martigny Drive',
+        targetsFR_SMOOD = 'Bulle, Martigny',
+        inputFR_UEAT_SMOOD = 'GE Balexert CC, GE Collonge-Bellerive, Morges, Nyon Centre, Nyon Drive, Montreux, Vevey, Fribourg, Granges-Paccot, Yverdon CC, Yverdon Drive, Marin, Conthey, Sion, NE Centre, NE Gare, Cheseaux, La Chaux de Fonds Drive, La Chaux de Fonds Gare',
+        targetsFR_UEAT_SMOOD = 'Cheseaux, Collonge-Bellerive, Fribourg, Granges-Paccot, La Chaux-de-Fonds, Martigny, Montreux, Morges, Nyon, Sion, Vernier, Vevey, Yverdon',
+        inputFR_UEAT_JEAT_SMOOD = 'GE Autocenter, GE Etoile, GE La Praille, GE Le Lignon, GE Les Cygnes, GE Malbuisson, GE Meyrin, GE Mt Blanc, GE Plainpalais, GE Rive, Renens, LS Deux-Gares, LS Le Flon, LS Rue de Bourg, LS St-Laurent, LS Terreaux, Crissier Drive, Crissier Centre Commercial',
+        targetsFR_UEAT_JEAT_SMOOD = 'Crissier, Geneva, Lausanne, Meyrin, Renens',
+        //+++ CH-IT ++++
+        inputIT_DIVOO_SMOOD = "Locarno, Belinzona, Lugano Albertolli, Lugano Pazallo, Magliaso, Mendrisio, Morbio, Sant Antonino",
+        targetsIT_DIVOO_SMOOD = "Bellinzona, Locarno, Lugano, Mendrisio, Morbio Inferiore, Sant'Antonino",
+        targets_ALL = '',
+        //
+        getCanonical = function (target) {
+          var i, d, value, result,
+            length = data.length,
+            json = [],
+            msg = '',
+            targetsArr = Array.isArray(target) ? target : target.split(', '),
+            l = targetsArr.length;
+            //console.log("##########", "getCanonical", "targetsArr:", targetsArr);
+            for (i = 0; i < length; i++) {
+              value = data[i];
+              if (value.country === 'CH') {
+                for (d = 0; d < l; d++) {
+                  result = value.name.match('\\b' + targetsArr[d] + '\\b');
+                  if (result) {
+                    json.push({
+                      name: value.name,
+                      canonical: value.canonical,
+                      //type: value.type,
+                      country: value.country
+                    });
+                    return json;
+                  }
+                }
+              }
+            }
+            //console.log("##########", "getCanonical", "json:", json);
+            return json;
+        },
+        print = function (name, target, input) {
+          var i, d, value, result,
+            length = data.length,
+            json = [],
+            msg = '',
+            output = copyElem.innerHTML,
+            //regex = /b+c/,
+            targetsArr = target.split(', '),
+            l = targetsArr.length;
+          //id ,2021-05-11T00:00+00:00
+          for (i = 0; i < length; i++) {
+            value = data[i];
+            //msg += (i + 10000) + ',\n';
+            //msg += '2021-05-11T00:00+00:00,"' + data[i].canonical + '",\n';
+            //get all CH
+            if (value.country === 'CH') {
+              for (d = 0; d < l; d++) {
+                //console.log("name:", value.name, "canonical:", value.canonical);
+                result = value.name.match('\\b' + targetsArr[d] + '\\b');
+                if (result) {
+                //if (value.name.indexOf(targetsArr[d]) !== -1) {
+                  //console.log("name:", value.name, "canonical:", value.canonical, "result:", result);
+                  json.push({
+                    name: value.name,
+                    canonical: value.canonical,
+                    //type: value.type,
+                    country: value.country
+                  });
+                }
+              }
+            }
+          }
+          length = json.length;
+          for (i = 0; i < length; i++) {
+            msg += json[i].canonical + (i === length - 1 ? '' : '|');
+          }
+          /*console.log("");
+          console.log("#");
+          console.log("NAME:", name, "- TARGET:", target);
+          //console.log("JSON DATA OUTPUT:", length);
+          console.log("+");
+          console.log("+ copy start +");
+          console.log(msg);
+          console.log("+ copy end +");*/
+          output += '<h4>' + name + ' <small>[ TARGETS COUNT: ' + l + ' ] [ RESULT: ' + length + ' ]</small></h4>';
+          if (input) {
+            output += '<div class="label">' + input + '</div>';
+          }
+          output += '<p>' + msg + '</p>';
+          copyElem.innerHTML = output;
+        },
+        printRestaurants = function () {
+          var i, d, item, value, canonical,
+            count = 0,
+            l = restaurants.length;
+          for (i = 0; i < l; i++) {
+            item = restaurants[i];
+            value = getCanonical(item.city);
+            if (value.length) { count++; }
+          }
+          copyElem.innerHTML = copyElem.innerHTML + '<h4>Restaurants [' + l + '] RESULT: [' + count + ']</h4>';
+          for (i = 0; i < l; i++) {
+            item = restaurants[i];
+            value = getCanonical(item.city);
+            canonical = value.length ? '' : '<b>NOT FOUND!</b>';
+            if (value.length) { count++; }
+            for (d = 0; d < value.length; d++) {
+              canonical += value[d].canonical + (d !== value.length - 1 ? '|' : '');
+            }
+            //console.log("##########", "printRestaurants", "value:", value, "value.canonical:", value.canonical);
+            //canonical = value.canonical ? value.canonical.join('|') : 'NOT FIND';
+            copyElem.innerHTML = copyElem.innerHTML + '<div class="container"><div class="col-6"><p class="small">' + item.short + ' ' + item.city + ' ' + item.street + '</p></div><div class="col-6"><p class="small"># Canonical: ' + canonical + '</p></div></div>';
+          }
+        };
+      //
+      print('DE TEST', targetsDE_TEST);
+      copyElem.innerHTML = copyElem.innerHTML + '<hr>';
+      print('DE UEAT', targetsDE_UEAT, inputDE_UEAT);
+      print('DE SMOOD', targetsDE_SMOOD, inputDE_SMOOD);
+      print('DE DIVOO', targetsDE_DIVOO, inputDE_DIVOO);
+      print('DE UEAT SMOOD', targetsDE_UEAT_SMOOD, inputDE_UEAT_SMOOD);
+      print('DE UEAT DIVOO', targetsDE_UEAT_DIVOO, inputDE_UEAT_DIVOO);
+      print('DE UEAT JEAT SMOOD', targetsDE_UEAT_JEAT_SMOOD, inputDE_UEAT_JEAT_SMOOD);
+      print('DE UEAT DIVOO SMOOD', targetsDE_UEAT_DIVOO_SMOOD, inputDE_UEAT_DIVOO_SMOOD);
+      copyElem.innerHTML = copyElem.innerHTML + '<hr>';
+      print('FR UEAT', targetsFR_UEAT, inputFR_UEAT);
+      print('FR JEAT', targetsFR_JEAT, inputFR_JEAT);
+      print('FR SMOOD', targetsFR_SMOOD, inputFR_SMOOD);
+      print('FR UEAT SMOOD', targetsFR_UEAT_SMOOD, inputFR_UEAT_SMOOD);
+      print('FR UEAT JEAT SMOOD', targetsFR_UEAT_JEAT_SMOOD, inputFR_UEAT_JEAT_SMOOD);
+      copyElem.innerHTML = copyElem.innerHTML + '<hr>';
+      print('IT DIVOO SMOOD', targetsIT_DIVOO_SMOOD, inputIT_DIVOO_SMOOD);
+      copyElem.innerHTML = copyElem.innerHTML + '<hr>';
+      print('ALL', targets_ALL);
+      copyElem.innerHTML = copyElem.innerHTML + '<hr>';
+      printRestaurants();
+      //
+      //console.log('const data = ' + JSON.stringify(json) + ';');
+      /*//name
+      for (i = 0; i < l; i++) {
+          msg += data[i].name + '\n';
+      }
+      console.log("");
+      console.log("Städtenamen:");
+      console.log(msg);
+      //canonical
+      msg = '';
+      for (i = 0; i < l; i++) {
+          msg += data[i].canonical + '\n';
+      }
+      console.log("Canonical:");
+      console.log(msg);*/
+    </script>
+  </body>
+</html>

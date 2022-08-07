@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* CSS Document index.css */
+
+// import global scss
+@import 'variables';
+@import 'font';
+@import "global";
+@import "theme";
+
+/* OPTONAL CLOSE BTN MINIMUM */
+div.wrapper-banner div[egp-module="close-btn"],
+egp-close-btn,
+div.wrapper-banner div[egp-module="open-btn"],
+egp-open-btn {
+    display: block;
+    left: 130px;
+    top: auto;
+    bottom: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}
+div.wrapper-banner div[egp-module="open-btn"],
+egp-open-btn {
+    opacity: 0;
+    /*background: url(img/icon-i.png) 0px 0px / cover no-repeat;*/
+    left: auto;
+    right: 0px;
+    top: auto;
+    bottom: 0px;
+    width: 110px;
+    height: 40px;
+}
+div.wrapper-banner div[egp-module="modal"],
+egp-modal {
+    cursor: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div.wrapper-banner div[egp-module="close-btn"] {
+    /*background: url(img/close-btn.png) top right / 46px 47px no-repeat;*/
+    color: #000;
+    color: transparent;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 600px;
+}
+
+#nfo-win {
+    display: none;
+    background-color: #f7bcb3;
+    width: 300px;
+    height: 250px;
+    overflow: auto;
+    hyphens: auto;
+    cursor: pointer;
+}
+#nfo-title {
+    font-size: 20px;
+    padding: 50px 16px 5px 16px;
+    position: relative;
+    hyphens: auto;
+    box-sizing: border-box;
+    height: auto;
+    line-height: 1.0;
+}
+//#nfo-title span {}
+#nfo-content {
+    font-size: 13px;
+    padding: 0px 16px 5px 16px;
+    position: relative;
+    hyphens: auto;
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+}
+
+#egp-anim {
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 300px;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+    //hyphens: auto;
+}
+
+/* Fix Safari rendering bug */
+svg {
+    transform: translateZ(0);
+}
+
+/* rect(<top> <right> <bottom> <left>) */
+/*clip: rect(200px, 630px, 500px, 630px);*/
+#bkg {
+    background-color: $color-yellow;
+}
+
+#promo { width: 0; height: 0; }
+
+#logos {
+    transform-origin: 110% 164%;
+    transform: scale(0.65, 0.65);
+}
+
+#cta {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: $cta-top;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+#cta div {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    white-space: nowrap;
+    color: $cta-color;
+    padding: $cta-padding;
+    border-radius: $cta-border-radius;
+    background-color: $cta-background-color;
+}
+
+#copy-1,
+#copy-2 {
+    font-size: $font-size-copy;
+    line-height: $line-height-copy;
+    padding: $copy-padding;
+}

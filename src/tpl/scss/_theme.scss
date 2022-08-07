@@ -1,0 +1,355 @@
+// SCSS Document _theme.scss
+
+//#bg-exit - will be populate with theme class
+//THEMES
+div.wrapper-banner {
+    // COLORS
+    /* &.yellow {
+        background: url(https://s0.2mdn.net/creatives/assets/4239542/bkg-fbbc0d.png);
+    } */
+    //&.green {}
+
+    // SIZES
+    &.copy-36 {
+        #copy-1,
+        #copy-2 {
+            font-size: 36px;
+        }
+    }
+    &.copy-37 {
+        #copy-1,
+        #copy-2 {
+            font-size: 37px;
+        }
+    }
+    &.copy-38 {
+        #copy-1,
+        #copy-2 {
+            font-size: 38px;
+        }
+    }
+    &.copy-39 {
+        #copy-1,
+        #copy-2 {
+            font-size: 39px;
+        }
+    }
+    &.copy-40 {
+        #copy-1,
+        #copy-2 {
+            font-size: 40px;
+        }
+    }
+    &.copy-41 {
+        #copy-1,
+        #copy-2 {
+            font-size: 41px;
+        }
+    }
+    &.copy-42 {
+        #copy-1,
+        #copy-2 {
+            font-size: 42px;
+        }
+    }
+    &.copy-43 {
+        #copy-1,
+        #copy-2 {
+            font-size: 43px;
+        }
+    }
+    &.copy-44 {
+        #copy-1,
+        #copy-2 {
+            font-size: 44px;
+        }
+    }
+    &.copy-45 {
+        #copy-1,
+        #copy-2 {
+            font-size: 45px;
+        }
+    }
+    &.copy-46 {
+        #copy-1,
+        #copy-2 {
+            font-size: 46px;
+        }
+    }
+    &.copy-47 {
+        #copy-1,
+        #copy-2 {
+            font-size: 47px;
+        }
+    }
+    &.copy-48 {
+        #copy-1,
+        #copy-2 {
+            font-size: 48px;
+        }
+    }
+    &.copy-49 {
+        #copy-1,
+        #copy-2 {
+            font-size: 49px;
+        }
+    }
+    &.copy-50 {
+        #copy-1,
+        #copy-2 {
+            font-size: 50px;
+        }
+    }
+    &.copy-51 {
+        #copy-1,
+        #copy-2 {
+            font-size: 51px;
+        }
+    }
+    &.copy-52 {
+        #copy-1,
+        #copy-2 {
+            font-size: 52px;
+        }
+    }
+    &.copy-53 {
+        #copy-1,
+        #copy-2 {
+            font-size: 53px;
+        }
+    }
+    &.copy-54 {
+        #copy-1,
+        #copy-2 {
+            font-size: 54px;
+        }
+    }
+    &.copy-55 {
+        #copy-1,
+        #copy-2 {
+            font-size: 55px;
+        }
+    }
+    &.copy-56 {
+        #copy-1,
+        #copy-2 {
+            font-size: 56px;
+        }
+    }
+    &.copy-57 {
+        #copy-1,
+        #copy-2 {
+            font-size: 57px;
+        }
+    }
+    &.copy-58 {
+        #copy-1,
+        #copy-2 {
+            font-size: 58px;
+        }
+    }
+    &.copy-59 {
+        #copy-1,
+        #copy-2 {
+            font-size: 59px;
+        }
+    }
+    &.copy-60 {
+        #copy-1,
+        #copy-2 {
+            font-size: 60px;
+        }
+    }
+    &.copy-61 {
+        #copy-1,
+        #copy-2 {
+            font-size: 61px;
+        }
+    }
+    &.copy-62 {
+        #copy-1,
+        #copy-2 {
+            font-size: 62px;
+        }
+    }
+    &.copy-63 {
+        #copy-1,
+        #copy-2 {
+            font-size: 63px;
+        }
+    }
+    &.copy-64 {
+        #copy-1,
+        #copy-2 {
+            font-size: 64px;
+        }
+    }
+
+    &.hline-38 {
+        #copy-1,
+        #copy-2 {
+            line-height: 38px;
+        }
+    }
+    &.hline-39 {
+        #copy-1,
+        #copy-2 {
+            line-height: 39px;
+        }
+    }
+    &.hline-40 {
+        #copy-1,
+        #copy-2 {
+            line-height: 40px;
+        }
+    }
+    &.hline-41 {
+        #copy-1,
+        #copy-2 {
+            line-height: 41px;
+        }
+    }
+    &.hline-42 {
+        #copy-1,
+        #copy-2 {
+            line-height: 42px;
+        }
+    }
+    &.hline-43 {
+        #copy-1,
+        #copy-2 {
+            line-height: 43px;
+        }
+    }
+    &.hline-44 {
+        #copy-1,
+        #copy-2 {
+            line-height: 44px;
+        }
+    }
+    &.hline-45 {
+        #copy-1,
+        #copy-2 {
+            line-height: 45px;
+        }
+    }
+    &.hline-46 {
+        #copy-1,
+        #copy-2 {
+            line-height: 46px;
+        }
+    }
+    &.hline-47 {
+        #copy-1,
+        #copy-2 {
+            line-height: 47px;
+        }
+    }
+    &.hline-48 {
+        #copy-1,
+        #copy-2 {
+            line-height: 48px;
+        }
+    }
+    &.hline-49 {
+        #copy-1,
+        #copy-2 {
+            line-height: 49px;
+        }
+    }
+    &.hline-50 {
+        #copy-1,
+        #copy-2 {
+            line-height: 50px;
+        }
+    }
+    &.hline-51 {
+        #copy-1,
+        #copy-2 {
+            line-height: 51px;
+        }
+    }
+    &.hline-52 {
+        #copy-1,
+        #copy-2 {
+            line-height: 52px;
+        }
+    }
+    &.hline-53 {
+        #copy-1,
+        #copy-2 {
+            line-height: 53px;
+        }
+    }
+    &.hline-54 {
+        #copy-1,
+        #copy-2 {
+            line-height: 54px;
+        }
+    }
+    &.hline-55 {
+        #copy-1,
+        #copy-2 {
+            line-height: 55px;
+        }
+    }
+    &.hline-56 {
+        #copy-1,
+        #copy-2 {
+            line-height: 56px;
+        }
+    }
+    &.hline-57 {
+        #copy-1,
+        #copy-2 {
+            line-height: 57px;
+        }
+    }
+    &.hline-58 {
+        #copy-1,
+        #copy-2 {
+            line-height: 58px;
+        }
+    }
+    &.hline-59 {
+        #copy-1,
+        #copy-2 {
+            line-height: 59px;
+        }
+    }
+    &.hline-60 {
+        #copy-1,
+        #copy-2 {
+            line-height: 60px;
+        }
+    }
+
+    &.cta-small {
+        font-size: $cta-font-size-small;
+    }
+    // TRANSFORM
+    &.logos-1 {
+        #logos {
+            transform-origin: 112% 150%;
+            transform: scale(0.625, 0.625);
+        }
+    }
+    &.logos-2 {
+        #logos {
+            transform-origin: 110% 150%;
+            transform: scale(0.625, 0.625);
+        }
+    }
+    &.logos-3 {
+        #logos {
+            transform-origin: 100% 146%;
+            transform: scale(0.6, 0.6);
+        }
+    }
+    &.logos-4 {
+        #logos {
+            transform-origin: 94% 146%;
+            transform: scale(0.6, 0.6);
+        }
+    }
+}
