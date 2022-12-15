@@ -33,12 +33,12 @@ const buildFolder = "_build/";
 const buildFolderInline = "_build_inline/";
 const buildFolderStd = "_build_std/";
 
-const TPL_DCO_NAME_LOCAL = "TPL_DCO_LOCAL_211101";
+const TPL_DCO_NAME_LOCAL = "TPL_DCO_LOCAL_221215";
 //TPL_DE_DCO
-const tplNamesTPL_DE_DCO = ["TPL_DCO_300x600_211101_DE"];
-const tplNamesTPL_FR_DCO = ["TPL_DCO_300x600_211101_FR"];
-const tplNamesTPL_IT_DCO = ["TPL_DCO_300x600_211101_IT"];
-const tplNamesTPL_DCO = ["TPL_DCO_300x600_211101"];
+const tplNamesTPL_DE_DCO = ["TPL_DCO_300x600_221215_DE"];
+const tplNamesTPL_FR_DCO = ["TPL_DCO_300x600_221215_FR"];
+const tplNamesTPL_IT_DCO = ["TPL_DCO_300x600_221215_IT"];
+const tplNamesTPL_DCO = ["TPL_DCO_300x600_221215"];
 
 let currentTplIndex = 0;
 let tplNameLang = "";
