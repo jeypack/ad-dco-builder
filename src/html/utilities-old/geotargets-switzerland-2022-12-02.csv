@@ -1,0 +1,648 @@
+Criteria ID,Name,Canonical Name,Parent ID,Country Code,Target Type,Status
+"1002807","Aarau","Aarau,Aargau,Switzerland","20126","CH","City",Active
+"1002808","Aarburg","Aarburg,Aargau,Switzerland","20126","CH","City",Active
+"1002809","Baden","Baden,Aargau,Switzerland","20126","CH","City",Active
+"1002810","Brittnau","Brittnau,Aargau,Switzerland","20126","CH","City",Active
+"1002811","Brugg","Brugg,Aargau,Switzerland","20126","CH","City",Active
+"1002812","Remetschwil","Remetschwil,Aargau,Switzerland","20126","CH","City",Active
+"1002813","Frick","Frick,Aargau,Switzerland","20126","CH","City",Active
+"1002814","Granichen","Granichen,Aargau,Switzerland","20126","CH","City",Active
+"1002815","Hirschthal","Hirschthal,Aargau,Switzerland","20126","CH","City",Active
+"1002816","Holderbank","Holderbank,Aargau,Switzerland","20126","CH","City",Active
+"1002817","Hunzenschwil","Hunzenschwil,Aargau,Switzerland","20126","CH","City",Active
+"1002818","Kaiseraugst","Kaiseraugst,Aargau,Switzerland","20126","CH","City",Active
+"1002820","Bottstein","Bottstein,Aargau,Switzerland","20126","CH","City",Active
+"1002821","Kolliken","Kolliken,Aargau,Switzerland","20126","CH","City",Active
+"1002822","Laufenburg","Laufenburg,Aargau,Switzerland","20126","CH","City",Active
+"1002823","Leibstadt","Leibstadt,Aargau,Switzerland","20126","CH","City",Active
+"1002824","Lenzburg","Lenzburg,Aargau,Switzerland","20126","CH","City",Active
+"1002825","Leuggern","Leuggern,Aargau,Switzerland","20126","CH","City",Active
+"1002826","Lupfig","Lupfig,Aargau,Switzerland","20126","CH","City",Active
+"1002827","Mellingen","Mellingen,Aargau,Switzerland","20126","CH","City",Active
+"1002828","Menziken","Menziken,Aargau,Switzerland","20126","CH","City",Active
+"1002829","Mohlin","Mohlin,Aargau,Switzerland","20126","CH","City",Active
+"1002830","Muhen","Muhen,Aargau,Switzerland","20126","CH","City",Active
+"1002831","Neuenhof","Neuenhof,Aargau,Switzerland","20126","CH","City",Active
+"1002832","Niederlenz","Niederlenz,Aargau,Switzerland","20126","CH","City",Active
+"1002833","Niederrohrdorf","Niederrohrdorf,Aargau,Switzerland","20126","CH","City",Active
+"1002834","Oberentfelden","Oberentfelden,Aargau,Switzerland","20126","CH","City",Active
+"1002835","Oberrohrdorf","Oberrohrdorf,Aargau,Switzerland","20126","CH","City",Active
+"1002836","Oftringen","Oftringen,Aargau,Switzerland","20126","CH","City",Active
+"1002837","Rheinfelden","Rheinfelden,Aargau,Switzerland","20126","CH","City",Active
+"1002839","Rothrist","Rothrist,Aargau,Switzerland","20126","CH","City",Active
+"1002840","Rudolfstetten-Friedlisberg","Rudolfstetten-Friedlisberg,Aargau,Switzerland","20126","CH","City",Active
+"1002841","Rupperswil","Rupperswil,Aargau,Switzerland","20126","CH","City",Active
+"1002842","Safenwil","Safenwil,Aargau,Switzerland","20126","CH","City",Active
+"1002844","Siglistorf","Siglistorf,Aargau,Switzerland","20126","CH","City",Active
+"1002845","Sins","Sins,Aargau,Switzerland","20126","CH","City",Active
+"1002846","Spreitenbach","Spreitenbach,Aargau,Switzerland","20126","CH","City",Active
+"1002847","Staufen","Staufen,Aargau,Switzerland","20126","CH","City",Active
+"1002848","Stein","Stein,Aargau,Switzerland","20126","CH","City",Active
+"1002849","Stetten","Stetten,Aargau,Switzerland","20126","CH","City",Active
+"1002850","Suhr","Suhr,Aargau,Switzerland","20126","CH","City",Active
+"1002852","Turgi","Turgi,Aargau,Switzerland","20126","CH","City",Active
+"1002853","Unterentfelden","Unterentfelden,Aargau,Switzerland","20126","CH","City",Active
+"1002854","Unterkulm","Unterkulm,Aargau,Switzerland","20126","CH","City",Active
+"1002855","Villigen","Villigen,Aargau,Switzerland","20126","CH","City",Active
+"1002856","Vordemwald","Vordemwald,Aargau,Switzerland","20126","CH","City",Active
+"1002857","Wettingen","Wettingen,Aargau,Switzerland","20126","CH","City",Active
+"1002858","Moriken-Wildegg","Moriken-Wildegg,Aargau,Switzerland","20126","CH","City",Active
+"1002859","Windisch","Windisch,Aargau,Switzerland","20126","CH","City",Active
+"1002860","Wohlen","Wohlen,Aargau,Switzerland","20126","CH","City",Active
+"1002861","Wurenlos","Wurenlos,Aargau,Switzerland","20126","CH","City",Active
+"1002862","Zofingen","Zofingen,Aargau,Switzerland","20126","CH","City",Active
+"1002863","Zufikon","Zufikon,Aargau,Switzerland","20126","CH","City",Active
+"1002864","Bad Zurzach","Bad Zurzach,Aargau,Switzerland","20126","CH","City",Active
+"1002865","Appenzell District","Appenzell District,Appenzell Innerrhoden,Switzerland","20127","CH","City",Active
+"1002866","Gais","Gais,Appenzell Ausserrhoden,Switzerland","20128","CH","City",Active
+"1002867","Heiden","Heiden,Appenzell Ausserrhoden,Switzerland","20128","CH","City",Active
+"1002868","Herisau","Herisau,Appenzell Ausserrhoden,Switzerland","20128","CH","City",Active
+"1002869","Teufen","Teufen,Appenzell Ausserrhoden,Switzerland","20128","CH","City",Active
+"1002870","Waldstatt","Waldstatt,Appenzell Ausserrhoden,Switzerland","20128","CH","City",Active
+"1002871","Aarberg","Aarberg,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002872","Aarwangen","Aarwangen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002873","Amsoldingen","Amsoldingen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002874","Belp","Belp,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002875","Bern","Bern,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002876","Biel/Bienne","Biel/Bienne,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002877","Brienz","Brienz,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002879","Burgdorf","Burgdorf,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002880","Ersigen","Ersigen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002881","Farnern","Farnern,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002882","Grindelwald","Grindelwald,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002884","Muri bei Bern","Muri bei Bern,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002887","Kirchlindach","Kirchlindach,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002888","Herzogenbuchsee","Herzogenbuchsee,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002889","Hilterfingen","Hilterfingen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002890","Interlaken","Interlaken,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002891","Ipsach","Ipsach,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002892","Ittigen","Ittigen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002893","Jegenstorf","Jegenstorf,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002894","Kehrsatz","Kehrsatz,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002895","Kirchberg","Kirchberg,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002896","Konolfingen","Konolfingen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002897","Langenthal","Langenthal,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002898","Laufen","Laufen,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002900","Lignieres","Lignieres,Neuchatel,Switzerland","20138","CH","City",Active
+"1002901","Lyss","Lyss,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002902","Lyssach","Lyssach,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002903","Madiswil","Madiswil,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002904","Malleray","Malleray,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002906","Meiringen","Meiringen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002907","Moosseedorf","Moosseedorf,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002908","Munsingen","Munsingen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002909","Murten","Murten,Fribourg,Switzerland","20132","CH","City",Active
+"1002910","Nidau","Nidau,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002913","Oberhofen","Oberhofen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002916","Orpund","Orpund,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002917","Orvin","Orvin,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002918","Ostermundigen","Ostermundigen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002919","Pery","Pery,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002920","Pieterlen","Pieterlen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002921","Schlosswil","Schlosswil,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002922","Urtenen-Schonbuhl","Urtenen-Schonbuhl,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002923","Schwadernau","Schwadernau,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002924","Wahlern","Wahlern,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002925","Seedorf","Seedorf,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002926","Spiez","Spiez,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002927","St-Imier","St-Imier,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002928","Tavannes","Tavannes,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002930","Thun","Thun,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002931","Toffen","Toffen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002932","Tramelan","Tramelan,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002933","Trubschachen","Trubschachen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002934","Uetendorf","Uetendorf,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002935","Utzenstorf","Utzenstorf,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002939","Worb","Worb,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002940","Zollikofen","Zollikofen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1002941","Aesch","Aesch,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002942","Allschwil","Allschwil,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002943","Arlesheim","Arlesheim,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002944","Augst","Augst,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002945","Binningen","Binningen,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002946","Birsfelden","Birsfelden,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002947","Blauen","Blauen,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002948","Bockten","Bockten,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002950","Giebenach","Giebenach,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002951","Hersberg","Hersberg,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002952","Holstein","Holstein,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002953","Laufelfingen","Laufelfingen,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002954","Liesberg","Liesberg,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002955","Liestal","Liestal,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002956","Munchenstein","Munchenstein,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002957","Muttenz","Muttenz,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002958","Oberwil","Oberwil,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002959","Pratteln","Pratteln,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002960","Reinach","Reinach,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002961","Riehen","Riehen,Basel City,Switzerland","20131","CH","City",Active
+"1002962","Sissach","Sissach,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002963","Waldenburg","Waldenburg,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1002964","Basel","Basel,Basel City,Switzerland","20131","CH","City",Active
+"1002965","Bettingen","Bettingen,Basel City,Switzerland","20131","CH","City",Active
+"1002967","Charmey","Charmey,Fribourg,Switzerland","20132","CH","City",Active
+"1002968","Chatel-Saint-Denis","Chatel-Saint-Denis,Fribourg,Switzerland","20132","CH","City",Active
+"1002969","Dudingen","Dudingen,Fribourg,Switzerland","20132","CH","City",Active
+"1002970","Wunnewil-Flamatt","Wunnewil-Flamatt,Fribourg,Switzerland","20132","CH","City",Active
+"1002971","Fribourg","Fribourg,Fribourg,Switzerland","20132","CH","City",Active
+"1002972","Givisiez","Givisiez,Fribourg,Switzerland","20132","CH","City",Active
+"1002973","Granges-Paccot","Granges-Paccot,Fribourg,Switzerland","20132","CH","City",Active
+"1002974","Marly","Marly,Fribourg,Switzerland","20132","CH","City",Active
+"1002975","Matran","Matran,Fribourg,Switzerland","20132","CH","City",Active
+"1002976","Neyruz","Neyruz,Fribourg,Switzerland","20132","CH","City",Active
+"1002977","Noreaz","Noreaz,Fribourg,Switzerland","20132","CH","City",Active
+"1002978","Payerne","Payerne,Vaud,Switzerland","20148","CH","City",Active
+"1002979","Tentlingen","Tentlingen,Fribourg,Switzerland","20132","CH","City",Active
+"1002980","Villars-sur-Glane","Villars-sur-Glane,Fribourg,Switzerland","20132","CH","City",Active
+"1002982","Bellevue","Bellevue,Geneva,Switzerland","20133","CH","City",Active
+"1002983","Carouge","Carouge,Geneva,Switzerland","20133","CH","City",Active
+"1002984","Pregny-Chambesy","Pregny-Chambesy,Geneva,Switzerland","20133","CH","City",Active
+"1002986","Chene-Bougeries","Chene-Bougeries,Geneva,Switzerland","20133","CH","City",Active
+"1002987","Chene-Bourg","Chene-Bourg,Geneva,Switzerland","20133","CH","City",Active
+"1002989","Collonge-Bellerive","Collonge-Bellerive,Geneva,Switzerland","20133","CH","City",Active
+"1002990","Cologny","Cologny,Geneva,Switzerland","20133","CH","City",Active
+"1002992","Geneva","Geneva,Geneva,Switzerland","20133","CH","City",Active
+"1002993","Grand-Saconnex","Grand-Saconnex,Geneva,Switzerland","20133","CH","City",Active
+"1002995","Jussy","Jussy,Geneva,Switzerland","20133","CH","City",Active
+"1002996","Lancy","Lancy,Geneva,Switzerland","20133","CH","City",Active
+"1002998","Meyrin","Meyrin,Geneva,Switzerland","20133","CH","City",Active
+"1002999","Perly","Perly,Geneva,Switzerland","20133","CH","City",Active
+"1003001","Plan-les-Ouates","Plan-les-Ouates,Geneva,Switzerland","20133","CH","City",Active
+"1003002","Presinge","Presinge,Geneva,Switzerland","20133","CH","City",Active
+"1003003","Thonex","Thonex,Geneva,Switzerland","20133","CH","City",Active
+"1003004","Vernier","Vernier,Geneva,Switzerland","20133","CH","City",Active
+"1003005","Versoix","Versoix,Geneva,Switzerland","20133","CH","City",Active
+"1003007","Veyrier","Veyrier,Geneva,Switzerland","20133","CH","City",Active
+"1003008","Bilten","Bilten,Glarus,Switzerland","20134","CH","City",Active
+"1003009","Ennenda","Ennenda,Glarus,Switzerland","20134","CH","City",Active
+"1003010","Glarus","Glarus,Glarus,Switzerland","20134","CH","City",Active
+"1003011","Mitlodi","Mitlodi,Glarus,Switzerland","20134","CH","Neighborhood",Active
+"1003012","Mollis","Mollis,Glarus,Switzerland","20134","CH","City",Active
+"1003013","Nafels","Nafels,Glarus,Switzerland","20134","CH","City",Active
+"1003014","Oberurnen","Oberurnen,Glarus,Switzerland","20134","CH","City",Active
+"1003015","Obstalden","Obstalden,Glarus,Switzerland","20134","CH","City",Active
+"1003016","Arosa","Arosa,Grisons,Switzerland","20135","CH","City",Active
+"1003017","Bonaduz","Bonaduz,Grisons,Switzerland","20135","CH","City",Active
+"1003018","Chur","Chur,Grisons,Switzerland","20135","CH","City",Active
+"1003019","Davos","Davos,Grisons,Switzerland","20135","CH","City",Active
+"1003022","Domat/Ems","Domat/Ems,Grisons,Switzerland","20135","CH","City",Active
+"1003023","Flims","Flims,Grisons,Switzerland","20135","CH","City",Active
+"1003024","Ilanz","Ilanz,Grisons,Switzerland","20135","CH","City",Active
+"1003025","Klosters-Serneus","Klosters-Serneus,Grisons,Switzerland","20135","CH","City",Active
+"1003026","Laax","Laax,Grisons,Switzerland","20135","CH","City",Active
+"1003028","Samedan","Samedan,Grisons,Switzerland","20135","CH","City",Active
+"1003030","Scuol","Scuol,Grisons,Switzerland","20135","CH","City",Active
+"1003031","Saint Moritz","Saint Moritz,Grisons,Switzerland","20135","CH","City",Active
+"1003032","Thusis","Thusis,Grisons,Switzerland","20135","CH","City",Active
+"1003033","Zizers","Zizers,Grisons,Switzerland","20135","CH","City",Active
+"1003034","Zuoz","Zuoz,Grisons,Switzerland","20135","CH","City",Active
+"1003036","Delemont","Delemont,Jura,Switzerland","20136","CH","City",Active
+"1003037","Le Noirmont","Le Noirmont,Jura,Switzerland","20136","CH","City",Active
+"1003038","Porrentruy","Porrentruy,Jura,Switzerland","20136","CH","City",Active
+"1003039","Rossemaison","Rossemaison,Jura,Switzerland","20136","CH","City",Active
+"1003040","Saignelegier","Saignelegier,Jura,Switzerland","20136","CH","City",Active
+"1003041","Adligenswil","Adligenswil,Lucerne,Switzerland","20137","CH","City",Active
+"1003042","Altishofen","Altishofen,Lucerne,Switzerland","20137","CH","City",Active
+"1003043","Ballwil","Ballwil,Lucerne,Switzerland","20137","CH","City",Active
+"1003044","Ebikon","Ebikon,Lucerne,Switzerland","20137","CH","City",Active
+"1003045","Emmen","Emmen,Lucerne,Switzerland","20137","CH","City",Active
+"1003047","Entlebuch","Entlebuch,Lucerne,Switzerland","20137","CH","City",Active
+"1003048","Gisikon","Gisikon,Lucerne,Switzerland","20137","CH","City",Active
+"1003049","Grosswangen","Grosswangen,Lucerne,Switzerland","20137","CH","City",Active
+"1003050","Hergiswil","Hergiswil,Nidwalden,Switzerland","20139","CH","City",Active
+"1003051","Hitzkirch","Hitzkirch,Lucerne,Switzerland","20137","CH","City",Active
+"1003052","Hochdorf","Hochdorf,Lucerne,Switzerland","20137","CH","City",Active
+"1003054","Kriens","Kriens,Lucerne,Switzerland","20137","CH","City",Active
+"1003055","Littau","Littau,Lucerne,Switzerland","20137","CH","City",Active
+"1003056","Lucerne","Lucerne,Lucerne,Switzerland","20137","CH","City",Active
+"1003057","Malters","Malters,Lucerne,Switzerland","20137","CH","City",Active
+"1003058","Marbach","Marbach,Lucerne,Switzerland","20137","CH","City",Active
+"1003059","Meggen","Meggen,Lucerne,Switzerland","20137","CH","City",Active
+"1003060","Menznau","Menznau,Lucerne,Switzerland","20137","CH","City",Active
+"1003061","Nottwil","Nottwil,Lucerne,Switzerland","20137","CH","City",Active
+"1003062","Reiden","Reiden,Lucerne,Switzerland","20137","CH","City",Active
+"1003063","Rickenbach","Rickenbach,Lucerne,Switzerland","20137","CH","City",Active
+"1003064","Root","Root,Lucerne,Switzerland","20137","CH","City",Active
+"1003065","Rothenburg","Rothenburg,Lucerne,Switzerland","20137","CH","City",Active
+"1003066","Ruswil","Ruswil,Lucerne,Switzerland","20137","CH","City",Active
+"1003069","Schupfheim","Schupfheim,Lucerne,Switzerland","20137","CH","City",Active
+"1003070","Sempach","Sempach,Lucerne,Switzerland","20137","CH","City",Active
+"1003071","Sursee","Sursee,Lucerne,Switzerland","20137","CH","City",Active
+"1003072","Triengen","Triengen,Lucerne,Switzerland","20137","CH","City",Active
+"1003073","Willisau","Willisau,Lucerne,Switzerland","20137","CH","City",Active
+"1003074","Wolhusen","Wolhusen,Lucerne,Switzerland","20137","CH","City",Active
+"1003075","Bevaix","Bevaix,Neuchatel,Switzerland","20138","CH","City",Active
+"1003076","Colombier","Colombier,Neuchatel,Switzerland","20138","CH","City",Active
+"1003078","Cortaillod","Cortaillod,Neuchatel,Switzerland","20138","CH","City",Active
+"1003079","Couvet","Couvet,Neuchatel,Switzerland","20138","CH","City",Active
+"1003080","Cressier","Cressier,Neuchatel,Switzerland","20138","CH","City",Active
+"1003082","La Chaux-de-Fonds","La Chaux-de-Fonds,Neuchatel,Switzerland","20138","CH","City",Active
+"1003083","La Neuveville","La Neuveville,Canton of Bern,Switzerland","20129","CH","City",Active
+"1003084","Le Locle","Le Locle,Neuchatel,Switzerland","20138","CH","City",Active
+"1003085","Les Brenets","Les Brenets,Neuchatel,Switzerland","20138","CH","City",Active
+"1003086","Les Geneveys-sur-Coffrane","Les Geneveys-sur-Coffrane,Neuchatel,Switzerland","20138","CH","City",Active
+"1003088","Neuchatel","Neuchatel,Neuchatel,Switzerland","20138","CH","City",Active
+"1003089","Saint-Blaise","Saint-Blaise,Neuchatel,Switzerland","20138","CH","City",Active
+"1003090","Buochs","Buochs,Nidwalden,Switzerland","20139","CH","City",Active
+"1003091","Ennetburgen","Ennetburgen,Nidwalden,Switzerland","20139","CH","City",Active
+"1003092","Stans","Stans,Nidwalden,Switzerland","20139","CH","City",Active
+"1003094","Stansstad","Stansstad,Nidwalden,Switzerland","20139","CH","City",Active
+"1003095","Engelberg","Engelberg,Obwalden,Switzerland","20140","CH","City",Active
+"1003096","Kerns","Kerns,Obwalden,Switzerland","20140","CH","City",Active
+"1003097","Au","Au,St. Gallen,Switzerland","20141","CH","City",Active
+"1003098","Buchs","Buchs,St. Gallen,Switzerland","20141","CH","City",Active
+"1003099","Flawil","Flawil,St. Gallen,Switzerland","20141","CH","City",Active
+"1003100","Gams","Gams,St. Gallen,Switzerland","20141","CH","City",Active
+"1003101","Gossau","Gossau,St. Gallen,Switzerland","20141","CH","City",Active
+"1003104","Lichtensteig","Lichtensteig,St. Gallen,Switzerland","20141","CH","City",Active
+"1003105","Mels","Mels,St. Gallen,Switzerland","20141","CH","City",Active
+"1003106","Nesslau-Krummenau","Nesslau-Krummenau,St. Gallen,Switzerland","20141","CH","City",Active
+"1003107","Oberriet","Oberriet,St. Gallen,Switzerland","20141","CH","City",Active
+"1003109","Rorschach","Rorschach,St. Gallen,Switzerland","20141","CH","City",Active
+"1003110","Sargans","Sargans,St. Gallen,Switzerland","20141","CH","City",Active
+"1003111","Schwerzenbach","Schwerzenbach,Zurich,Switzerland","20151","CH","City",Active
+"1003112","Sennwald","Sennwald,St. Gallen,Switzerland","20141","CH","City",Active
+"1003113","St. Gallen","St. Gallen,St. Gallen,Switzerland","20141","CH","City",Active
+"1003114","Uznach","Uznach,St. Gallen,Switzerland","20141","CH","City",Active
+"1003115","Wattwil","Wattwil,St. Gallen,Switzerland","20141","CH","City",Active
+"1003116","Wil","Wil,St. Gallen,Switzerland","20141","CH","City",Active
+"1003117","Beringen","Beringen,Schaffhausen,Switzerland","20142","CH","City",Active
+"1003119","Ramsen","Ramsen,Schaffhausen,Switzerland","20142","CH","City",Active
+"1003120","Schaffhausen","Schaffhausen,Schaffhausen,Switzerland","20142","CH","City",Active
+"1003121","Thayngen","Thayngen,Schaffhausen,Switzerland","20142","CH","City",Active
+"1003122","Balsthal","Balsthal,Solothurn,Switzerland","20143","CH","City",Active
+"1003123","Battwil","Battwil,Solothurn,Switzerland","20143","CH","City",Active
+"1003124","Bellach","Bellach,Solothurn,Switzerland","20143","CH","City",Active
+"1003125","Bettlach","Bettlach,Solothurn,Switzerland","20143","CH","City",Active
+"1003126","Biberist","Biberist,Solothurn,Switzerland","20143","CH","City",Active
+"1003127","Breitenbach","Breitenbach,Solothurn,Switzerland","20143","CH","City",Active
+"1003128","Daniken","Daniken,Solothurn,Switzerland","20143","CH","City",Active
+"1003129","Dornach","Dornach,Solothurn,Switzerland","20143","CH","City",Active
+"1003130","Dulliken","Dulliken,Solothurn,Switzerland","20143","CH","City",Active
+"1003131","Egerkingen","Egerkingen,Solothurn,Switzerland","20143","CH","City",Active
+"1003132","Grenchen","Grenchen,Solothurn,Switzerland","20143","CH","City",Active
+"1003133","Gretzenbach","Gretzenbach,Solothurn,Switzerland","20143","CH","City",Active
+"1003134","Hagendorf","Hagendorf,Solothurn,Switzerland","20143","CH","City",Active
+"1003135","Kleinlutzel","Kleinlutzel,Solothurn,Switzerland","20143","CH","City",Active
+"1003136","Lengnau","Lengnau,Canton of Bern,Switzerland","20129","CH","City",Active
+"1003137","Oberbuchsiten","Oberbuchsiten,Solothurn,Switzerland","20143","CH","City",Active
+"1003138","Oberdorf","Oberdorf,Solothurn,Switzerland","20143","CH","City",Active
+"1003139","Oensingen","Oensingen,Solothurn,Switzerland","20143","CH","City",Active
+"1003140","Schonenwerd","Schonenwerd,Solothurn,Switzerland","20143","CH","City",Active
+"1003141","Solothurn","Solothurn,Solothurn,Switzerland","20143","CH","City",Active
+"1003142","Zuchwil","Zuchwil,Solothurn,Switzerland","20143","CH","City",Active
+"1003143","Einsiedeln","Einsiedeln,Schwyz,Switzerland","20144","CH","City",Active
+"1003144","Freienbach","Freienbach,Schwyz,Switzerland","20144","CH","City",Active
+"1003145","Galgenen","Galgenen,Schwyz,Switzerland","20144","CH","City",Active
+"1003146","Gersau","Gersau,Schwyz,Switzerland","20144","CH","City",Active
+"1003148","Kussnacht","Kussnacht,Schwyz,Switzerland","20144","CH","City",Active
+"1003149","Schwyz","Schwyz,Schwyz,Switzerland","20144","CH","City",Active
+"1003151","Wollerau","Wollerau,Schwyz,Switzerland","20144","CH","City",Active
+"1003152","Amriswil","Amriswil,Thurgau,Switzerland","20145","CH","City",Active
+"1003153","Arbon","Arbon,Thurgau,Switzerland","20145","CH","City",Active
+"1003154","Bischofszell","Bischofszell,Thurgau,Switzerland","20145","CH","City",Active
+"1003155","Frauenfeld","Frauenfeld,Thurgau,Switzerland","20145","CH","City",Active
+"1003156","Gottlieben","Gottlieben,Thurgau,Switzerland","20145","CH","City",Active
+"1003157","Gachnang","Gachnang,Thurgau,Switzerland","20145","CH","City",Active
+"1003158","Matzingen","Matzingen,Thurgau,Switzerland","20145","CH","City",Active
+"1003159","Pfyn","Pfyn,Thurgau,Switzerland","20145","CH","City",Active
+"1003160","Roggwil","Roggwil,Thurgau,Switzerland","20145","CH","City",Active
+"1003161","Romanshorn","Romanshorn,Thurgau,Switzerland","20145","CH","City",Active
+"1003162","Sirnach","Sirnach,Thurgau,Switzerland","20145","CH","City",Active
+"1003163","Steckborn","Steckborn,Thurgau,Switzerland","20145","CH","City",Active
+"1003164","Wangi","Wangi,Thurgau,Switzerland","20145","CH","City",Active
+"1003165","Weinfelden","Weinfelden,Thurgau,Switzerland","20145","CH","City",Active
+"1003166","Agno","Agno,Ticino,Switzerland","20146","CH","City",Active
+"1003167","Ascona","Ascona,Ticino,Switzerland","20146","CH","City",Active
+"1003168","Balerna","Balerna,Ticino,Switzerland","20146","CH","City",Active
+"1003169","Bellinzona","Bellinzona,Ticino,Switzerland","20146","CH","City",Active
+"1003170","Chiasso","Chiasso,Ticino,Switzerland","20146","CH","City",Active
+"1003171","Giubiasco","Giubiasco,Ticino,Switzerland","20146","CH","City",Active
+"1003172","Ligornetto","Ligornetto,Ticino,Switzerland","20146","CH","City",Active
+"1003173","Losone","Losone,Ticino,Switzerland","20146","CH","City",Active
+"1003174","Lugano","Lugano,Ticino,Switzerland","20146","CH","City",Active
+"1003175","Manno","Manno,Ticino,Switzerland","20146","CH","City",Active
+"1003176","Melide","Melide,Ticino,Switzerland","20146","CH","City",Active
+"1003177","Mendrisio","Mendrisio,Ticino,Switzerland","20146","CH","City",Active
+"1003178","Muralto","Muralto,Ticino,Switzerland","20146","CH","City",Active
+"1003181","Aigle","Aigle,Vaud,Switzerland","20148","CH","City",Active
+"1003182","Aubonne","Aubonne,Vaud,Switzerland","20148","CH","City",Active
+"1003183","Bex","Bex,Vaud,Switzerland","20148","CH","City",Active
+"1003184","Bursins","Bursins,Vaud,Switzerland","20148","CH","City",Active
+"1003185","Chateau-d'Oex","Chateau-d'Oex,Vaud,Switzerland","20148","CH","City",Active
+"1003186","Chavannes-de-Bogis","Chavannes-de-Bogis,Vaud,Switzerland","20148","CH","City",Active
+"1003187","Coppet","Coppet,Vaud,Switzerland","20148","CH","City",Active
+"1003188","Cossonay","Cossonay,Vaud,Switzerland","20148","CH","City",Active
+"1003189","Crissier","Crissier,Vaud,Switzerland","20148","CH","City",Active
+"1003190","Denens","Denens,Vaud,Switzerland","20148","CH","City",Active
+"1003191","Ecublens","Ecublens,Vaud,Switzerland","20148","CH","City",Active
+"1003192","Epalinges","Epalinges,Vaud,Switzerland","20148","CH","City",Active
+"1003193","Founex","Founex,Vaud,Switzerland","20148","CH","City",Active
+"1003194","Gland","Gland,Vaud,Switzerland","20148","CH","City",Active
+"1003195","Henniez","Henniez,Vaud,Switzerland","20148","CH","City",Active
+"1003196","Lausanne","Lausanne,Vaud,Switzerland","20148","CH","City",Active
+"1003197","Le Mont-sur-Lausanne","Le Mont-sur-Lausanne,Vaud,Switzerland","20148","CH","City",Active
+"1003199","Leysin","Leysin,Vaud,Switzerland","20148","CH","City",Active
+"1003200","Lucens","Lucens,Vaud,Switzerland","20148","CH","City",Active
+"1003201","Mies","Mies,Vaud,Switzerland","20148","CH","City",Active
+"1003202","Montreux","Montreux,Vaud,Switzerland","20148","CH","City",Active
+"1003203","Morges","Morges,Vaud,Switzerland","20148","CH","City",Active
+"1003204","Moudon","Moudon,Vaud,Switzerland","20148","CH","City",Active
+"1003205","Nyon","Nyon,Vaud,Switzerland","20148","CH","City",Active
+"1003206","Oron-la-Ville","Oron-la-Ville,Vaud,Switzerland","20148","CH","City",Active
+"1003207","Penthalaz","Penthalaz,Vaud,Switzerland","20148","CH","City",Active
+"1003208","Pompaples","Pompaples,Vaud,Switzerland","20148","CH","City",Active
+"1003209","Prangins","Prangins,Vaud,Switzerland","20148","CH","City",Active
+"1003210","Preverenges","Preverenges,Vaud,Switzerland","20148","CH","City",Active
+"1003211","Prilly","Prilly,Vaud,Switzerland","20148","CH","City",Active
+"1003212","Pully","Pully,Vaud,Switzerland","20148","CH","City",Active
+"1003213","Renens","Renens,Vaud,Switzerland","20148","CH","City",Active
+"1003215","Saint-Sulpice","Saint-Sulpice,Vaud,Switzerland","20148","CH","City",Active
+"1003217","Vevey","Vevey,Vaud,Switzerland","20148","CH","City",Active
+"1003219","Yverdon-les-Bains","Yverdon-les-Bains,Vaud,Switzerland","20148","CH","City",Active
+"1003220","Brig","Brig,Valais,Switzerland","20149","CH","City",Active
+"1003221","Collombey","Collombey,Valais,Switzerland","20149","CH","City",Active
+"1003222","Martigny","Martigny,Valais,Switzerland","20149","CH","City",Active
+"1003223","Crans-Montana","Crans-Montana,Valais,Switzerland","20149","CH","City",Active
+"1003224","Naters","Naters,Valais,Switzerland","20149","CH","City",Active
+"1003225","Saas-Fee","Saas-Fee,Valais,Switzerland","20149","CH","City",Active
+"1003226","Sierre","Sierre,Valais,Switzerland","20149","CH","City",Active
+"1003227","Sion","Sion,Valais,Switzerland","20149","CH","City",Active
+"1003229","Zermatt","Zermatt,Valais,Switzerland","20149","CH","City",Active
+"1003230","Baar","Baar,Canton of Zug,Switzerland","20150","CH","City",Active
+"1003231","Cham","Cham,Canton of Zug,Switzerland","20150","CH","City",Active
+"1003232","Neuheim","Neuheim,Canton of Zug,Switzerland","20150","CH","City",Active
+"1003233","Risch-Rotkreuz","Risch-Rotkreuz,Canton of Zug,Switzerland","20150","CH","City",Active
+"1003234","Steinhausen","Steinhausen,Canton of Zug,Switzerland","20150","CH","City",Active
+"1003235","Zug","Zug,Canton of Zug,Switzerland","20150","CH","City",Active
+"1003236","Aadorf","Aadorf,Thurgau,Switzerland","20145","CH","City",Active
+"1003237","Adliswil","Adliswil,Zurich,Switzerland","20151","CH","City",Active
+"1003238","Bachenbulach","Bachenbulach,Zurich,Switzerland","20151","CH","City",Active
+"1003239","Bassersdorf","Bassersdorf,Zurich,Switzerland","20151","CH","City",Active
+"1003241","Bonstetten","Bonstetten,Zurich,Switzerland","20151","CH","City",Active
+"1003242","Bremgarten","Bremgarten,Aargau,Switzerland","20126","CH","City",Active
+"1003243","Wangen-Bruttisellen","Wangen-Bruttisellen,Zurich,Switzerland","20151","CH","City",Active
+"1003244","Bubikon","Bubikon,Zurich,Switzerland","20151","CH","City",Active
+"1003245","Bulach","Bulach,Zurich,Switzerland","20151","CH","City",Active
+"1003246","Dielsdorf","Dielsdorf,Zurich,Switzerland","20151","CH","City",Active
+"1003247","Dietikon","Dietikon,Zurich,Switzerland","20151","CH","City",Active
+"1003248","Dubendorf","Dubendorf,Zurich,Switzerland","20151","CH","City",Active
+"1003249","Maur","Maur,Zurich,Switzerland","20151","CH","City",Active
+"1003250","Effretikon","Effretikon,Zurich,Switzerland","20151","CH","City",Active
+"1003251","Egg","Egg,Zurich,Switzerland","20151","CH","City",Active
+"1003252","Eglisau","Eglisau,Switzerland","2756","CH","City",Active
+"1003253","Embrach","Embrach,Zurich,Switzerland","20151","CH","City",Active
+"1003254","Erlenbach","Erlenbach,Zurich,Switzerland","20151","CH","City",Active
+"1003257","Geroldswil","Geroldswil,Zurich,Switzerland","20151","CH","City",Active
+"1003258","Glattfelden","Glattfelden,Zurich,Switzerland","20151","CH","City",Active
+"1003259","Greifensee","Greifensee,Zurich,Switzerland","20151","CH","City",Active
+"1003260","Hedingen","Hedingen,Zurich,Switzerland","20151","CH","City",Active
+"1003261","Hinwil","Hinwil,Zurich,Switzerland","20151","CH","City",Active
+"1003262","Hombrechtikon","Hombrechtikon,Zurich,Switzerland","20151","CH","City",Active
+"1003263","Horgen","Horgen,Zurich,Switzerland","20151","CH","City",Active
+"1003264","Kilchberg","Kilchberg,Zurich,Switzerland","20151","CH","City",Active
+"1003265","Kloten","Kloten,Zurich,Switzerland","20151","CH","City",Active
+"1003267","Mannedorf","Mannedorf,Zurich,Switzerland","20151","CH","City",Active
+"1003269","Meilen","Meilen,Zurich,Switzerland","20151","CH","City",Active
+"1003270","Monchaltorf","Monchaltorf,Zurich,Switzerland","20151","CH","City",Active
+"1003271","Neuhausen am Rheinfall","Neuhausen am Rheinfall,Schaffhausen,Switzerland","20142","CH","City",Active
+"1003273","Opfikon","Opfikon,Zurich,Switzerland","20151","CH","City",Active
+"1003274","Otelfingen","Otelfingen,Zurich,Switzerland","20151","CH","City",Active
+"1003275","Pfaffikon","Pfaffikon,Zurich,Switzerland","20151","CH","City",Active
+"1003276","Regensdorf","Regensdorf,Zurich,Switzerland","20151","CH","City",Active
+"1003277","Richterswil","Richterswil,Zurich,Switzerland","20151","CH","City",Active
+"1003278","Rumlang","Rumlang,Zurich,Switzerland","20151","CH","City",Active
+"1003279","Ruschlikon","Ruschlikon,Zurich,Switzerland","20151","CH","City",Active
+"1003280","Ruti","Ruti,Switzerland","2756","CH","City",Active
+"1003281","Schlieren","Schlieren,Zurich,Switzerland","20151","CH","City",Active
+"1003282","Seuzach","Seuzach,Zurich,Switzerland","20151","CH","City",Active
+"1003283","Stafa","Stafa,Zurich,Switzerland","20151","CH","City",Active
+"1003284","Thalwil","Thalwil,Zurich,Switzerland","20151","CH","City",Active
+"1003285","Turbenthal","Turbenthal,Zurich,Switzerland","20151","CH","City",Active
+"1003286","Uetikon","Uetikon,Zurich,Switzerland","20151","CH","City",Active
+"1003287","Urdorf","Urdorf,Zurich,Switzerland","20151","CH","City",Active
+"1003288","Uster","Uster,Zurich,Switzerland","20151","CH","City",Active
+"1003289","Wadenswil","Wadenswil,Zurich,Switzerland","20151","CH","City",Active
+"1003290","Wallisellen","Wallisellen,Zurich,Switzerland","20151","CH","City",Active
+"1003291","Weisslingen","Weisslingen,Zurich,Switzerland","20151","CH","City",Active
+"1003292","Wetzikon","Wetzikon,Zurich,Switzerland","20151","CH","City",Active
+"1003293","Winterthur","Winterthur,Zurich,Switzerland","20151","CH","City",Active
+"1003294","Zollikon","Zollikon,Zurich,Switzerland","20151","CH","City",Active
+"1003296","Zumikon","Zumikon,Zurich,Switzerland","20151","CH","City",Active
+"1003297","Zurich","Zurich,Zurich,Switzerland","20151","CH","City",Active
+"1030583","Adelboden","Adelboden,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030584","Affoltern am Albis","Affoltern am Albis,Zurich,Switzerland","20151","CH","City",Active
+"1030585","Altdorf","Altdorf,Uri,Switzerland","20147","CH","City",Active
+"1030586","Altendorf","Altendorf,Schwyz,Switzerland","20144","CH","City",Active
+"1030587","Altstatten","Altstatten,St. Gallen,Switzerland","20141","CH","City",Active
+"1030588","Arth","Arth,Schwyz,Switzerland","20144","CH","City",Active
+"1030589","Bad Ragaz","Bad Ragaz,St. Gallen,Switzerland","20141","CH","City",Active
+"1030590","Balgach","Balgach,St. Gallen,Switzerland","20141","CH","City",Active
+"1030591","Bardonnex","Bardonnex,Geneva,Switzerland","20133","CH","City",Active
+"1030592","Bassecourt","Bassecourt,Jura,Switzerland","20136","CH","City",Active
+"1030593","Bellikon","Bellikon,Aargau,Switzerland","20126","CH","City",Active
+"1030594","Bergdietikon","Bergdietikon,Aargau,Switzerland","20126","CH","City",Active
+"1030595","Berikon","Berikon,Aargau,Switzerland","20126","CH","City",Active
+"1030596","Berneck","Berneck,St. Gallen,Switzerland","20141","CH","City",Active
+"1030597","Birmenstorf","Birmenstorf,Aargau,Switzerland","20126","CH","City",Active
+"1030598","Blonay","Blonay,Vaud,Switzerland","20148","CH","City",Active
+"1030599","Boecourt","Boecourt,Jura,Switzerland","20136","CH","City",Active
+"1030600","Brugg","Brugg,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030601","Buchs","Buchs,Aargau,Switzerland","20126","CH","City",Active
+"1030602","Bulle","Bulle,Fribourg,Switzerland","20132","CH","City",Active
+"1030603","Bursinel","Bursinel,Vaud,Switzerland","20148","CH","City",Active
+"1030604","Bosingen","Bosingen,Fribourg,Switzerland","20132","CH","City",Active
+"1030605","Charrat","Charrat,Valais,Switzerland","20149","CH","City",Active
+"1030606","Chavornay","Chavornay,Vaud,Switzerland","20148","CH","City",Active
+"1030607","Dagmersellen","Dagmersellen,Lucerne,Switzerland","20137","CH","City",Active
+"1030608","Daillens","Daillens,Vaud,Switzerland","20148","CH","City",Active
+"1030609","Diessenhofen","Diessenhofen,Thurgau,Switzerland","20145","CH","City",Active
+"1030610","Dietlikon","Dietlikon,Zurich,Switzerland","20151","CH","City",Active
+"1030611","Dottikon","Dottikon,Aargau,Switzerland","20126","CH","City",Active
+"1030612","Eschlikon","Eschlikon,Thurgau,Switzerland","20145","CH","City",Active
+"1030613","Essert-Pittet","Essert-Pittet,Vaud,Switzerland","20148","CH","City",Active
+"1030614","Fiesch","Fiesch,Valais,Switzerland","20149","CH","City",Active
+"1030615","Fislisbach","Fislisbach,Aargau,Switzerland","20126","CH","City",Active
+"1030616","Frutigen","Frutigen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030617","Fallanden","Fallanden,Zurich,Switzerland","20151","CH","City",Active
+"1030618","Fullinsdorf","Fullinsdorf,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1030619","Gaiserwald","Gaiserwald,St. Gallen,Switzerland","20141","CH","City",Active
+"1030620","Gebenstorf","Gebenstorf,Aargau,Switzerland","20126","CH","City",Active
+"1030621","Goldach","Goldach,St. Gallen,Switzerland","20141","CH","City",Active
+"1030622","Grabs","Grabs,St. Gallen,Switzerland","20141","CH","City",Active
+"1030623","Granges (Veveyse)","Granges (Veveyse),Fribourg,Switzerland","20132","CH","City",Active
+"1030624","Grossaffoltern","Grossaffoltern,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030625","Gruningen","Gruningen,Zurich,Switzerland","20151","CH","City",Active
+"1030626","Haldenstein","Haldenstein,Grisons,Switzerland","20135","CH","City",Active
+"1030627","Hausen bei Brugg","Hausen bei Brugg,Aargau,Switzerland","20126","CH","City",Active
+"1030628","Heimberg","Heimberg,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030629","Herrliberg","Herrliberg,Zurich,Switzerland","20151","CH","City",Active
+"1030630","Horw","Horw,Lucerne,Switzerland","20137","CH","City",Active
+"1030631","Igis","Igis,Grisons,Switzerland","20135","CH","City",Active
+"1030632","Killwangen","Killwangen,Aargau,Switzerland","20126","CH","City",Active
+"1030633","Kreuzlingen","Kreuzlingen,Thurgau,Switzerland","20145","CH","City",Active
+"1030634","Koniz","Koniz,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030635","Kusnacht","Kusnacht,Zurich,Switzerland","20151","CH","City",Active
+"1030636","La Tour-de-Peilz","La Tour-de-Peilz,Vaud,Switzerland","20148","CH","City",Active
+"1030637","Mungnau","Mungnau,Switzerland","2756","CH","City",Active
+"1030638","Lindau","Lindau,Zurich,Switzerland","20151","CH","City",Active
+"1030639","Locarno","Locarno,Ticino,Switzerland","20146","CH","City",Active
+"1030640","Massagno","Massagno,Ticino,Switzerland","20146","CH","City",Active
+"1030641","Meikirch","Meikirch,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030642","Monthey","Monthey,Valais,Switzerland","20149","CH","City",Active
+"1030643","Morbio Inferiore","Morbio Inferiore,Ticino,Switzerland","20146","CH","City",Active
+"1030644","Moutier","Moutier,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030645","Muolen","Muolen,St. Gallen,Switzerland","20141","CH","City",Active
+"1030646","Magenwil","Magenwil,Aargau,Switzerland","20126","CH","City",Active
+"1030647","Mulligen","Mulligen,Aargau,Switzerland","20126","CH","City",Active
+"1030648","Netstal","Netstal,Glarus,Switzerland","20134","CH","City",Active
+"1030649","Neuenkirch","Neuenkirch,Lucerne,Switzerland","20137","CH","City",Active
+"1030650","Niederurnen","Niederurnen,Glarus,Switzerland","20134","CH","City",Active
+"1030651","Niederwil","Niederwil,Aargau,Switzerland","20126","CH","City",Active
+"1030652","Oberglatt","Oberglatt,Zurich,Switzerland","20151","CH","City",Active
+"1030653","Oetwil am See","Oetwil am See,Zurich,Switzerland","20151","CH","City",Active
+"1030654","Olten","Olten,Solothurn,Switzerland","20143","CH","City",Active
+"1030655","Onex","Onex,Geneva,Switzerland","20133","CH","City",Active
+"1030656","Orbe","Orbe,Vaud,Switzerland","20148","CH","City",Active
+"1030657","Quarten","Quarten,St. Gallen,Switzerland","20141","CH","City",Active
+"1030658","Ramlinsburg","Ramlinsburg,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"1030659","Rapperswil-Jona","Rapperswil-Jona,St. Gallen,Switzerland","20141","CH","City",Active
+"1030660","Reinach","Reinach,Aargau,Switzerland","20126","CH","City",Active
+"1030661","Ringgenberg","Ringgenberg,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030662","Rubigen","Rubigen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030663","Saanen","Saanen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030664","Salmsach","Salmsach,Thurgau,Switzerland","20145","CH","City",Active
+"1030665","Saint Margrethen","Saint Margrethen,St. Gallen,Switzerland","20141","CH","City",Active
+"1030666","Sant'Antonino","Sant'Antonino,Ticino,Switzerland","20146","CH","City",Active
+"1030667","Schafisheim","Schafisheim,Aargau,Switzerland","20126","CH","City",Active
+"1030668","Seegraben","Seegraben,Zurich,Switzerland","20151","CH","City",Active
+"1030669","Steffisburg","Steffisburg,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030670","Steinen","Steinen,Schwyz,Switzerland","20144","CH","City",Active
+"1030671","Studen","Studen,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030672","Sulgen","Sulgen,Thurgau,Switzerland","20145","CH","City",Active
+"1030673","Troistorrents","Troistorrents,Valais,Switzerland","20149","CH","City",Active
+"1030674","Uzwil","Uzwil,St. Gallen,Switzerland","20141","CH","City",Active
+"1030675","Val-de-Travers","Val-de-Travers,Neuchatel,Switzerland","20138","CH","City",Active
+"1030676","Vilters-Wangs","Vilters-Wangs,St. Gallen,Switzerland","20141","CH","City",Active
+"1030677","Visp","Visp,Valais,Switzerland","20149","CH","City",Active
+"1030678","Volketswil","Volketswil,Zurich,Switzerland","20151","CH","City",Active
+"1030679","Waltenschwil","Waltenschwil,Aargau,Switzerland","20126","CH","City",Active
+"1030680","Walzenhausen","Walzenhausen,Appenzell Ausserrhoden,Switzerland","20128","CH","City",Active
+"1030681","Wichtrach","Wichtrach,Canton of Bern,Switzerland","20129","CH","City",Active
+"1030682","Widnau","Widnau,St. Gallen,Switzerland","20141","CH","City",Active
+"1030683","Winkel","Winkel,Zurich,Switzerland","20151","CH","City",Active
+"1030684","Zuzwil","Zuzwil,St. Gallen,Switzerland","20141","CH","City",Active
+"20126","Aargau","Aargau,Switzerland","2756","CH","Canton",Active
+"20127","Appenzell Innerrhoden","Appenzell Innerrhoden,Switzerland","2756","CH","Canton",Active
+"20128","Appenzell Ausserrhoden","Appenzell Ausserrhoden,Switzerland","2756","CH","Canton",Active
+"20129","Canton of Bern","Canton of Bern,Switzerland","2756","CH","Canton",Active
+"20130","Basel-Landschaft","Basel-Landschaft,Switzerland","2756","CH","Canton",Active
+"20131","Basel City","Basel City,Switzerland","2756","CH","Canton",Active
+"20132","Fribourg","Fribourg,Switzerland","2756","CH","Canton",Active
+"20133","Geneva","Geneva,Switzerland","2756","CH","Canton",Active
+"20134","Glarus","Glarus,Switzerland","2756","CH","Canton",Active
+"20135","Grisons","Grisons,Switzerland","2756","CH","Canton",Active
+"20136","Jura","Jura,Switzerland","2756","CH","Canton",Active
+"20137","Lucerne","Lucerne,Switzerland","2756","CH","Canton",Active
+"20138","Neuchatel","Neuchatel,Switzerland","2756","CH","Canton",Active
+"20139","Nidwalden","Nidwalden,Switzerland","2756","CH","Canton",Active
+"20140","Obwalden","Obwalden,Switzerland","2756","CH","Canton",Active
+"20141","St. Gallen","St. Gallen,Switzerland","2756","CH","Canton",Active
+"20142","Schaffhausen","Schaffhausen,Switzerland","2756","CH","Canton",Active
+"20143","Solothurn","Solothurn,Switzerland","2756","CH","Canton",Active
+"20144","Schwyz","Schwyz,Switzerland","2756","CH","Canton",Active
+"20145","Thurgau","Thurgau,Switzerland","2756","CH","Canton",Active
+"20146","Ticino","Ticino,Switzerland","2756","CH","Canton",Active
+"20147","Uri","Uri,Switzerland","2756","CH","Canton",Active
+"20148","Vaud","Vaud,Switzerland","2756","CH","Canton",Active
+"20149","Valais","Valais,Switzerland","2756","CH","Canton",Active
+"20150","Canton of Zug","Canton of Zug,Switzerland","2756","CH","Canton",Active
+"20151","Zurich","Zurich,Switzerland","2756","CH","Canton",Active
+"2756","Switzerland","Switzerland","","CH","Country",Active
+"9041172","Geneve Aeroport","Geneve Aeroport,Geneva,Switzerland","20133","CH","Airport",Active
+"9041173","Zurich Airport","Zurich Airport,Zurich,Switzerland","20151","CH","Airport",Active
+"9047946","Alpnach","Alpnach,Obwalden,Switzerland","20140","CH","City",Active
+"9047947","Attalens","Attalens,Fribourg,Switzerland","20132","CH","City",Active
+"9047948","Bagnes","Bagnes,Valais,Switzerland","20149","CH","City",Active
+"9047949","Baretswil","Baretswil,Zurich,Switzerland","20151","CH","City",Active
+"9047950","Beinwil am See","Beinwil am See,Aargau,Switzerland","20126","CH","City",Active
+"9047951","Birmensdorf","Birmensdorf,Zurich,Switzerland","20151","CH","City",Active
+"9047952","Birr","Birr,Aargau,Switzerland","20126","CH","City",Active
+"9047953","Boudry","Boudry,Neuchatel,Switzerland","20138","CH","City",Active
+"9047954","Bubendorf","Bubendorf,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"9047955","Buchs","Buchs,Zurich,Switzerland","20151","CH","City",Active
+"9047956","Bussigny","Bussigny,Vaud,Switzerland","20148","CH","City",Active
+"9047957","Cheseaux-sur-Lausanne","Cheseaux-sur-Lausanne,Vaud,Switzerland","20148","CH","City",Active
+"9047958","Dallikon","Dallikon,Zurich,Switzerland","20151","CH","City",Active
+"9047959","Diepoldsau","Diepoldsau,St. Gallen,Switzerland","20141","CH","City",Active
+"9047960","Durnten","Durnten,Zurich,Switzerland","20151","CH","City",Active
+"9047961","Ebnat-Kappel","Ebnat-Kappel,St. Gallen,Switzerland","20141","CH","City",Active
+"9047962","Echallens","Echallens,Vaud,Switzerland","20148","CH","City",Active
+"9047963","Ehrendingen","Ehrendingen,Aargau,Switzerland","20126","CH","City",Active
+"9047964","Erlinsbach","Erlinsbach,Aargau,Switzerland","20126","CH","City",Active
+"9047965","Estavayer-le-Lac","Estavayer-le-Lac,Fribourg,Switzerland","20132","CH","City",Active
+"9047966","Fehraltorf","Fehraltorf,Zurich,Switzerland","20151","CH","City",Active
+"9047967","Feusisberg","Feusisberg,Schwyz,Switzerland","20144","CH","City",Active
+"9047968","Forel","Forel,Vaud,Switzerland","20148","CH","City",Active
+"9047969","Frenkendorf","Frenkendorf,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"9047970","Gelterkinden","Gelterkinden,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"9047971","Gipf-Oberfrick","Gipf-Oberfrick,Aargau,Switzerland","20126","CH","City",Active
+"9047972","Gossau","Gossau,Zurich,Switzerland","20151","CH","City",Active
+"9047973","Hettlingen","Hettlingen,Zurich,Switzerland","20151","CH","City",Active
+"9047974","Hittnau","Hittnau,Zurich,Switzerland","20151","CH","City",Active
+"9047975","Hunenberg","Hunenberg,Canton of Zug,Switzerland","20150","CH","City",Active
+"9047976","Ingenbohl","Ingenbohl,Schwyz,Switzerland","20144","CH","City",Active
+"9047977","Jonschwil","Jonschwil,St. Gallen,Switzerland","20141","CH","City",Active
+"9047978","Kaltbrunn","Kaltbrunn,St. Gallen,Switzerland","20141","CH","City",Active
+"9047979","Kerzers","Kerzers,Fribourg,Switzerland","20132","CH","City",Active
+"9047980","Kirchberg","Kirchberg,St. Gallen,Switzerland","20141","CH","City",Active
+"9047981","Kunten","Kunten,Aargau,Switzerland","20126","CH","City",Active
+"9047982","Kuttigen","Kuttigen,Aargau,Switzerland","20126","CH","City",Active
+"9047983","La Sarraz","La Sarraz,Vaud,Switzerland","20148","CH","City",Active
+"9047984","Lachen","Lachen,Schwyz,Switzerland","20144","CH","City",Active
+"9047985","Langnau am Albis","Langnau am Albis,Zurich,Switzerland","20151","CH","City",Active
+"9047986","Langnau im Emmental","Langnau im Emmental,Canton of Bern,Switzerland","20129","CH","City",Active
+"9047987","Lausen","Lausen,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"9047988","Le Chenit","Le Chenit,Vaud,Switzerland","20148","CH","City",Active
+"9047989","Lenk im Simmental","Lenk im Simmental,Canton of Bern,Switzerland","20129","CH","City",Active
+"9047990","Lutry","Lutry,Vaud,Switzerland","20148","CH","City",Active
+"9047991","Lutzelfluh","Lutzelfluh,Canton of Bern,Switzerland","20129","CH","City",Active
+"9047992","Mettmenstetten","Mettmenstetten,Zurich,Switzerland","20151","CH","City",Active
+"9047993","Mex","Mex,Vaud,Switzerland","20148","CH","City",Active
+"9047994","Munchenbuchsee","Munchenbuchsee,Canton of Bern,Switzerland","20129","CH","City",Active
+"9047995","Munchwilen","Munchwilen,Thurgau,Switzerland","20145","CH","City",Active
+"9047996","Munsterlingen","Munsterlingen,Thurgau,Switzerland","20145","CH","City",Active
+"9047997","Muri","Muri,Aargau,Switzerland","20126","CH","City",Active
+"9047998","Neerach","Neerach,Zurich,Switzerland","20151","CH","City",Active
+"9047999","Neftenbach","Neftenbach,Zurich,Switzerland","20151","CH","City",Active
+"9048000","Niederbipp","Niederbipp,Canton of Bern,Switzerland","20129","CH","City",Active
+"9048001","Niederhasli","Niederhasli,Zurich,Switzerland","20151","CH","City",Active
+"9048002","Niederweningen","Niederweningen,Zurich,Switzerland","20151","CH","City",Active
+"9048003","Nurensdorf","Nurensdorf,Zurich,Switzerland","20151","CH","City",Active
+"9048004","Oberdorf","Oberdorf,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"9048005","Obersiggenthal","Obersiggenthal,Aargau,Switzerland","20126","CH","City",Active
+"9048006","Ottenbach","Ottenbach,Zurich,Switzerland","20151","CH","City",Active
+"9048007","Rafz","Rafz,Zurich,Switzerland","20151","CH","City",Active
+"9048008","Rolle","Rolle,Vaud,Switzerland","20148","CH","City",Active
+"9048009","Rorschacherberg","Rorschacherberg,St. Gallen,Switzerland","20141","CH","City",Active
+"9048010","Russikon","Russikon,Zurich,Switzerland","20151","CH","City",Active
+"9048011","Saint-Prex","Saint-Prex,Vaud,Switzerland","20148","CH","City",Active
+"9048012","Sarnen","Sarnen,Obwalden,Switzerland","20140","CH","City",Active
+"9048013","Saxon","Saxon,Valais,Switzerland","20149","CH","City",Active
+"9048014","Schmerikon","Schmerikon,St. Gallen,Switzerland","20141","CH","City",Active
+"9048015","Schubelbach","Schubelbach,Schwyz,Switzerland","20144","CH","City",Active
+"9048016","Seengen","Seengen,Aargau,Switzerland","20126","CH","City",Active
+"9048017","Seon","Seon,Aargau,Switzerland","20126","CH","City",Active
+"9048018","Sevelen","Sevelen,St. Gallen,Switzerland","20141","CH","City",Active
+"9048019","Stallikon","Stallikon,Zurich,Switzerland","20151","CH","City",Active
+"9048020","Steinmaur","Steinmaur,Zurich,Switzerland","20151","CH","City",Active
+"9048021","Strengelbach","Strengelbach,Aargau,Switzerland","20126","CH","City",Active
+"9048022","Therwil","Therwil,Basel-Landschaft,Switzerland","20130","CH","City",Active
+"9048023","Uitikon","Uitikon,Zurich,Switzerland","20151","CH","City",Active
+"9048024","Unterageri","Unterageri,Canton of Zug,Switzerland","20150","CH","City",Active
+"9048025","Untersiggenthal","Untersiggenthal,Aargau,Switzerland","20126","CH","City",Active
+"9048026","Vallorbe","Vallorbe,Vaud,Switzerland","20148","CH","City",Active
+"9048027","Villmergen","Villmergen,Aargau,Switzerland","20126","CH","City",Active
+"9048028","Wald","Wald,Zurich,Switzerland","20151","CH","City",Active
+"9048029","Walenstadt","Walenstadt,St. Gallen,Switzerland","20141","CH","City",Active
+"9048030","Weggis","Weggis,Lucerne,Switzerland","20137","CH","City",Active
+"9048031","Wurenlingen","Wurenlingen,Aargau,Switzerland","20126","CH","City",Active

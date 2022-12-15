@@ -69,7 +69,6 @@ DRM_Directory:McDonalds CH 2020/mc_delivery_ch_dco_2022_01/
 MC_DELIVERY_CH_DE_DCO_PROFILE_300X600_02
 ### DynamicContent
 MC_DELIVERY_CH_DE_DCO_FEED_300X600_02_Sheet1
-
 ### CH-FR ID: 10725292
 MC_DELIVERY_CH_FR_DCO_PROFILE_300X600_02
 
@@ -91,4 +90,50 @@ MC_DELIVERY_CH_IT_DCO_FEED_300X600_02_Sheet1
 MC_DELIVERY_TPL_DCO_DE_300x600_220212
 MC_DELIVERY_TPL_DCO_FR_300x600_220212
 MC_DELIVERY_TPL_DCO_IT_300x600_220212
+```
+
+---
+
+## McDelivery 2023
+
+### Campaign Name: mc_delivery_ch_dco_2023_01
+### ID: 60362557
+
+### Dynamischer Pfad: DRM_Directory:McDonalds CH 2020/mc_delivery_ch_dco_2023_01/
+egplus > McDonalds CH 2020 > mc_delivery_ch_dco_2023_01
+
+### Feeds:
+[MC_DELIVERY_CH_DE_DCO_FEED_300X600_03](https://docs.google.com/spreadsheets/d/1c7DSNo--E3H7LEfYtFx-Lp4U6iDvA_JVy0YxtFihI7Y/edit#gid=0)
+
+[MC_DELIVERY_CH_FR_DCO_FEED_300X600_03](https://docs.google.com/spreadsheets/d/1wZOlyGnybXO3Y7nkqU7dTpguarw6qBIE0JkGyLm0QSQ/edit#gid=0)
+
+[MC_DELIVERY_CH_IT_DCO_FEED_300X600_03](https://docs.google.com/spreadsheets/d/1_jyNVLxAXblY4oxxWBBS_fnYpkTeTKNReEwCUVqWO8w/edit#gid=0)
+
+### PROFILES: McDelivery Profile 2023 Start
+
+### CH-DE ID: 10803327
+MC_DELIVERY_CH_DE_DCO_PROFILE_300X600_03
+### DynamicContent
+MC_DELIVERY_CH_DE_DCO_FEED_300X600_03_Sheet1
+
+### CH-FR ID: 10809518
+MC_DELIVERY_CH_FR_DCO_PROFILE_300X600_03
+### DynamicContent
+MC_DELIVERY_CH_FR_DCO_FEED_300X600_03_Sheet1
+
+### CH-IT ID: 10809521
+MC_DELIVERY_CH_IT_DCO_PROFILE_300X600_03
+### DynamicContent
+MC_DELIVERY_CH_IT_DCO_FEED_300X600_03_Sheet1
+
+
+### Regel 1: DV360 GEOTARGET
+### Regel 2: GEOTARGET
+### Regel 3: DEFAULT
+
+### CREATIVES 
+```js
+MC_DELIVERY_TPL_DCO_DE_300x600_221215
+MC_DELIVERY_TPL_DCO_FR_300x600_221215
+MC_DELIVERY_TPL_DCO_IT_300x600_221215
 ```

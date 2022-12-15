@@ -375,8 +375,14 @@ const createNext = series(
 
 const buildAll = series(
   initCurrentTplIndex,
-  createNext
-  //createNext,
+  initTplNamesTPL_DE_DCO,
+  createNext,
+  initCurrentTplIndex,
+  initTplNamesTPL_FR_DCO,
+  createNext,
+  initCurrentTplIndex,
+  initTplNamesTPL_IT_DCO,
+  createNext,
 );
 
 exports.default = series(initTplNamesTPL_DE_DCO, createNext, watchDirectory);
