@@ -17,13 +17,7 @@ const htmlReplace = require("gulp-html-replace");
 const rename = require("gulp-rename");
 //const tap = require('gulp-tap');
 //const through = require('through2');
-const {
-  cleanDir,
-  moveFiles,
-  buildCssFromScss,
-  handleJS,
-  watchBrowser,
-} = require("./gulp-dco-utils");
+const { cleanDir, moveFiles, buildCssFromScss, handleJS, watchBrowser } = require("./gulp-dco-utils");
 
 //const htdocsPath = '/Applications/MAMP/htdocs/';
 const srcPath = "./src/";
@@ -33,12 +27,12 @@ const buildFolder = "_build/";
 const buildFolderInline = "_build_inline/";
 const buildFolderStd = "_build_std/";
 
-const TPL_DCO_NAME_LOCAL = "TPL_DCO_LOCAL_221215";
+const TPL_DCO_NAME_LOCAL = "TPL_DCO_LOCAL_230103";
 //TPL_DE_DCO
-const tplNamesTPL_DE_DCO = ["TPL_DCO_300x600_221215_DE"];
-const tplNamesTPL_FR_DCO = ["TPL_DCO_300x600_221215_FR"];
-const tplNamesTPL_IT_DCO = ["TPL_DCO_300x600_221215_IT"];
-const tplNamesTPL_DCO = ["TPL_DCO_300x600_221215"];
+const tplNamesTPL_DE_DCO = ["TPL_DCO_300x600_230103_DE"];
+const tplNamesTPL_FR_DCO = ["TPL_DCO_300x600_230103_FR"];
+const tplNamesTPL_IT_DCO = ["TPL_DCO_300x600_230103_IT"];
+const tplNamesTPL_DCO = ["TPL_DCO_300x600_230103"];
 
 let currentTplIndex = 0;
 let tplNameLang = "";
@@ -84,7 +78,7 @@ const nextConfig = (cb) => {
     SRC_TPL_HTML: [srcPath + "tpl/html/" + tplName + ".html"],
     SRC_TPL_SASS: [srcPath + "tpl/scss/" + tplName + ".scss"],
     SRC_TPL_JS_SHEET: [
-      srcPath + "js/egplus-html5-slim-3.2.1.min.js",
+      srcPath + "js/egplus-html5-slim-3.4.0.min.js",
       srcPath + "js/ad-timeline-control-2.1.0.min.js",
       srcPath + "tpl/js/" + TPL_DCO_NAME_LOCAL + ".js",
       srcPath + "tpl/js/" + tplNameLang + "_DATA.js",
@@ -93,23 +87,14 @@ const nextConfig = (cb) => {
       srcPath + "js/egplus-html-enabler.js",
     ],
     SRC_TPL_JS_SHEET_LIVE: [
-      srcPath + "js/egplus-html5-slim-3.2.1.js",
+      srcPath + "js/egplus-html5-slim-3.4.0.js",
       srcPath + "tpl/js/" + tplNameLang + "_DATA.js",
       srcPath + "js/egplus-feed-build.js",
       srcPath + "js/egplus-html-enabler.js",
     ],
-    SRC_TPL_JS_SHEET_TEST: [
-      srcPath + "js/egplus-html5-slim-3.2.1.js",
-      srcPath + "js/egplus-html-enabler-test.js",
-    ],
-    SRC_TPL_JS_ANIM: [
-      srcPath + "js/ad-split-text-2.1.0.min.js",
-      srcPath + "tpl/js/" + tplName + "_ANIM.js",
-    ],
-    SRC_TPL_JS_ANIM_LIVE: [
-      srcPath + "js/ad-split-text-2.1.0.js",
-      srcPath + "tpl/js/" + tplName + "_ANIM.js",
-    ],
+    SRC_TPL_JS_SHEET_TEST: [srcPath + "js/egplus-html5-slim-3.4.0.js", srcPath + "js/egplus-html-enabler-test.js"],
+    SRC_TPL_JS_ANIM: [srcPath + "js/ad-split-text-2.1.0.min.js", srcPath + "tpl/js/" + tplName + "_ANIM.js"],
+    SRC_TPL_JS_ANIM_LIVE: [srcPath + "js/ad-split-text-2.1.0.js", srcPath + "tpl/js/" + tplName + "_ANIM.js"],
     DEST_TEMP: devFolder + tplNameLang,
     DEST_TEST: testFolder + tplNameLang,
     DEST_BUILD: buildFolder + tplNameLang,
@@ -131,10 +116,7 @@ const enableProduction = (cb) => {
 
 const cleanDirectory = (cb) => {
   cleanDir([config.DEST_STD + "/**", "!" + config.DEST_STD], true);
-  cleanDir(
-    [config.DEST_BUILD_INLINE + "/**", "!" + config.DEST_BUILD_INLINE],
-    true
-  );
+  cleanDir([config.DEST_BUILD_INLINE + "/**", "!" + config.DEST_BUILD_INLINE], true);
   cleanDir([config.DEST_TEMP + "/**", "!" + config.DEST_TEMP], true);
   cleanDir([config.DEST_BUILD + "/**", "!" + config.DEST_BUILD], true);
   cb();
@@ -173,9 +155,7 @@ const handleSass = () => {
 const handleAnimJS = () => {
   //
   return handleJS({
-    SRC_JS: config.DEVELOPMENT
-      ? config.SRC_TPL_JS_ANIM
-      : config.SRC_TPL_JS_ANIM_LIVE,
+    SRC_JS: config.DEVELOPMENT ? config.SRC_TPL_JS_ANIM : config.SRC_TPL_JS_ANIM_LIVE,
     JS_FILENAME: tplName + "_ANIM",
     DEST: config.DEVELOPMENT ? config.DEST_TEMP : config.DEST_BUILD,
     DEVELOPMENT: config.DEVELOPMENT,
@@ -221,9 +201,7 @@ const getCombinedJS = (sources, name, minified) => {
 };
 
 const handleHtml = () => {
-  let sources = config.DEVELOPMENT
-    ? config.SRC_TPL_JS_SHEET
-    : config.SRC_TPL_JS_SHEET_LIVE;
+  let sources = config.DEVELOPMENT ? config.SRC_TPL_JS_SHEET : config.SRC_TPL_JS_SHEET_LIVE;
   return src(config.SRC_TPL_HTML)
     .pipe(
       htmlReplace({
@@ -281,10 +259,7 @@ const handleHtmlStd = () => {
     srcPath + "tpl/js/" + TPL_DCO_NAME_LOCAL + ".js",
     srcPath + "tpl/js/" + tplNameLang + "_DATA.js",
   ];
-  let sources = [
-    ...config.SRC_TPL_JS_ANIM_LIVE,
-    srcPath + "js/egplus-html-display.js",
-  ];
+  let sources = [...config.SRC_TPL_JS_ANIM_LIVE, srcPath + "js/egplus-html-display.js"];
   return src(config.SRC_TPL_HTML)
     .pipe(
       htmlReplace({
@@ -382,7 +357,7 @@ const buildAll = series(
   createNext,
   initCurrentTplIndex,
   initTplNamesTPL_IT_DCO,
-  createNext,
+  createNext
 );
 
 exports.default = series(initTplNamesTPL_DE_DCO, createNext, watchDirectory);

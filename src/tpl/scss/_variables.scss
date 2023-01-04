@@ -1,9 +1,7 @@
 // SCSS Document _variables.scss
 
-$font-family : "Speedee",
-sans-serif;
-$font-family-condensed : "SpeedeeCd",
-sans-serif;
+$font-family: "Speedee", sans-serif;
+$font-family-condensed: "SpeedeeCd", sans-serif;
 
 $color-green: #22522f !default;
 //$color-green: #264f36 !default;
@@ -12,31 +10,31 @@ $color-blue: #4d7cc2 !default;
 $color-yellow: #ffbc0d !default;
 
 // color definitions
-$color-yellow-light : #FEDC3C !default;
-$color-orange : #DC8712 !default;
-$color-blue-dark : #04336F !default;
-$color-blue-light : #2cd2f0 !default;
-$color-red-light : #ff0000 !default;
-$color-green-dark : #264f36 !default;
+$color-yellow-light: #fedc3c !default;
+$color-orange: #dc8712 !default;
+$color-blue-dark: #04336f !default;
+$color-blue-light: #2cd2f0 !default;
+$color-red-light: #ff0000 !default;
+$color-green-dark: #264f36 !default;
 
 /**** COLOR THEMES ****/
-$color-red-dark : #900507 !default;
-$color-red-corporate : #c21b17 !default;
-$color-red-light : #ff412d !default;
-$color-grey : #939597 !default;
-$color-white : #fff !default;
+$color-red-dark: #900507 !default;
+$color-red-corporate: #c21b17 !default;
+$color-red-light: #ff412d !default;
+$color-grey: #939597 !default;
+$color-white: #fff !default;
 
 $color-default: $color-white !default;
 
-$font-family-default : $font-family-condensed !default;
-$font-weight-default : bold !default;
-$font-size-default : 28px !default;
-$font-color-default : $color-white !default;
-$line-height-default : 1.2 !default;
+$font-family-default: $font-family-condensed !default;
+$font-weight-default: bold !default;
+$font-size-default: 28px !default;
+$font-color-default: $color-white !default;
+$line-height-default: 1.2 !default;
 
-$font-size-copy : 40px !default;
-$line-height-copy : 41px !default;
-$copy-padding : 24px 0 0 16px !default;
+$font-size-copy: 40px !default;
+$line-height-copy: 41px !default;
+$copy-padding: 24px 0 0 16px !default;
 
 //
 $cta-top: 436px;

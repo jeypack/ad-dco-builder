@@ -8,6 +8,7 @@
 # testing
 /test
 .TODO.txt
+TODO.TXT
 
 # production
 /_build

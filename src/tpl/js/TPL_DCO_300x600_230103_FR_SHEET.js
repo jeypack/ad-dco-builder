@@ -1,22 +1,23 @@
-//DCO-SHEET EG+ 2021 - Author: Joerg Pfeifer egplusww.com
+//DCO-SHEET EG+ 2023 FR - Author: Joerg Pfeifer egplusww.com
 window.EGPlus.ad.devFeedContent = {
   sheet: {
-    'unique_id': 1,
-    'format': '300x600',
-    'DV360_LI_ID': 'stvko50on,ufk49j5d',
-    'AUDIENCE_ID': 'stvko50on,ufk49j5d',
-    'GEO_TARGETS': 'Essen,North Rhine-Westphalia,Germany',
-    'start_date': '2020-10-03',
-    'end_date': '2021-12-31',
-    'reporting_label': 'MC_DELIVERY_300x600_',
-    'theme': 'logos-2 copy-40 hline-44',
-    'anim': 'std',
-    'image_1': './img/bigmac-2021-01-300x600.png',
-    //'image_1': './img/fries-2021-01-300x600.png',
-    //'image_1': './img/mcchicken-2021-01-300x600.png',
-    'video_1': './img/no-video.mp4',
+    unique_id: 1,
+    format: "300x600",
+    DV360_LI_ID: "stvko50on,ufk49j5d",
+    AUDIENCE_ID: "stvko50on,ufk49j5d",
+    GEO_TARGETS: "Essen,North Rhine-Westphalia,Germany",
+    start_date: "2020-10-03",
+    end_date: "2021-12-31",
+    reporting_label: "MC_DELIVERY_300x600_",
+    theme: "logos-2 copy-40 hline-44",
+    anim: "std",
+    //'image_1': './img/bigmac-2023-01-300x600.jpg',
+    //image_1: "./img/fries-2023-01-300x600.jpg",
+    image_1: "./img/mcraclette-2023-01-300x600.jpg",
+    //'image_1': './img/mcchicken-2023-01-300x600.jpg',
+    video_1: "./img/no-video.mp4",
     //<span></span> <br>
-    'copy_1': 'Tout ce que tu aimes,<br>livré chez toi.', //copy-45 hline-39
+    copy_1: "Tout ce que tu aimes,<br>livré chez toi.", //copy-45 hline-39
     //'copy_1': 'Commander de<br>nouveau un<br>McChicken, yess.', //copy-45 hline-39
     //'copy_1': 'Commander de<br>nouveau des frites,<br>yess.', //copy-44 hline-39
     //'copy_1': 'Commander de<br>nouveau le grand<br>classique.', //copy-44 hline-39
@@ -52,27 +53,18 @@ window.EGPlus.ad.devFeedContent = {
     //'copy_1': 'Finir le level?<br>Commande un<br>McChicken!', //copy-42 hline-39
     //'copy_1': 'Level up? Vite des<br>frites et un burger!', //copy-44 hline-44
     //'copy_1': 'Tout ce que tu aimes,<br>livré chez toi.', //copy-40 hline-41
-    'copy_2': '',
-    //mc-delivery-smood-uber.png
-    //'delivery': './img/divoora-jeat-smood-uber-01-300x600.png',
-    //'delivery': './img/jeat-smood-uber-01-300x600.png',
-    //'delivery': './img/smood-uber-01-300x600.png',
-    'delivery': './img/ueat-smood-01-300x600.png',
-    //'delivery': './img/smood-01-300x600.png',
-    //'delivery': './img/divoora-01-300x600.png',
-    //'delivery': './img/uber-01-300x600.png',
-    //'delivery': './img/jeat-01-300x600.png',
-    //'delivery': './img/mc-delivery-01-300x600.png',
-    'info': '',
+    copy_2: "",
+    delivery: "./img/ueat-jeat-smood-01-300x600.png",
+    info: "",
     //'cta': 'Jetzt bestellen!',
-    'cta': 'Commande maintenant !',
+    cta: "Commande maintenant !",
     //'cta': 'Ordina ora!',
-    'css': 'TPL_DCO_300x600_221215.css',
-    'js': 'TPL_DCO_300x600_221215_ANIM.js',
-    'repeat_delay': 1.5,
-    'max_loop': 2,
-    'exit_url': 'https://www.mcdonalds.com/ch/de-ch/mcdelivery.html',
-    'is_default': false,
-    'is_active': true
-  }
+    css: "TPL_DCO_300x600_230103.css",
+    js: "TPL_DCO_300x600_230103_ANIM.js",
+    repeat_delay: 1.5,
+    max_loop: 2,
+    exit_url: "https://www.mcdonalds.com/ch/de-ch/mcdelivery.html",
+    is_default: false,
+    is_active: true,
+  },
 };

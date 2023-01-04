@@ -1,20 +1,21 @@
-//DCO-SHEET EG+ 2021 - Author: Joerg Pfeifer egplusww.com
+//DCO-SHEET EG+ 2023 IT - Author: Joerg Pfeifer egplusww.com
 window.EGPlus.ad.devFeedContent = {
   sheet: {
-    'unique_id': 1,
-    'format': '300x600',
-    'DV360_LI_ID': 'stvko50on,ufk49j5d',
-    'AUDIENCE_ID': 'stvko50on,ufk49j5d',
-    'GEO_TARGETS': 'Essen,North Rhine-Westphalia,Germany',
-    'start_date': '2020-10-03',
-    'end_date': '2021-12-31',
-    'reporting_label': 'MC_DELIVERY_300x600_',
-    'theme': 'logos-2 copy-39 hline-43',
-    'anim': 'std',
-    //'image_1': './img/bigmac-2021-01-300x600.png',
-    //'image_1': './img/fries-2021-01-300x600.png',
-    'image_1': './img/mcchicken-2021-01-300x600.png',
-    'video_1': './img/no-video.mp4',
+    unique_id: 1,
+    format: "300x600",
+    DV360_LI_ID: "stvko50on,ufk49j5d",
+    AUDIENCE_ID: "stvko50on,ufk49j5d",
+    GEO_TARGETS: "Essen,North Rhine-Westphalia,Germany",
+    start_date: "2020-10-03",
+    end_date: "2021-12-31",
+    reporting_label: "MC_DELIVERY_300x600_",
+    theme: "logos-2 copy-39 hline-43",
+    anim: "std",
+    //'image_1': './img/bigmac-2023-01-300x600.jpg',
+    //image_1: "./img/fries-2023-01-300x600.jpg",
+    image_1: "./img/mcraclette-2023-01-300x600.jpg",
+    //'image_1': './img/mcchicken-2023-01-300x600.jpg',
+    video_1: "./img/no-video.mp4",
     //<span></span> <br>
 
     //'copy_1': "", //copy-43 hline-46
@@ -22,7 +23,7 @@ window.EGPlus.ad.devFeedContent = {
     //'copy_1': "E ora? Ordinate un<br>altro McChicken.", //copy-46 hline-46
     //'copy_1': "Ordinate semplice-<br>mente altre patatine.", //copy-40 hline-42
     //'copy_1': "Riordinate un<br>classico<br>intramontabile.", //copy-40 hline-38
-    'copy_1': "Ordinare di nuovo<br>l'hamburger migliore.", //copy-39 hline-43
+    copy_1: "Ordinare di nuovo<br>l'hamburger migliore.", //copy-39 hline-43
     //'copy_1': "Un must: patatine con<br>un vero hamburger.", //copy-39 hline-43
     //'copy_1': "Evvai! Ordinate di<br>nuovo l'originale.", //copy-47 hline-49
     //'copy_1': "Mhmm… fatti conse-<br>gnare ciò che adori.", //copy-41 hline-44
@@ -50,27 +51,18 @@ window.EGPlus.ad.devFeedContent = {
     //'copy_1': 'Level up? Ordina<br>patatine e hamburger.', //copy-38 hline-40
     //'copy_1': 'Fatti consegnare<br>ciò che adori.', //copy-50 hline-52
     //'copy_1': 'Fatevi consegnare<br>ciò che adorate.', //copy-46 hline-46
-    'copy_2': '',
-    //mc-delivery-smood-uber.png
-    //'delivery': './img/divoora-jeat-smood-uber-01-300x600.png',
-    //'delivery': './img/jeat-smood-uber-01-300x600.png',
-    //'delivery': './img/smood-uber-01-300x600.png',
-    'delivery': './img/divoora-smood-01-300x600.png',
-    //'delivery': './img/smood-01-300x600.png',
-    //'delivery': './img/divoora-01-300x600.png',
-    //'delivery': './img/uber-01-300x600.png',
-    //'delivery': './img/jeat-01-300x600.png',
-    //'delivery': './img/mc-delivery-01-300x600.png',
-    'info': '',
+    copy_2: "",
+    delivery: "./img/smood-divoo-01-300x600.png",
+    info: "",
     //'cta': 'Jetzt bestellen!',
     //'cta': 'Commande maintenant !',
-    'cta': 'Ordina ora!',
-    'css': 'TPL_DCO_300x600_221215.css',
-    'js': 'TPL_DCO_300x600_221215_ANIM.js',
-    'repeat_delay': 1.5,
-    'max_loop': 2,
-    'exit_url': 'https://www.mcdonalds.com/ch/de-ch/mcdelivery.html',
-    'is_default': false,
-    'is_active': true
-  }
+    cta: "Ordina ora!",
+    css: "TPL_DCO_300x600_230103.css",
+    js: "TPL_DCO_300x600_230103_ANIM.js",
+    repeat_delay: 1.5,
+    max_loop: 2,
+    exit_url: "https://www.mcdonalds.com/ch/de-ch/mcdelivery.html",
+    is_default: false,
+    is_active: true,
+  },
 };

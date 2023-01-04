@@ -14,7 +14,7 @@
   ad.dynamicContent = {};
   //feednameforforcedpreview:mcdeliverychdedcofeed300x60001sheet1:10286221,request:datetime,request:dbmlineitemid,request:location
   (function helper() {
-    var i, rows = 169,
+    /* var i, rows = 169,
       count = 1,
       pack = 13,
       min = 2210001,
@@ -22,7 +22,7 @@
       out = 'feednameforforcedpreview:mcdeliverychitdcofeed300x60001sheet1:10298287,request:datetime';
     for (i = max - 1; i >= min; i--) {
       out += '\n' + i + ',2022-12-31T00:00+00:00';
-    }
+    } */
     /* out = '';
     count = 1;
     for (i = min; i < max; i++) {
@@ -33,7 +33,7 @@
       count++;
     } */
     //
-    console.log(out);
+    //console.log(out);
   }());
 
   ad.initDynamicContent = function () {
