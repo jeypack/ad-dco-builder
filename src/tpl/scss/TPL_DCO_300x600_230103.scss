@@ -108,8 +108,12 @@ svg {
 }
 
 #logos {
-  transform-origin: 110% 164%;
-  transform: scale(0.65, 0.65);
+  transform-origin: 50% 75%;
+  transform: translate(70px, 160px) scale(0.54, 0.54);
+}
+
+#image-1 {
+  transform: translate(-300px, 0px);
 }
 
 #cta {
@@ -142,6 +146,6 @@ svg {
 #copy-1,
 #copy-2 {
   font-size: $font-size-copy;
-  line-height: $line-height-copy;
+  //line-height: $line-height-copy;
   padding: $copy-padding;
 }

@@ -155,15 +155,15 @@
     ad.tl.repeat(ad.dynamicContent.max_loop).repeatDelay(ad.dynamicContent.repeat_delay);
     //ad.tl.repeat(repeat).repeatDelay(repeatDelay);
     //var frameOrderRaw = ad.dynamicContent.frame_order,
-    ad.tl.add(ad.stepA(), 0.5);
-    ad.tl.add(ad.stepB(), "+=1.5");
+    ad.tl.add(ad.stepA(), 0.25);
+    ad.tl.add(ad.stepB(), "+=2.0");
     console.log("ad.setTimelines", "anim:", ad.dynamicContent.anim, "total:", ad.tl.totalDuration());
   };
 
   ad.stepA = function () {
     var tl = gsap.timeline({ defaults: { ease: "power1", duration: 0.5 } });
     tl.fromTo(typoSplit[0].lines, { x: -300, opacity: 1 }, { x: 0, stagger: 0.1 }, 0);
-    tl.fromTo($image1, { x: -300, opacity: 1 }, { x: 0, ease: "power2", stagger: 0.15 }, 0.35);
+    tl.fromTo($image1, { x: -300, opacity: 1 }, { x: 0, opacity: 1, ease: "power2" }, 0.35);
     //tl.fromTo($logos, { scale: 0.55, x: 70, y: 242 }, { opacity: 1 }, '-=0.5');
     tl.to($logos, { opacity: 1 }, "-=0.5");
     tl.timeScale(1.0);
@@ -171,10 +171,10 @@
   };
 
   ad.stepB = function () {
-    var tl = gsap.timeline({ defaults: { ease: "power1.in", duration: 0.6 } });
+    var tl = gsap.timeline({ defaults: { ease: "power1.inOut", duration: 0.6 } });
     tl.to([typoSplit[0].lines, $image1], { x: -300, stagger: 0.1 }, 0);
     //tl.to($logos, { x: 0, y: 0, scale: 1 }, '-=0.5');
-    tl.to($logos, { scale: 1 }, "-=0.5");
+    tl.to($logos, { scale: 1, x: 0, y: 0 }, "-=0.5");
     tl.fromTo($cta, { opacity: 1, scale: 0 }, { opacity: 1, scale: 1, ease: "back" }, "+=0.5");
     tl.add(ad.bounceElemDown($cta, 1, 0.5), "+=1.0");
     tl.timeScale(1.0);
@@ -196,8 +196,8 @@
       repeat: repeat || 0,
       repeatDelay: repeatDelay || 0,
     });
-    tl.to($elem, { duration: 0.175, scale: 0.95, ease: "back" });
-    tl.to($elem, { duration: 0.275, scale: 1.0, ease: "power1" });
+    tl.to($elem, { duration: 0.175, scale: 0.94, ease: "back" });
+    tl.to($elem, { duration: 0.3, scale: 1.0, ease: "power1" });
     return tl;
   };
 

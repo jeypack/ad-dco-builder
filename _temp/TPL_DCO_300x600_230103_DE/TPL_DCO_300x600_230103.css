@@ -72,11 +72,6 @@ a {
   text-decoration: inherit;
 }
 
-b {
-  font-family: "HelveticaBold";
-  font-weight: normal;
-}
-
 /* BANNER */
 #bg-exit {
   position: absolute;
@@ -86,7 +81,6 @@ b {
   bottom: 0px;
   width: 100%;
   height: 100%;
-  background-color: #ffbc0d;
   cursor: pointer;
   margin: auto;
   overflow: hidden;
@@ -208,233 +202,293 @@ div.wrapper-banner {
   /* &.yellow {
         background: url(https://s0.2mdn.net/creatives/assets/4239542/bkg-fbbc0d.png);
     } */
+  /* &.logos-1 {
+    #logos {
+      transform-origin: 112% 150%;
+      transform: scale(0.625, 0.625);
+    }
+  }
+  &.logos-2 {
+    #logos {
+      transform-origin: 110% 150%;
+      transform: scale(0.625, 0.625);
+    }
+  }
+  &.logos-3 {
+    #logos {
+      transform-origin: 100% 146%;
+      transform: scale(0.6, 0.6);
+    }
+  }
+  &.logos-4 {
+    #logos {
+      transform-origin: 94% 146%;
+      transform: scale(0.6, 0.6);
+    }
+  } */
 }
+div.wrapper-banner.copy-36 .line,
 div.wrapper-banner.copy-36 #copy-1,
 div.wrapper-banner.copy-36 #copy-2 {
   font-size: 36px;
 }
+div.wrapper-banner.copy-37 .line,
 div.wrapper-banner.copy-37 #copy-1,
 div.wrapper-banner.copy-37 #copy-2 {
   font-size: 37px;
 }
+div.wrapper-banner.copy-38 .line,
 div.wrapper-banner.copy-38 #copy-1,
 div.wrapper-banner.copy-38 #copy-2 {
   font-size: 38px;
 }
+div.wrapper-banner.copy-39 .line,
 div.wrapper-banner.copy-39 #copy-1,
 div.wrapper-banner.copy-39 #copy-2 {
   font-size: 39px;
 }
+div.wrapper-banner.copy-40 .line,
 div.wrapper-banner.copy-40 #copy-1,
 div.wrapper-banner.copy-40 #copy-2 {
   font-size: 40px;
 }
+div.wrapper-banner.copy-41 .line,
 div.wrapper-banner.copy-41 #copy-1,
 div.wrapper-banner.copy-41 #copy-2 {
   font-size: 41px;
 }
+div.wrapper-banner.copy-42 .line,
 div.wrapper-banner.copy-42 #copy-1,
 div.wrapper-banner.copy-42 #copy-2 {
   font-size: 42px;
 }
+div.wrapper-banner.copy-43 .line,
 div.wrapper-banner.copy-43 #copy-1,
 div.wrapper-banner.copy-43 #copy-2 {
   font-size: 43px;
 }
+div.wrapper-banner.copy-44 .line,
 div.wrapper-banner.copy-44 #copy-1,
 div.wrapper-banner.copy-44 #copy-2 {
   font-size: 44px;
 }
+div.wrapper-banner.copy-45 .line,
 div.wrapper-banner.copy-45 #copy-1,
 div.wrapper-banner.copy-45 #copy-2 {
   font-size: 45px;
 }
+div.wrapper-banner.copy-46 .line,
 div.wrapper-banner.copy-46 #copy-1,
 div.wrapper-banner.copy-46 #copy-2 {
   font-size: 46px;
 }
+div.wrapper-banner.copy-47 .line,
 div.wrapper-banner.copy-47 #copy-1,
 div.wrapper-banner.copy-47 #copy-2 {
   font-size: 47px;
 }
+div.wrapper-banner.copy-48 .line,
 div.wrapper-banner.copy-48 #copy-1,
 div.wrapper-banner.copy-48 #copy-2 {
   font-size: 48px;
 }
+div.wrapper-banner.copy-49 .line,
 div.wrapper-banner.copy-49 #copy-1,
 div.wrapper-banner.copy-49 #copy-2 {
   font-size: 49px;
 }
+div.wrapper-banner.copy-50 .line,
 div.wrapper-banner.copy-50 #copy-1,
 div.wrapper-banner.copy-50 #copy-2 {
   font-size: 50px;
 }
+div.wrapper-banner.copy-51 .line,
 div.wrapper-banner.copy-51 #copy-1,
 div.wrapper-banner.copy-51 #copy-2 {
   font-size: 51px;
 }
+div.wrapper-banner.copy-52 .line,
 div.wrapper-banner.copy-52 #copy-1,
 div.wrapper-banner.copy-52 #copy-2 {
   font-size: 52px;
 }
+div.wrapper-banner.copy-53 .line,
 div.wrapper-banner.copy-53 #copy-1,
 div.wrapper-banner.copy-53 #copy-2 {
   font-size: 53px;
 }
+div.wrapper-banner.copy-54 .line,
 div.wrapper-banner.copy-54 #copy-1,
 div.wrapper-banner.copy-54 #copy-2 {
   font-size: 54px;
 }
+div.wrapper-banner.copy-55 .line,
 div.wrapper-banner.copy-55 #copy-1,
 div.wrapper-banner.copy-55 #copy-2 {
   font-size: 55px;
 }
+div.wrapper-banner.copy-56 .line,
 div.wrapper-banner.copy-56 #copy-1,
 div.wrapper-banner.copy-56 #copy-2 {
   font-size: 56px;
 }
+div.wrapper-banner.copy-57 .line,
 div.wrapper-banner.copy-57 #copy-1,
 div.wrapper-banner.copy-57 #copy-2 {
   font-size: 57px;
 }
+div.wrapper-banner.copy-58 .line,
 div.wrapper-banner.copy-58 #copy-1,
 div.wrapper-banner.copy-58 #copy-2 {
   font-size: 58px;
 }
+div.wrapper-banner.copy-59 .line,
 div.wrapper-banner.copy-59 #copy-1,
 div.wrapper-banner.copy-59 #copy-2 {
   font-size: 59px;
 }
+div.wrapper-banner.copy-60 .line,
 div.wrapper-banner.copy-60 #copy-1,
 div.wrapper-banner.copy-60 #copy-2 {
   font-size: 60px;
 }
+div.wrapper-banner.copy-61 .line,
 div.wrapper-banner.copy-61 #copy-1,
 div.wrapper-banner.copy-61 #copy-2 {
   font-size: 61px;
 }
+div.wrapper-banner.copy-62 .line,
 div.wrapper-banner.copy-62 #copy-1,
 div.wrapper-banner.copy-62 #copy-2 {
   font-size: 62px;
 }
+div.wrapper-banner.copy-63 .line,
 div.wrapper-banner.copy-63 #copy-1,
 div.wrapper-banner.copy-63 #copy-2 {
   font-size: 63px;
 }
+div.wrapper-banner.copy-64 .line,
 div.wrapper-banner.copy-64 #copy-1,
 div.wrapper-banner.copy-64 #copy-2 {
   font-size: 64px;
 }
+div.wrapper-banner.hline-38 .line,
 div.wrapper-banner.hline-38 #copy-1,
 div.wrapper-banner.hline-38 #copy-2 {
   line-height: 38px;
 }
+div.wrapper-banner.hline-39 .line,
 div.wrapper-banner.hline-39 #copy-1,
 div.wrapper-banner.hline-39 #copy-2 {
   line-height: 39px;
 }
+div.wrapper-banner.hline-40 .line,
 div.wrapper-banner.hline-40 #copy-1,
 div.wrapper-banner.hline-40 #copy-2 {
   line-height: 40px;
 }
+div.wrapper-banner.hline-41 .line,
 div.wrapper-banner.hline-41 #copy-1,
 div.wrapper-banner.hline-41 #copy-2 {
   line-height: 41px;
 }
+div.wrapper-banner.hline-42 .line,
 div.wrapper-banner.hline-42 #copy-1,
 div.wrapper-banner.hline-42 #copy-2 {
   line-height: 42px;
 }
+div.wrapper-banner.hline-43 .line,
 div.wrapper-banner.hline-43 #copy-1,
 div.wrapper-banner.hline-43 #copy-2 {
   line-height: 43px;
 }
+div.wrapper-banner.hline-44 .line,
 div.wrapper-banner.hline-44 #copy-1,
 div.wrapper-banner.hline-44 #copy-2 {
   line-height: 44px;
 }
+div.wrapper-banner.hline-45 .line,
 div.wrapper-banner.hline-45 #copy-1,
 div.wrapper-banner.hline-45 #copy-2 {
   line-height: 45px;
 }
+div.wrapper-banner.hline-46 .line,
 div.wrapper-banner.hline-46 #copy-1,
 div.wrapper-banner.hline-46 #copy-2 {
   line-height: 46px;
 }
+div.wrapper-banner.hline-47 .line,
 div.wrapper-banner.hline-47 #copy-1,
 div.wrapper-banner.hline-47 #copy-2 {
   line-height: 47px;
 }
+div.wrapper-banner.hline-48 .line,
 div.wrapper-banner.hline-48 #copy-1,
 div.wrapper-banner.hline-48 #copy-2 {
   line-height: 48px;
 }
+div.wrapper-banner.hline-49 .line,
 div.wrapper-banner.hline-49 #copy-1,
 div.wrapper-banner.hline-49 #copy-2 {
   line-height: 49px;
 }
+div.wrapper-banner.hline-50 .line,
 div.wrapper-banner.hline-50 #copy-1,
 div.wrapper-banner.hline-50 #copy-2 {
   line-height: 50px;
 }
+div.wrapper-banner.hline-51 .line,
 div.wrapper-banner.hline-51 #copy-1,
 div.wrapper-banner.hline-51 #copy-2 {
   line-height: 51px;
 }
+div.wrapper-banner.hline-52 .line,
 div.wrapper-banner.hline-52 #copy-1,
 div.wrapper-banner.hline-52 #copy-2 {
   line-height: 52px;
 }
+div.wrapper-banner.hline-53 .line,
 div.wrapper-banner.hline-53 #copy-1,
 div.wrapper-banner.hline-53 #copy-2 {
   line-height: 53px;
 }
+div.wrapper-banner.hline-54 .line,
 div.wrapper-banner.hline-54 #copy-1,
 div.wrapper-banner.hline-54 #copy-2 {
   line-height: 54px;
 }
+div.wrapper-banner.hline-55 .line,
 div.wrapper-banner.hline-55 #copy-1,
 div.wrapper-banner.hline-55 #copy-2 {
   line-height: 55px;
 }
+div.wrapper-banner.hline-56 .line,
 div.wrapper-banner.hline-56 #copy-1,
 div.wrapper-banner.hline-56 #copy-2 {
   line-height: 56px;
 }
+div.wrapper-banner.hline-57 .line,
 div.wrapper-banner.hline-57 #copy-1,
 div.wrapper-banner.hline-57 #copy-2 {
   line-height: 57px;
 }
+div.wrapper-banner.hline-58 .line,
 div.wrapper-banner.hline-58 #copy-1,
 div.wrapper-banner.hline-58 #copy-2 {
   line-height: 58px;
 }
+div.wrapper-banner.hline-59 .line,
 div.wrapper-banner.hline-59 #copy-1,
 div.wrapper-banner.hline-59 #copy-2 {
   line-height: 59px;
 }
+div.wrapper-banner.hline-60 .line,
 div.wrapper-banner.hline-60 #copy-1,
 div.wrapper-banner.hline-60 #copy-2 {
   line-height: 60px;
 }
 div.wrapper-banner.cta-small {
   font-size: 24px;
-}
-div.wrapper-banner.logos-1 #logos {
-  transform-origin: 112% 150%;
-  transform: scale(0.625, 0.625);
-}
-div.wrapper-banner.logos-2 #logos {
-  transform-origin: 110% 150%;
-  transform: scale(0.625, 0.625);
-}
-div.wrapper-banner.logos-3 #logos {
-  transform-origin: 100% 146%;
-  transform: scale(0.6, 0.6);
-}
-div.wrapper-banner.logos-4 #logos {
-  transform-origin: 94% 146%;
-  transform: scale(0.6, 0.6);
 }
 
 /* OPTONAL CLOSE BTN MINIMUM */
@@ -543,8 +597,12 @@ svg {
 }
 
 #logos {
-  transform-origin: 110% 164%;
-  transform: scale(0.65, 0.65);
+  transform-origin: 50% 75%;
+  transform: translate(70px, 160px) scale(0.54, 0.54);
+}
+
+#image-1 {
+  transform: translate(-300px, 0px);
 }
 
 #cta {
@@ -577,6 +635,5 @@ svg {
 #copy-1,
 #copy-2 {
   font-size: 40px;
-  line-height: 41px;
-  padding: 24px 0 0 16px;
+  padding: 14px 0 0 20px;
 }
