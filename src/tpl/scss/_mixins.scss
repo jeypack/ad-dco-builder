@@ -1,0 +1,116 @@
+@use "sass:map";
+//
+//@mixin generate-utility($prop, ) {}
+
+//$weights: ("light": 300, "medium": 500);
+//$map : map.merge($weights, ("medium": 700));
+//@debug $weights;
+
+// @include hidden-cols;
+
+// $i: 12;
+// @while $i>0 {
+// 	&>.col-order-#{$i} {
+// 		order: $i;
+// 	}
+// 	$i: $i - 1;
+// }
+
+// @include hidden-cols;
+@mixin hidden-cols() {
+	@media only screen and (max-width: $media-xxs-max) {
+		.hidden-xxs {
+			display: none;
+		}
+	}
+	@media only screen and (min-width: $media-xs) and (max-width: $media-xs-max) {
+		.hidden-xs {
+			display: none;
+		}
+	}
+	@media only screen and (min-width: $media-sm) and (max-width: $media-sm-max) {
+		.hidden-sm {
+			display: none;
+		}
+	}
+	@media only screen and (min-width: $media-md) and (max-width: $media-md-max) {
+		.hidden-md {
+			display: none;
+		}
+	}
+	@media only screen and (min-width: $media-lg) and (max-width: $media-lg-max) {
+		.hidden-lg {
+			display: none;
+		}
+	}
+	@media only screen and (min-width: $media-xl) and (max-width: $media-xl-max) {
+		.hidden-xl {
+			display: none;
+		}
+	}
+}
+
+// @mixin statement-plh-height() {
+// 	height: $section-height-statement-plh;
+// 	@media only screen and (min-width: $media-xs) {
+// 		height: $section-height-statement-plh-xs;
+// 	}
+// 	@media only screen and (min-width: $media-sm) {
+// 		height: $section-height-statement-plh-sm;
+// 	}
+// 	@media only screen and (min-width: $media-md) {
+// 		height: $section-height-statement-plh-md;
+// 	}
+// 	@media only screen and (min-width: $media-lg) {
+// 		height: $section-height-statement-plh-lg;
+// 	}
+// }
+
+//
+//
+// @mixin gui-btn-variant($color, $background, $border, $color-hover: transparent, $background-hover: transparent, $shadow: false) {
+// 	color: $color;
+// 	background-color: $background;
+// 	border-color: $border;
+// 	// added transition for buttons
+// 	transition: all .3s ease-out;
+
+// 	//&:focus,&:hover &:active,&.active
+// 	//@if $color-hover == transparent {} @else {}
+// }
+
+// Button sizes
+// @mixin gui-btn-size($padding, $font-size, $line-height, $border-radius) {
+// 	padding: $padding;
+// 	font-size: $font-size;
+// 	line-height: $line-height;
+// 	border-radius: $border-radius;
+// }
+
+
+//Responsive Breakpoints
+//Usage:
+//.page-wrap {
+//	@include breakpoint(large) { width: 60%; }
+//	@include breakpoint(medium) { width: 80%; }
+//	@include breakpoint(small) { width: 95%; }
+//}
+//@mixin breakpoint($point) {
+//	@if $point == large {
+//		@media (min-width: 64.375em) { @content; }
+//	}
+//	@else if $point == medium {
+//		@media (min-width: 50em) { @content; }
+//	}
+//	@else if $point == small {
+//		@media (min-width: 37.5em)  { @content; }
+//	}
+//}
+//
+// Fake (pseudo) element, that enables vertical-align
+//&:before {
+//	content: "";
+//	display: inline-block;
+//	vertical-align: middle;
+//	height: 100%;
+//}

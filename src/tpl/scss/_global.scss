@@ -113,7 +113,6 @@ div.wrapper-banner div.border {
 #border-bottom {
   height: 1px;
   width: 100%;
-  max-width: 1000px;
 }
 #border-left,
 #border-right {
@@ -133,12 +132,17 @@ div.wrapper-banner div.border {
   font-size: 6px;
   opacity: 0;
 }
+//should be removed if modal info window 
+#nfo-win, #info-btn { display: none !important; }
+
 /* TYPO */
 div.wrapper-banner .typo {
   width: auto;
   height: auto;
   color: #fff;
-  line-height: 1.125;
+  font-size: $font-size-copy;
+  //line-height: $line-height-copy;
+  padding: $copy-padding;
   overflow: visible;
   text-rendering: optimizeLegibility;
   font-feature-settings: "kern" 1;

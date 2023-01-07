@@ -313,13 +313,15 @@ const watchDirectory = (cb) => {
     baseDir: config.DEVELOPMENT ? config.DEST_TEMP : config.DEST_BUILD,
     index: "index.html",
   });
+  //srcPath + "tpl/js/"
   //watchBrowser({ proxy: "http://localhost/" + buildFolder });
   watch(config.SRC_IMAGES, handleImages);
   watch(config.SRC_TPL_HTML, handleDefaultWatch);
   watch([srcPath + "tpl/scss/*.scss"], handleSass);
   //watch(config.SRC_TPL_JS_ANIM_LIVE, handleAnimJS);
   //watch(config.SRC_DATA, handleDataJSCH);
-  watch([srcPath + "js/*.js", srcPath + "tpl/js/*.js"], handleDefaultWatch);
+  watch([srcPath + "js/*.js"], handleDefaultWatch);
+  watch([srcPath + "tpl/js/*.js"], handleDefaultWatch);
   //watch([srcPath + '*.*', srcPath + '**/*.*']).on('change', function (path, stats) { console.log('File:', path); });
   cb();
 };

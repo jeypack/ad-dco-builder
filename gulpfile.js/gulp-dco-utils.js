@@ -163,7 +163,7 @@ module.exports.buildCssFromScss = function (initObj) {
       //.pipe(gulpif(!initObj.DEVELOPMENT, cssnano({ safe: true })))
       .pipe(gulpif(!initObj.DEVELOPMENT, cleanCSS({ compatibility: "ie9" })))
       .pipe(concat(initObj.CSS_FILENAME + ".css"))
-      .pipe(dest(initObj.DEST))
+      .pipe(dest(initObj.DEST, { sourcemaps: initObj.DEVELOPMENT }))
       .pipe(reload({ stream: true }))
   );
 };

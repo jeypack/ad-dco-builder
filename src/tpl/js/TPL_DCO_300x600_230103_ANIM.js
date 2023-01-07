@@ -156,7 +156,7 @@
     //ad.tl.repeat(repeat).repeatDelay(repeatDelay);
     //var frameOrderRaw = ad.dynamicContent.frame_order,
     ad.tl.add(ad.stepA(), 0.25);
-    ad.tl.add(ad.stepB(), "+=2.0");
+    ad.tl.add(ad.stepB(), "+=2.25");
     console.log("ad.setTimelines", "anim:", ad.dynamicContent.anim, "total:", ad.tl.totalDuration());
   };
 
