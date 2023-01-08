@@ -18,6 +18,7 @@ window.EGPlus.ad.devFeedContent = {
     video_1: "./img/no-video.mp4",
     //<span></span> <br>
     //copy_1: 'Lass dir liefern,<br>was du liebst.', //pad-top-18 copy-53 hline-50
+
     //copy_1: "Boosten? Bestell<br>dir deinen<br>McChicken®.", //copy-43 hline-42
     //copy_1: "Cheaten ohne<br>Cheatcode. Jetzt<br>Big Mac® bestellen.", //pad-top-12 copy-42 hline-42
     //copy_1: "Zeit für Godmode.<br>Jetzt extra Fries<br>bestellen.", //pad-left-18 copy-46 hline-43
@@ -51,8 +52,8 @@ window.EGPlus.ad.devFeedContent = {
     //copy_1: 'Lass dir liefern,<br>was du liebst.', //pad-top-20 copy-53 hline-50
     //copy_1: "McRaclette: Das<br>Schweizer Original<br>ist zurück.", //pad-top-20 pad-left-16 copy-44 hline-41
     //copy_1: "Zeit für uns.<br>Zeit für<br>McChicken®.", //pad-top-14 pad-left-24 copy-56 hline-45
-    //copy_1: "Zeit für einen<br>Klassiker. Jetzt<br>Big Mac® bestellen.",
-    copy_1: "Endlich Fries,<br>nur für uns.",
+    //copy_1: "Zeit für einen<br>Klassiker. Jetzt<br>Big Mac® bestellen.", //pad-top-18 pad-left-18 copy-42 hline-40
+    copy_1: "Endlich Fries,<br>nur für uns.", //pad-top-22 pad-left-18 copy-58 hline-50
     //copy_1: "McRaclette: Das<br>Schweizer Original<br>ist zurück.", //pad-top-20 pad-left-16 copy-44 hline-41
     
     copy_2: "",

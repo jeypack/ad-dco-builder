@@ -8,6 +8,7 @@
 
   //+++DE+++
   // change sheet-name and asset-path here
+  //ad.sheetName = 'MC_DELIVERY_CH_DE_DCO_FEED_300X600_02_Sheet1';
   ad.sheetName = 'MC_DELIVERY_CH_DE_DCO_FEED_300X600_02_Sheet1';
   ad.imagesPath = '';
   ad.feedPropertyNames = [];
@@ -40,6 +41,7 @@
     console.log("MC_DELIVERY_CH_DE_DCO_FEED_300X600_02_Sheet1  ID: 10724036");
     console.log("TPL_DCO_AUTO_211101_DE_DATA ad.initDynamicContent", window.EGPlus);
     //+++DE+++
+    //10724036
     Enabler.setProfileId(10724036);
     //Template function
     ad.setDynamicContent();

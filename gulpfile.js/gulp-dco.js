@@ -21,9 +21,9 @@ const { cleanDir, moveFiles, buildCssFromScss, handleJS, watchBrowser } = requir
 
 //const htdocsPath = '/Applications/MAMP/htdocs/';
 const srcPath = "./src/";
-const devFolder = "_temp/";
+const devFolder = "_dev/";
 const testFolder = "_test/";
-const buildFolder = "_build/";
+const buildFolder = "_build_studio/";
 const buildFolderInline = "_build_inline/";
 const buildFolderStd = "_build_std/";
 

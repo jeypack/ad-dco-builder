@@ -40,6 +40,7 @@
 - [CH-IT 10809521 MC_DELIVERY_CH_IT_DCO_PROFILE_300X600_03](https://www.google.com/doubleclick/studio/#ContentManagement/advertiser:id=10036027&tab=PROFILES)
 
 ---
+## McDelivery OLD *< 2022*
 ---
 
 ### Regel 1: DV360 GEOTARGET
