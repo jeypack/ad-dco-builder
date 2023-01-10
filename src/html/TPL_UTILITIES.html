@@ -5,6 +5,7 @@
   <meta charset="utf-8" />
   <title>McDelivery CH DCO 2022-2023 UTILS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../../bower_components/juiced/dist/css/juiced.css" />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -99,6 +100,7 @@
       border: 1px solid grey;
       border-radius: 3px;
       margin-bottom: 8px;
+      font-size: 14px;
     }
 
     div.col-6 {
@@ -119,6 +121,12 @@
       border-radius: 3px; */
       margin-bottom: 8px;
     }
+    .background-color-green {
+      background-color: #22522f;
+    }
+    .color-white {
+      color: #fff;
+    }
   </style>
 </head>
 
@@ -128,8 +136,10 @@
     <div id="content"></div>
   </div>
   <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.5.1_min.js"></script>
+  <!-- geotargetsCHMcDelivery -->
   <script src="./McDelivery_DCO_2023_Cities_adjusted.js"></script>
   <script src="./geotargets-switzerland-2022-12-02.js"></script>
+  <script src="./geotargets-switzerland-2023-01-10.js"></script>
   <script src="./geotargets-2022-12-21.js"></script>
   <script>
     // csv to json
@@ -141,119 +151,13 @@
     //console.log("geoAll");
     //console.log(geoAll);
     //
-    function print(name, target, type, input) {
-      var i, d, value, result,
-        length = data.length,
-        json = [],
-        msg = '',
-        output = copyElem.innerHTML,
-        //regex = /b+c/,
-        targetsArr = target.split(', '),
-        l = targetsArr.length;
-      //id ,2021-05-11T00:00+00:00
-      for (i = 0; i < length; i++) {
-        value = data[i];
-        //msg += (i + 10000) + ',\n';
-        //msg += '2021-05-11T00:00+00:00,"' + data[i].canonical + '",\n';
-        //get all CH
-        if (value.country === 'CH') {
-          for (d = 0; d < l; d++) {
-            //console.log("name:", value.name, "canonical:", value.canonical);
-            result = value.name.match('\\b' + targetsArr[d] + '\\b');
-            if (result) {
-              //if (value.name.indexOf(targetsArr[d]) !== -1) {
-              //console.log("name:", value.name, "canonical:", value.canonical, "result:", result);
-              json.push({
-                name: value.name,
-                canonical: value.canonical,
-                //type: value.type,
-                country: value.country
-              });
-            }
-          }
-        }
-      }
-      length = json.length;
-      for (i = 0; i < length; i++) {
-        msg += json[i].canonical + (i === length - 1 ? '' : '|');
-      }
-      /*console.log("");
-      console.log("#");
-      console.log("NAME:", name, "- TARGET:", target);
-      //console.log("JSON DATA OUTPUT:", length);
-      console.log("+");
-      console.log("+ copy start +");
-      console.log(msg);
-      console.log("+ copy end +");*/
-      output += '<h4>' + name + ' <small>[ TARGETS COUNT: ' + l + ' ] [ RESULT: ' + length + ' ] [ <span>TYPE: ' + type + '</span> ]</small></h4>';
-      if (input) {
-        output += '<div class="label">' + input + '</div>';
-      }
-      output += '<div class="target">' + target + '</div>';
-      output += '<p>' + msg + '</p>';
-      copyElem.innerHTML = output;
-    }
-
-    function printRestaurants() {
-      var i, d, item, value, canonical,
-        count = 0,
-        l = restaurants.length;
-      for (i = 0; i < l; i++) {
-        item = restaurants[i];
-        value = getCanonical(item.city);
-        if (value.length) { count++; }
-      }
-      copyElem.innerHTML = copyElem.innerHTML + '<h4>Restaurants [' + l + '] RESULT: [' + count + ']</h4>';
-      for (i = 0; i < l; i++) {
-        item = restaurants[i];
-        value = getCanonical(item.city);
-        canonical = value.length ? '' : '<b>NOT FOUND!</b>';
-        if (value.length) { count++; }
-        for (d = 0; d < value.length; d++) {
-          canonical += value[d].canonical + (d !== value.length - 1 ? '|' : '');
-        }
-        //console.log("##########", "printRestaurants", "value:", value, "value.canonical:", value.canonical);
-        //canonical = value.canonical ? value.canonical.join('|') : 'NOT FIND';
-        copyElem.innerHTML = copyElem.innerHTML + '<div class="container"><div class="col-6"><p class="small">' + item.short + ' ' + item.city + ' ' + item.street + '</p></div><div class="col-6"><p class="small"># Canonical: ' + canonical + '</p></div></div>';
-      }
-    }
-
-    function ret_getCanonical(target) {
-      var i, d, value, result,
-        length = data.length,
-        json = [],
-        msg = '',
-        targetsArr = Array.isArray(target) ? target : target.split(', '),
-        l = targetsArr.length;
-      //console.log("##########", "getCanonical", "targetsArr:", targetsArr);
-      for (i = 0; i < length; i++) {
-        value = data[i];
-        if (value.country === 'CH') {
-          for (d = 0; d < l; d++) {
-            result = value.name.match('\\b' + targetsArr[d] + '\\b');
-            if (result) {
-              json.push({
-                name: value.name,
-                canonical: value.canonical,
-                //type: value.type,
-                country: value.country
-              });
-              return json;
-            }
-          }
-        }
-      }
-      //console.log("##########", "getCanonical", "json:", json);
-      return json;
-    }
-
     function getCanonicalArrays() {
       const canonicals = { de: [], fr: [], it: [] };
       for (let i = 0, l = geotargetsCHMcDelivery.length; i < l; i++) {
         const itemDelivery = geotargetsCHMcDelivery[i];
         const itemDeliveryID = itemDelivery.id;
         const itemDeliveryLang = itemDelivery.countryCode.split("CH-")[1];
-        console.log("id:", itemDeliveryID, "lang:", itemDeliveryLang, itemDelivery.name);
+        //console.log("id:", itemDeliveryID, "lang:", itemDeliveryLang, itemDelivery.name);
         for (let c = 0, lc = geotargetsCH.length; c < lc; c++) {
           const item = geotargetsCH[c];
           if (itemDeliveryID === item.id) {
@@ -268,8 +172,6 @@
           }
         }
       }
-      console.log("canonicals");
-      console.log(canonicals);
       return canonicals;
     }
 
@@ -288,14 +190,31 @@
       return ch;
     }
 
-    /* function getCanonicalByLanguage(canonicals, lang) {
-      const items = [];
-      for (let i = 0, l = canonicals.length; i < l; i++) {
-        const item = canonicals[i];
-        const countryCode = item["Country Code"];
-        if (item)
+    function getCanonicalNames() {
+      const canonicals = { de: [], fr: [], it: [] };
+      for (let i = 0, l = geotargetsCHMcDelivery.length; i < l; i++) {
+        const itemDelivery = geotargetsCHMcDelivery[i];
+        const itemDeliveryID = itemDelivery.id;
+        const itemDeliveryLang = itemDelivery.countryCode.split("CH-")[1];
+        //console.log("id:", itemDeliveryID, "lang:", itemDeliveryLang, itemDelivery.name);
+        for (let c = 0, lc = geoCH.length; c < lc; c++) {
+          const item = geoCH[c];
+          const itemID = item["Criteria ID"];
+          if (itemDeliveryID === itemID) {
+            //GOTTCHA
+            const itemCanonical = item["Canonical Name"];
+            if (itemDeliveryLang === "DE") {
+              canonicals.de.push(itemCanonical);
+            } else if (itemDeliveryLang === "FR") {
+              canonicals.fr.push(itemCanonical);
+            } else if (itemDeliveryLang === "IT") {
+              canonicals.it.push(itemCanonical);
+            }
+          }
+        }
       }
-    } */
+      return canonicals;
+    }
 
     function wrapContainer(content) {
       return '<div class="container">' + content + '</div>';
@@ -303,79 +222,50 @@
 
     const copyElem = document.getElementById("content");
 
-    const switzerland = getSwitzerland();
+    //const switzerland = getSwitzerland();
     const canonicals = getCanonicalArrays();
+    const switzerland = getCanonicalNames();
+    console.log("switzerland");
+    console.log(switzerland);
 
     let output = '';
     let temp = '';
 
-    temp += '<div class="col-12">CANONICALS CH DE-FR-IT: <b>' + switzerland.length + '</b></div>';
-    temp += '<div class="col-auto"><input class="form-control radius" placeholder="John Smith" name="name" type="text"></div>';
-    temp += '<div class="col-auto"grow-1><button type="submit" class="btn color-white radius background-color-green hover-background-color-blue transition-fast cursor-pointer">Find</button></div>';
+    temp += '<div class="col-12">CANONICALS CH DE-FR-IT: <b>' + geoCH.length + '</b></div>';
+    temp += '<div class="col-auto"><input class="form-control radius" placeholder="Canonical Name or ID" name="cname" type="text"></div>';
+    temp += '<div class="col-auto"grow-1><button type="submit" class="btn color-white radius background-color-green hover-background-color-alt transition-fast cursor-pointer">Find</button></div>';
 
     output = wrapContainer(temp);
 
     //komplette schweizer liste
-    /* temp = '';
-    for (let i = 0, l = switzerland.length; i < l; i++) {
-      const item = switzerland[i];
-      temp += '<div class="col-auto">' + item.Name + '</div>';
-    }
-    temp = wrapContainer(temp);
-    output += temp; */
+    //console.log("geoCH:");
+    //console.log(geoCH);
 
     temp = '';
-    temp += '<div class="col-12">CANONICAL DE: <b>' + canonicals.de.length + '</b></div>';
-    temp += '<div class="col-12">' + canonicals.de.join("|") + '</div>';
-    temp += '<div class="col-12">CANONICAL FR: <b>' + canonicals.fr.length + '</b></div>';
-    temp += '<div class="col-12">' + canonicals.fr.join("|") + '</div>';
-    temp += '<div class="col-12">CANONICAL IT: <b>' + canonicals.it.length + '</b></div>';
-    temp += '<div class="col-12">' + canonicals.it.join("|") + '</div>';
+    temp += '<div class="col-12">CANONICAL DE: <b>' + switzerland.de.length + '</b></div>';
+    temp += '<div class="col-12">' + switzerland.de.join("|") + '</div>';
+    temp += '<div class="col-12">CANONICAL FR: <b>' + switzerland.fr.length + '</b></div>';
+    temp += '<div class="col-12">' + switzerland.fr.join("|") + '</div>';
+    temp += '<div class="col-12">CANONICAL IT: <b>' + switzerland.it.length + '</b></div>';
+    temp += '<div class="col-12">' + switzerland.it.join("|") + '</div>';
     temp = wrapContainer(temp);
     output += temp;
 
+    temp = '<div class="col-12 background-color-green"></div>';
+    temp = wrapContainer(temp);
+    output += temp;
+
+    temp = '';
+    temp += '<div class="col-12">OLD CANONICAL DE: <b>' + canonicals.de.length + '</b></div>';
+    temp += '<div class="col-12">' + canonicals.de.join("|") + '</div>';
+    temp += '<div class="col-12">OLD CANONICAL FR: <b>' + canonicals.fr.length + '</b></div>';
+    temp += '<div class="col-12">' + canonicals.fr.join("|") + '</div>';
+    temp += '<div class="col-12">OLD CANONICAL IT: <b>' + canonicals.it.length + '</b></div>';
+    temp += '<div class="col-12">' + canonicals.it.join("|") + '</div>';
+    temp = wrapContainer(temp);
+    output += temp;
+    //PRINT
     copyElem.innerHTML = output;
-
-
-    //
-    /* print('DE TEST', targetsDE_TEST, 0, inputDE_TEST);
-    copyElem.innerHTML = copyElem.innerHTML + '<hr>';
-    print('DE UEAT', targetsDE_UEAT, 1, inputDE_UEAT);
-    print('DE JEAT', targetsDE_JEAT, 2, inputDE_JEAT);
-    print('DE SMOOD', targetsDE_SMOOD, 3, inputDE_SMOOD);
-    print('DE DIVOO', targetsDE_DIVOO, 4, inputDE_DIVOO);
-    print('DE UEAT SMOOD', targetsDE_UEAT_SMOOD, 6, inputDE_UEAT_SMOOD);
-    print('DE JEAT SMOOD', targetsDE_JEAT_SMOOD, 8, inputDE_JEAT_SMOOD);
-    print('DE UEAT JEAT SMOOD', targetsDE_UEAT_JEAT_SMOOD, 11, inputDE_UEAT_JEAT_SMOOD);
-    print('DE UEAT DIVOO SMOOD', targetsDE_UEAT_DIVOO_SMOOD, 13, inputDE_UEAT_DIVOO_SMOOD);
-    copyElem.innerHTML = copyElem.innerHTML + '<hr>';
-    print('FR UEAT', targetsFR_UEAT, 1, inputFR_UEAT);
-    //print('FR JEAT', targetsFR_JEAT, 2, inputFR_JEAT);
-    print('FR SMOOD', targetsFR_SMOOD, 3, inputFR_SMOOD);
-    print('FR UEAT SMOOD', targetsFR_UEAT_SMOOD, 6, inputFR_UEAT_SMOOD);
-    print('FR UEAT JEAT SMOOD', targetsFR_UEAT_JEAT_SMOOD, 11, inputFR_UEAT_JEAT_SMOOD);
-    copyElem.innerHTML = copyElem.innerHTML + '<hr>';
-    print('IT DIVOO SMOOD', targetsIT_DIVOO_SMOOD, 4, inputIT_DIVOO_SMOOD);
-    copyElem.innerHTML = copyElem.innerHTML + '<hr>';
-    print('ALL', targets_ALL);
-    copyElem.innerHTML = copyElem.innerHTML + '<hr>';
-    printRestaurants(); */
-      //
-      //console.log('const data = ' + JSON.stringify(json) + ';');
-    /*//name
-    for (i = 0; i < l; i++) {
-        msg += data[i].name + '\n';
-    }
-    console.log("");
-    console.log("Städtenamen:");
-    console.log(msg);
-    //canonical
-    msg = '';
-    for (i = 0; i < l; i++) {
-        msg += data[i].canonical + '\n';
-    }
-    console.log("Canonical:");
-    console.log(msg);*/
   </script>
 </body>
 

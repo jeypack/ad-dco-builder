@@ -6,7 +6,7 @@
   var $ = egp.$,
     ad = egp.ad,
     //repeat = 1,
-    //repeatDelay = 2.0,
+    //repeatDelay = 2.0, 
     $wrapper = $("#bg-exit"),
     $anim = $("#egp-anim"),
     //$bkg = $wrapper.find('#bkg'),

@@ -5,7 +5,7 @@
 ## DCO McDonalds CH Studio
 
 ### Verknüpfung mit Werbetreibendem in Campaign Manager 360
->McDonalds CH (Netzwerk 988346, Werbetreibender 9860051)
+> `McDonalds CH (Netzwerk 988346, Werbetreibender 9860051)`
 
 ---
 ## McDelivery 2023 
@@ -33,11 +33,35 @@
 
 ### Profiles
 
-- [CH-DE 10803327 MC_DELIVERY_CH_DE_DCO_PROFILE_300X600_03](https://www.google.com/doubleclick/studio/#ContentManagement/advertiser:id=10036027&tab=PROFILES)
+- [CH-DE 10803327 MC_DELIVERY_CH_DE_DCO_PROFILE_300X600_2023_01](https://www.google.com/doubleclick/studio/#ContentManagement/advertiser:id=10036027&tab=PROFILES)
 
-- [CH-FR 10809518 MC_DELIVERY_CH_FR_DCO_PROFILE_300X600_03](https://www.google.com/doubleclick/studio/#ContentManagement/advertiser:id=10036027&tab=PROFILES)
+- [CH-FR 10809518 MC_DELIVERY_CH_FR_DCO_PROFILE_300X600_2023_01](https://www.google.com/doubleclick/studio/#ContentManagement/advertiser:id=10036027&tab=PROFILES)
 
-- [CH-IT 10809521 MC_DELIVERY_CH_IT_DCO_PROFILE_300X600_03](https://www.google.com/doubleclick/studio/#ContentManagement/advertiser:id=10036027&tab=PROFILES)
+- [CH-IT 10809521 MC_DELIVERY_CH_IT_DCO_PROFILE_300X600_2023_01](https://www.google.com/doubleclick/studio/#ContentManagement/advertiser:id=10036027&tab=PROFILES)
+
+### CREATIVES
+
+- [MC_DELIVERY_TPL_DCO_DE_300x600_230105](https://www.google.com/doubleclick/studio/#campaign:campaignId=60362557&advertiserId=60088092&ownerId=9738474)
+
+- [MC_DELIVERY_TPL_DCO_FR_300x600_230105](https://www.google.com/doubleclick/studio/#campaign:campaignId=60362557&advertiserId=60088092&ownerId=9738474)
+
+- [MC_DELIVERY_TPL_DCO_IT_300x600_230105](https://www.google.com/doubleclick/studio/#campaign:campaignId=60362557&advertiserId=60088092&ownerId=9738474)
+
+### Priorisierte Regeln
+
+```
+Regel 1: DV360 GEOTARGET
+Regel 2: GEOTARGET
+Regel 3: DEFAULT
+```
+
+### Lieferdienste DE-FR-IT
+
+```
+CH-D : Uber Eats, Just Eat, Smood
+CH-F : Uber Eats, Just Eat, Smood
+CH-I : Smood, Divoora
+```
 
 ---
 ## McDelivery OLD *< 2022*
@@ -53,7 +77,6 @@ MC_DELIVERY_TPL_DCO_DE_300x600_221215
 MC_DELIVERY_TPL_DCO_FR_300x600_221215
 MC_DELIVERY_TPL_DCO_IT_300x600_221215
 ```
-
 
 ---
 
