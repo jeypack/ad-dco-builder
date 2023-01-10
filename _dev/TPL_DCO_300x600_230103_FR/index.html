@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <title>TPL DCO 2023-01</title>
+  <meta name="ad.size" content="width=300,height=600">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      overflow: hidden;
+      background-color: #ffbc0d;
+      background-color: #fff;
+    }
+    #bg-exit {
+      width: 100%;
+      height: 100%;
+    }
+    div.wrapper-banner div.alpha,
+    div.wrapper-banner img.alpha,
+    span.alpha {
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="bg-exit" class="wrapper-banner">
+    <!-- START ANIMATION -->
+    <div id="egp-anim" class="alpha">
+      <div id="font-small-load" class="alpha">Abcdefghijklmnopqrstuvwxyz0123456789#</div>
+      <div id="bkg" class=""></div>
+      <div id="video-1" class="alpha"></div>
+      <div id="image-1" class="alpha"></div>
+      <div id="copy-1" class="split typo "></div>
+      <div id="copy-2" class="split typo alpha"></div>
+      <div id="logos" class="alpha"></div>
+      <div id="promo" class="alpha"></div>
+      <div id="cta" class="alpha">
+        <div></div>
+      </div>
+      <!-- END ANIMATION -->
+      <div egp-module="modal" id="nfo-win">
+        <div egp-module="close-btn"></div>
+        <div id="nfo-title" class="typo"></div>
+        <div id="nfo-content" class="typo"></div>
+      </div>
+      <div id="info-btn" egp-module="open-btn" egp-target="#nfo-win" egp-autopause="0"></div>
+    </div>
+    <div id="border-top" class="border"></div>
+    <div id="border-right" class="border"></div>
+    <div id="border-bottom" class="border"></div>
+    <div id="border-left" class="border"></div>
+  </div>
+  <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.5.1_min.js"></script>
+  <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+  <script>!function(){"use strict";function e(e){e&&this.add(e)}function t(e,t){if(e&&e.length>0){var n=e[0].getAttribute("egp-target"),o=Boolean(Number(e[0].getAttribute("egp-autopause"))),i=e[0].getAttribute("egp-autoplay"),a=s(n),c="openBtnClick"===t&&l.settings.modalOpenerOnOver?"mouseenter":"click";a.length>0&&"openBtnClick"===t&&gsap.set(a,{css:{display:"none"}}),"closeBtnClick"===t&&gsap.set(e,{css:{display:"none"}}),e[0].addEventListener(c,function(n){var s="modalClick"===t&&("close-btn"===n.target.getAttribute("egp-module")||"EGP-CLOSE-BTN"===n.target.tagName.toUpperCase());if(a.length>0&&"openBtnClick"===t&&(gsap.set('[egp-module="close-btn"], egp-close-btn',{css:{display:"block"}}),gsap.set(e,{css:{display:"none"}}),gsap.set(a,{css:{display:"block"}}),gsap.fromTo(a,{duration:.21,opacity:0},{opacity:1}),r.$target=e,o&&l.tl&&!l.tl.paused()&&l.tl.pause()),"closeBtnClick"===t){if(console.log("registerBtnClick B","$target:",a),console.log("registerBtnClick B","autoPlay:",i),console.log("registerBtnClick B","$elem[0].parentNode:",e[0].parentNode),gsap.set('[egp-module="close-btn"], egp-close-btn',{css:{display:"none"}}),!(a.length>0))return l.tl&&l.tl.kill(),document.body.removeEventListener("click",r.clickThrough,!1),gsap.set(e[0].parentNode,{css:{display:"none"}}),document.body.removeChild(e[0].parentNode),l=null,r=null,n.stopPropagation(),!1;gsap.set(a,{css:{display:"none"}}),i&&l.tl&&l.tl.paused&&l.tl.play(),r.$target&&r.$target.length&&(gsap.set(r.$target,{css:{display:"block"}}),r.$target=null)}if(r.has(t)&&r.dispatchEvent({type:t,target:n.target,origEvent:n}),l.has(t)&&l.dispatchEvent({type:t,target:n.target,origEvent:n}),!s)return n.stopPropagation(),!1},!0)}}function n(){(p=s("#bg-exit"))&&p.length>0&&(u=!0,t(s('[egp-module="close-btn"], egp-close-btn'),"closeBtnClick"),t(s('[egp-module="open-btn"], egp-open-btn'),"openBtnClick"),t(s('[egp-module="modal"], egp-modal'),"modalClick"),document.body.addEventListener("click",r.clickThrough,!1))}function o(){d=!0,u||n(),r.dispatchEvent({type:"init"})}function i(){document.removeEventListener("DOMContentLoaded",i,!1),n()}var a,r,l,s,c,p,u=!1,d=!1,g=!1,h=0;(a=e.prototype=[]).add=function(t){var n,o,i,a;if("string"==typeof t)for(n=0,o=(i=document.querySelectorAll(t)).length;n<o;n++)this.push(i.item(n));else if(t instanceof e||"number"==typeof t.length)for(n=0,o=t.length;n<o;n++)(a=t[n])instanceof Element&&this.push(a);else t instanceof Element&&this.push(t);return this},a.eq=function(t){var n=new e;return n.push(this[t]),n},a.find=function(t){var n,o,i,a,r=new e;for(n=0,o=this.length;n<o;n++)for(a=this[n].querySelectorAll(t),i=0;i<a.length;i++)r.push(a.item(i));return r},window.EGPlus=r={},l={init:null,images:[],clicked:!1,loaded:!1,currentRepeat:0,settings:{modalOpenerOnOver:!1},isInitialized:function(){return g}},r.ad=l,r.data={},r.initEventDispatcher=function(e){var t={},n=function(e,n,o,i,a){var r={method:n||e,parameters:o,once:"boolean"==typeof i&&i,stopPropagation:!1};t.hasOwnProperty(e)?(a.off(e,n),t[e].push(r)):t[e]=[r]};return Object.defineProperty(e,"dispatchEvent",{value:function(e){var n,o,i,a,r="string"==typeof e?e:e.type;if(t.hasOwnProperty(r))for(a=(n=t[r]).length;--a>-1;){if(i=n[a],"string"==typeof(o=i.method)&&(o=this[o]),o.apply(this,i.parameters||[e]),i.stopPropagation){i.stopPropagation=!1;break}if(i.once&&"boolean"==typeof i.once&&(n.splice(a,1),0===n.length))return t[r]=null,this}return this}}),Object.defineProperty(e,"has",{value:function(e){return t.hasOwnProperty(e)&&t[e]&&t[e].length>0}}),Object.defineProperty(e,"on",{value:function(e,t,o,i){return n(e,t,o,"boolean"==typeof i&&i,this),this}}),Object.defineProperty(e,"one",{value:function(e,t,o){return n(e,t,o,!0,this),this}}),Object.defineProperty(e,"off",{value:function(e,n){if(t.hasOwnProperty(e))if(t[e].length&&n&&"function"==typeof n){var o,i=t[e],a=i.length;for(o=0;o<a;o++)if(i[o].method===n)return i.splice(o,1),this}else t[e].splice(0);return this}}),Object.defineProperty(e,"stopPropagation",{value:function(e){var n,o,i="string"==typeof e?e:e.type;if(t.hasOwnProperty(i))for(o=(n=t[i]).length;--o>-1;)n[o].stopPropagation=!0;return this}}),e},r.initEventDispatcher(r),r.initEventDispatcher(l),r.getUniqueID=function(){return h++},r.getRan=function(e,t){return Math.random()*(t-e)+e},r.getPlusMinus=function(){return 1-2*Math.floor(2*Math.random())},s=r.$=r.LD=function(t){return new e(t)},l.setBkgImages=function(){var e,t,n,o,i,a,r,c=l.images,p=c.length;for(n=0;n<p;n++)if(""!==(t=c[n]).id){if(!(e=s(t.id)).length)throw new Error("ERROR inside ad.setBkgImages - cannot get dom node via selector!");o=t.x||0,i=t.y||0,a=t.bs||"auto",r=t.repeat||"no-repeat",e[0].style.background="url("+t.url+") "+o+" "+i+"/"+a+" "+r+" transparent"}},l.loadExtCss=function(e){var t=document.createElement("link");t.setAttribute("rel","stylesheet"),t.setAttribute("type","text/css"),t.setAttribute("href",e),document.getElementsByTagName("head")[0].appendChild(t)},l.loadImages=function(e,t){var n,o,i,a=0,r=e.length,s=function(){++a===r&&(t?t():l.loaded=!0)},c=function(e){l.has("imageError")&&l.dispatchEvent({type:"imageError",event:e}),s()};for(l.loaded=!1,n=0;n<r;n++)(i=e[n])&&i.url&&((o=new Image).addEventListener("load",s),o.addEventListener("error",c),o.src=i.url,l.images.push(i));return l},l.politeLoad=function(e,t){l.loadImages(e,function(){"function"==typeof t&&t(),l.setBkgImages(),l.loaded=!0,l.start()})},l.initTimeline=function(){l.tl=new gsap.timeline({defaults:{ease:"power1",duration:.5},paused:!0,onStart:function(){l.maxRepeat=Math.floor(l.tl.totalDuration()/l.tl.duration())-1,l.has("started")&&l.dispatchEvent({type:"started",time:l.tl.totalTime()/l.tl.timeScale()})},onRepeat:function(){l.currentRepeat++,l.has("repeat")&&l.dispatchEvent({type:"repeat",time:l.tl.totalTime()/l.tl.timeScale()})},onComplete:function(){l.has("completed")&&l.dispatchEvent({type:"completed",time:l.tl.totalTime()/l.tl.timeScale()})}}),l.tl.timeScale(1)},l.start=function(){l.loaded=!0,l.initAnimation&&l.initAnimation(),l.initTimeline();try{l.setTimelines(),l.visibilityHandler||l.tl.play()}catch(e){}l.has("start")&&l.dispatchEvent({type:"start"}),console.log("EG+ 🌐 H T M L 5 - S L I M - T E M P L A T E","3.4.0","🔒 URI PARAMS:",c),"string"==typeof c.egpfallback&&"1"===c.egpfallback&&setTimeout(function(){var e=l.tl.totalDuration(),t=l.tl.labels;console.log(""),console.log("10"),console.log("ad:",l),console.log("allLabels:",t),t.fallback?l.tl.pause("fallback"):l.tl.pause(e),l.videos&&l.videos.length&&setTimeout(function(){var e,t,n;for(t=l.videos.length,e=0;e<t;e++)n=l.videos[e],console.log("vid:",n),console.log("vid.duration:",n.duration),console.log("vid.currentTime:",n.currentTime),n&&n.pause&&(n.currentTime=n.duration,n.pause())},190)},10)},l.init=function(){},r.extend=function(e,t,n){var o,i,a,r,l=arguments.length,s=arguments[l-1],c="number"!=typeof s?0:s>2?2:s<0?0:s,p=c>0?l-1:l;for(i=1;i<p;i++){a=arguments[i];for(o in a)if(Object.prototype.hasOwnProperty.call(a,o))switch(r=a[o],c){case 1:void 0!==e[o]&&(e[o]=r);break;case 2:void 0!==r&&(e[o]=r);break;default:e[o]=r}}return e},r.nsElems="svg g polygon rect polyline pattern defs circle ellipse line path",r.createElem=function(e,t,n,o){var i,a,l,s=-1!==r.nsElems.indexOf(t)?"http://www.w3.org/2000/svg":"",c=""!==s?document.createElementNS(s,t):document.createElement(t);for(l in n)if(n.hasOwnProperty(l))try{c.setAttribute("className"===l?"class":l,n[l])}catch(e){}for(l in o)if(o.hasOwnProperty(l))try{c.style[l]=o[l]}catch(e){}if(e.length)for(a=e.length,i=0;i<a;i++)e[i].appendChild(c);else e.appendChild(c);return c},r.initAd=function(e){e&&r.extend(l.settings,e),l.size={width:gsap.getProperty(p[0],"width"),height:gsap.getProperty(p[0],"height")},l.init(),g=!0},r.isInitialized=function(){return d},r.clickThrough=function(e){var t=r.has("clickThrough");console.log("click ","hasClickThrough",t,"initializedAd",g),t?r.dispatchEvent({type:"clickThrough",origEvent:e}):g&&window.open(c.clicktag,"_blank"),(t||g)&&(l.clicked=!0)},c=r.uriParams=function(){var e,t,n,o={clicktag:"https://www.example.com/"},i=window.location.search.substring(1).split("&");if(i.length<=0)return o;for(e=0;e<i.length;e+=1)t=i[e].split("="),n=decodeURIComponent(t[1]),t[0]=t[0].toLowerCase(),""!==n&&""!==t[0]&&(o[t[0]]=n);return o}(),"interactive"===document.readyState||"complete"===document.readyState?n():document.addEventListener("DOMContentLoaded",i,!1),window.addEventListener?window.addEventListener("load",o):window.onload=o}();
+//@license  T I M E L I N E - C O N T R O L S - Version  : 2.1.0 - Author   : J. Pfeifer  @egplusww.com
+!function(t){"use strict";var e,i,n,l,o=t.$,a=t.ad,r=o("#bg-exit"),p=o("body");a.on("start",function(){a.createTimelineControl(),a.initTimelineControl()}),a.createTimelineControl=function(o){"object"==typeof o?(o.step||(o.step=.001),o.bottom||(o.bottom=0)):o={bottom:0,step:.01};a.tl.totalDuration();var p={id:"timeline-control"},s={position:"absolute",left:"0",right:"0",top:"0px",bottom:"auto",width:"100%",height:"25px",borderTop:"1px dashed rgba(0,0,0,0.5)",borderBottom:"1px dashed rgba(0,0,0,0.5)",color:"#333",fontSize:"12px",background:"rgba(255,255,255,0.7)"};o.bottom&&"number"==typeof o.bottom&&(s.top="auto",s.bottom=o.bottom+"px"),e=t.createElem(r[0],"div",p,s),p={type:"range",min:"0",max:"100.0",value:"0",step:o.step.toString()},s={width:4*Math.floor(gsap.getProperty(r[0],"width")/6)+"px",margin:"5px 5px"},i=t.createElem(e,"input",p,s),t.createElem(e,"span",{},{display:"inline-block",height:"100%",verticalAlign:"middle",margin:"0px 2px"}).textContent="00",t.createElem(e,"span",{},{display:"inline-block",height:"100%",verticalAlign:"middle"}).textContent=".",t.createElem(e,"span",{},{display:"inline-block",height:"100%",verticalAlign:"middle",margin:"0px 2px"}).textContent="99",t.createElem(e,"span",{},{display:"inline-block",height:"100%",verticalAlign:"middle",margin:"0px 2px"}).textContent="/",t.createElem(e,"span",{},{display:"inline-block",height:"100%",verticalAlign:"middle",margin:"0px 2px"}).textContent="99",t.createElem(e,"span",{},{display:"inline-block",height:"100%",verticalAlign:"middle"}).textContent=".",t.createElem(e,"span",{},{display:"inline-block",height:"100%",verticalAlign:"middle",margin:"0px 2px"}).textContent="99",t.createElem(e,"span",{},{display:"inline-block",height:"100%",verticalAlign:"middle",margin:"0px 2px"}).textContent="click through:",n=t.createElem(e,"input",{type:"checkbox",value:"clickThrough"},{display:"inline-block",verticalAlign:"middle",margin:"0px 6px 10px 2px"}),l=r.find("#timeline-control"),gsap.set(l,{opacity:0})},a.initTimelineControl=function(){console.log("😎","T I M E L I N E - C O N T R O L S ","2.1.0","✅");var o=l.find("span"),s=!1,c=!1,d=!1,m=a.tl.duration(),g=a.tl.totalDuration(),u=function(){c?(a.ctrlTimeline.play(),a.tl.play(),c=!1):(a.ctrlTimeline.pause(),a.tl.pause(),c=!0)};e.addEventListener("mouseenter",function(t){gsap.killTweensOf(e),gsap.to(e,{duration:.3,opacity:1}),d||c||(a.ctrlTimeline.pause(),a.tl.pause(),c=!0)}),e.addEventListener("mouseleave",function(t){gsap.to(e,{duration:.25,opacity:0,delay:.5}),d||c&&(a.ctrlTimeline.play(),a.tl.play(),c=!1)}),i.max=m,i.addEventListener("input",function(t){t.stopImmediatePropagation();var e=parseFloat(t.target.value,10);a.ctrlTimeline.seek(e).pause(),a.tl.seek(e).pause(),d=!0}),n.addEventListener("change",function(t){s=!s}),e.addEventListener("click",function(t){t.stopImmediatePropagation()}),t.on("clickThrough",function(e){s?d&&(u(),d=!1):(t.stopPropagation(e),u(),d=c)}),r[0].addEventListener("dblclick",function(e){s||(t.stopPropagation(e),a.ctrlTimeline.seek(0).play(),a.tl.seek(0).play(),c=!1)}),p[0].addEventListener("keydown",function(t){"Shift"===t.key&&i.setAttribute("step",.01)}),p[0].addEventListener("keyup",function(t){"Shift"===t.key&&i.setAttribute("step",.001)}),a.ctrlTimeline=gsap.timeline({repeat:a.tl.repeat(),repeatDelay:a.tl.repeatDelay(),onUpdate:function(){i.value=a.tl.time(),function(t){var e=Math.floor(t),i=Math.floor(t%1*100);o[0].textContent=String(e+100).substr(1),o[2].textContent=String(i+100).substr(1),e=Math.floor(g),i=Math.floor(g%1*100),o[4].textContent=String(e+100).substr(1),o[6].textContent=String(i+100).substr(1)}(a.tl.totalTime())}}),a.ctrlTimeline.set({progress:0},{progress:1},g)}}(window.EGPlus);
+
+//DCO-LOCAL EG+ 2021 - Author: Joerg Pfeifer egplusww.com
+(function (egp) {
+
+  'use strict';
+
+  var ad = egp.ad;
+
+  //ad.NO_FEED_PROP = '';
+  ad.FEED_STRINGS = 'format,DV360_LI_ID,AUDIENCE_ID,GEO_TARGETS,reporting_label,theme,anim,copy_1,copy_2,info,cta',
+  ad.FEED_NUMBERS = 'unique_id,repeat_delay,max_loop',
+  ad.FEED_BOOLEANS = 'is_default,is_active';
+
+  /**
+  * Sets profile id and feed property names
+  * for Enabler and enables development
+  * @param {object} feedObj ad.devFeedContent
+  * @see egplus-html-build-inline.js
+  * @see egplus-feed-temp.js
+  */
+  ad.transformSheetData = function (feedObj) {
+    var i, l, key, propNames,
+      idName = '_id',
+      noFeedProp = '',
+      sheetName = ad.sheetName,
+      devData = {},
+      setRowProperties = function (obj, row) {
+        var key, value, isString, isNumber, isBoolean,
+          strings = ad.FEED_STRINGS,
+          numbers = ad.FEED_NUMBERS,
+          booleans = ad.FEED_BOOLEANS;
+        // now we loop over row properties
+        for (key in row) {
+          if (row.hasOwnProperty(key)) {
+            if (noFeedProp.indexOf(key) === -1) {
+              value = row[key];
+              isString = strings.indexOf(key) !== -1;
+              isNumber = numbers.indexOf(key) !== -1;
+              isBoolean = booleans.indexOf(key) !== -1;
+              if (isString || isNumber || isBoolean) {
+                obj[key] = value;
+              } else {
+                obj[key] = {};
+                if (key === 'start_date' || key === 'end_date') {
+                  obj[key].RawValue = value;
+                  obj[key].UtcValue = new Date(value).getUTCMilliseconds();
+                } else if (key === 'exit_url') {
+                  //console.info("setRowProperties", "obj[key]:", obj[key], "value:", value);
+                  obj[key].Url = value;
+                } else if (key.indexOf('video') !== -1) {
+                  //console.info("setRowProperties", "obj[key]:", obj[key], "value:", value);
+                  obj[key].Type = "video";
+                  obj[key].Progressive_Url = value;
+                  //obj[key].Stream_Url = value;
+                } else {
+                  obj[key].Type = "file";
+                  obj[key].Url = value;
+                }
+              }
+            }
+            //console.info("setRowProperties", "key:", key, "value:", value);
+            //console.info("setRowProperties", "isString:", isString, "isNumber:", isNumber, "isBoolean:", isBoolean);
+          }
+        }
+        return obj;
+      };
+    /*ad.devDynamicContent[ad.sheetName][0].video = {};
+		ad.devDynamicContent[ad.sheetName][0].video.Type = "video";
+		ad.devDynamicContent[ad.sheetName][0].video.Progressive_Url = "DRM_Asset:UnityMedia_DE_B2B_Display/default/um_dummy_video_384x216.mp4";
+		ad.devDynamicContent[ad.sheetName][0].video.Stream_Url = "";*/
+    // prepare dev data
+    devData[sheetName] = [{}];
+
+    //console.info("ad.transformSheetData ", "feedObj:", feedObj);
+    //now fill our dev content
+    devData[sheetName][0][idName] = 0;
+    setRowProperties(devData[sheetName][0], feedObj.sheet);
+    //
+    // set feed property names
+    propNames = Object.keys(feedObj.sheet);
+    l = propNames.length;
+    for (i = 0; i < l; i++) {
+      key = propNames[i];
+      if (noFeedProp.indexOf(key) === -1) {
+        ad.feedPropertyNames.push(key);
+      }
+    }
+    //console.info("ad.initDynamicContent ", "ad.feedPropertyNames:", ad.feedPropertyNames);
+    return devData;
+  };
+
+}(window.EGPlus));
+
+//DCO-DATA EG+ 2021 - Author: Joerg Pfeifer egplusww.com
+(function (egp) {
+
+  'use strict';
+
+  var $ = egp.$,
+    ad = egp.ad;
+
+  //+++FR+++
+  // change sheet-name and asset-path here
+  ad.sheetName = 'MC_DELIVERY_CH_FR_DCO_FEED_300X600_02_Sheet1';
+  ad.imagesPath = '';
+  ad.feedPropertyNames = [];
+  ad.dynamicContent = {};
+  //
+  (function helper() {
+    var i, rows = 117,
+      count = 1,
+      pack = 9,
+      min = 2210001,
+      max = min + rows,
+      out = 'feednameforforcedpreview:mcdeliverychfrdcofeed300x60002sheet1:10316060,request:datetime';
+    for (i = max - 1; i >= min; i--) {
+      out += '\n' + i + ',2022-12-31T00:00+00:00';
+    }
+    /* out = '';
+    count = 1;
+    for (i = min; i < max; i++) {
+      out += '\n' + i;
+      if (count % pack === 0) {
+        out += '\n';
+      }
+      count++;
+    } */
+    //
+    console.log(out);
+  }());
+
+  ad.initDynamicContent = function () {
+    console.log("MC_DELIVERY_CH_FR_DCO_FEED_300X600_02_Sheet1  ID: 10725292");
+    console.log("TPL_DCO_AUTO_211101_FR_DATA ad.initDynamicContent", window.EGPlus);
+    //+++FR+++
+    Enabler.setProfileId(10725292);
+    //Template function
+    ad.setDynamicContent();
+  };
+
+  /**
+  * Parses the dynamic content string entries to object key -> value pairs
+  * !!! 'motiv' inside 'dco_data' has to be lowercase !!!
+  */
+  ad.parseHTML = function () {
+    var $bkgExit = $('#bg-exit'),
+      dynamicContent = ad.dynamicContent,
+      classNames = 'wrapper-banner ' + dynamicContent.theme,
+      removeAllScriptTags = function (s) {
+        var i, scripts, div = document.createElement('div');
+        div.innerHTML = s;
+        scripts = div.getElementsByTagName('script');
+        i = scripts.length;
+        while (i--) {
+          scripts[i].parentNode.removeChild(scripts[i]);
+        }
+        return div.innerHTML;
+      },
+      removeAllAttributes = /<\s*([a-z][a-z0-9]*)\s.*?>/gi;
+    //
+    //console.log("ad.parseHTML ", "classNames:", classNames);
+    //third making dom manipulations
+    $bkgExit[0].setAttribute('class', classNames);
+    $bkgExit.find('#copy-1')[0].innerHTML = removeAllScriptTags(dynamicContent.copy_1.replace(removeAllAttributes, '<$1>'));
+    $bkgExit.find('#copy-2')[0].innerHTML = removeAllScriptTags(dynamicContent.copy_2.replace(removeAllAttributes, '<$1>'));
+    $bkgExit.find('#nfo-content')[0].innerHTML = removeAllScriptTags(dynamicContent.info.replace(removeAllAttributes, '<$1>'));
+    $bkgExit.find('#cta div')[0].innerText = dynamicContent.cta;
+    //console.log("ad.parseHTML ", "dynamicContent.copy_1_1:", dynamicContent.copy_1_1.replace(removeAllAttributes, '<$1>'));
+  };
+
+}(window.EGPlus));
+
+//DCO-SHEET EG+ 2023 FR - Author: Joerg Pfeifer egplusww.com
+window.EGPlus.ad.devFeedContent = {
+  sheet: {
+    unique_id: 1,
+    format: "300x600",
+    DV360_LI_ID: "stvko50on,ufk49j5d",
+    AUDIENCE_ID: "stvko50on,ufk49j5d",
+    GEO_TARGETS: "Essen,North Rhine-Westphalia,Germany",
+    start_date: "2023-01-01",
+    end_date: "2023-12-31",
+    reporting_label: "MC_DELIVERY_300x600_",
+    theme: "logos-2 copy-44 hline-40",
+    anim: "std",
+    image_1: './img/mcchicken-2023-01-300x600.jpg',
+    //image_1: './img/bigmac-2023-01-300x600.jpg',
+    //image_1: "./img/fries-2023-01-300x600.jpg",
+    //image_1: "./img/mcraclette-2023-01-300x600.jpg",
+    video_1: "./img/no-video.mp4",
+    //<span></span> <br>
+
+    copy_1: "Tout ce que tu aimes,<br>livré chez toi.", //copy-45 hline-39
+    //copy_1: "", //
+    
+    copy_2: "",
+    delivery: "./img/ueat-jeat-smood-01-300x600.png",
+    info: "",
+    cta: "Commande maintenant !",
+    css: "TPL_DCO_300x600_230103.css",
+    js: "TPL_DCO_300x600_230103_ANIM.js",
+    repeat_delay: 2.0,
+    max_loop: 2,
+    exit_url: "https://www.mcdonalds.com/ch/de-ch/mcdelivery.html",
+    is_default: false,
+    is_active: true,
+  },
+};
+
+//DCO-FEED EG+ 2021 - Author: Joerg Pfeifer egplusww.com
+(function (egp) {
+
+    'use strict';
+
+    var ad = egp.ad,
+        addSuffix = function (url, dcmParameter) {
+            var symbol,
+                urlSuffix = Enabler.getParameter(dcmParameter);
+            if (url) {
+                symbol = (url.indexOf('?') > -1) ? '&' : '?';
+                if (urlSuffix) {
+                    while (urlSuffix.charAt(0) === '?' || urlSuffix.charAt(0) === '&') {
+                        urlSuffix = urlSuffix.substring(1);
+                    }
+                    if (urlSuffix.indexOf('?') > -1) {
+                        urlSuffix = urlSuffix.replace(/\?/g, '&');
+                    }
+                    return url + symbol + urlSuffix;
+                }
+                return url;
+            }
+            return '';
+        };
+    //
+    // do not touch the following...
+    ad.devDynamicContent = {};
+
+    /**
+     * Set dynamic content for development and live
+     */
+    ad.setDynamicContent = function () {
+        //console.info("ad.setDynamicContent", "LOCATION HOSTNAME:", window.location.hostname);
+        //
+        //+++ local development +++
+        // IMPORTANT: here we set row data from our intern sheet data js
+        if (!ad.devFeedContent) {
+            console.warn('Dev Mode but no sheet data available...');
+            return;
+        }
+
+        //transform SHEET data to FEED data
+        var devData = ad.transformSheetData(ad.devFeedContent);
+
+        // enable development
+        Enabler.setDevDynamicContent(devData);
+        // save window.dynamicContent to ad.dynamicContent object
+        ad.dynamicContent = window.dynamicContent[ad.sheetName][0];
+
+        //first additional props - NUMBERS: repeat_delay max_loop
+        ad.dynamicContent.max_loop = Number(ad.dynamicContent.max_loop);
+        ad.dynamicContent.repeat_delay = Number(ad.dynamicContent.repeat_delay);
+        //addSuffix -> Enabler.getParameter method to get the landing page suffix value
+
+        //(stored in the exit_suffix macro) -> window.EGPlus.ad.ExitURL
+        ad.ExitURL = addSuffix(ad.dynamicContent.exit_url.Url, 'exit_suffix');
+        ad.ExitNAME = "Background Exit";
+
+        console.info("*");
+        console.info("ad.setDynamicContent ", "devData:", devData);
+        console.log("ad.setDynamicContent", "ad.ExitNAME:", ad.ExitNAME, "ad.ExitURL:", ad.ExitURL);
+        console.log("ad.setDynamicContent", "ad.dynamicContent:", ad.dynamicContent);
+
+        // print all feed data to console
+        ad.devDCODataToString(ad.devFeedContent);
+
+        // FIRST: load extern
+        ad.loadExt();
+        // SECOND:	parse strings to properties
+        ad.parseHTML();
+
+    };
+
+    /**
+    * Load script and css files
+    */
+    ad.loadExt = function () {
+        // Load in CSS
+        var extCSS = document.createElement('link'),
+            dynamicContent = ad.dynamicContent;
+        extCSS.setAttribute("rel", "stylesheet");
+        extCSS.setAttribute("type", "text/css");
+        extCSS.setAttribute("href", Enabler.getUrl(dynamicContent.css.Url));
+        document.getElementsByTagName("head")[0].appendChild(extCSS);
+        //
+        Enabler.loadScript(Enabler.getUrl(dynamicContent.js.Url), function () {
+            console.info("READY LOADING JS -> EGPlus.initAd");
+            egp.initAd();
+        });
+    };
+
+    /**
+     * Print out Feed Data
+     * @param {object} feedObj ad.devFeedContent
+     */
+    ad.devDCODataToString = function (feedObj) {
+        console.log('+');
+        console.info('+++ FEED START +++');
+        console.log(ad.feedPropertyNames.join('\t'));
+        console.log(ad.feedRowToString(ad.dynamicContent, ad.feedPropertyNames));
+        console.info('');
+        console.info('+++ FEED END +++');
+        console.log('+');
+    };
+
+    /**
+     * Prints the dynamic content to feed row
+     * @param   {object} obj       print row from obj
+     * @param   {Array}  propNames array of property names
+     * @returns {string} returns the properties from a row as a feed row
+     */
+    ad.feedRowToString = function (obj, propNames) {
+        var name, prop, type, url, ind, suf, tab, i, d,
+            l = propNames.length,
+            row = '',
+            suffixes = ['./img/', './js/', './', ad.imagesPath],
+            //suffixes = ['./img/', './js/'],
+            sl = suffixes.length;
+        // 3-2-1 loop
+        for (i = 0; i < l; i++) {
+            name = propNames[i];
+            prop = obj[name];
+            type = (typeof prop);
+            tab = (i < l - 1) ? '\t' : '';
+            //console.info("ad.feedRowToString()", "name:", name, "type:", type, "prop:", prop)
+            if (type === 'object') {
+                if (prop.Url || prop.Progressive_Url || prop.Stream_Url || prop.RawValue) {
+                    url = String(prop.Url || prop.Progressive_Url || prop.Stream_Url || prop.RawValue);
+                    for (d = 0; d < sl; d++) {
+                        suf = suffixes[d];
+                        ind = url.indexOf(suf);
+                        if (ind !== -1) {
+                            row += url.substr(suf.length) + tab;
+                            //console.info("ad.feedRowToString()", "name:", name, "type:", type, "prop:", prop, "ind:", ind, "suf:", suf, "suf.length:", suf.length, "col:", url.substr(suf.length));
+                            break;
+                        }
+                    }
+                    if (ind === -1) {
+                        row += url + tab;
+                    }
+                } else {
+                    //console.info("ad.feedRowToString() else", "name:", name, "type:", type, "prop:", prop);
+                    // ### empty col ###
+                    row += tab;
+                }
+            } else {
+                //console.info("ad.feedRowToString() !Object", "name:", name, "type:", type, "prop:", prop);
+                row += prop + tab;
+            }
+        }
+        return row;
+    };
+
+}(window.EGPlus));
+
+//
+var egp = window.EGPlus;
+egp.on('init', function () {
+  console.log('EGPlus on init');
+  var ad = egp.ad;
+  // handle 'clickThrough'
+  egp.on('clickThrough', function (e) {
+    console.log("ExitURL:", ad.ExitURL);
+    Enabler.exitOverride('Background Exit', ad.ExitURL);
+  });
+  if (Enabler.isInitialized()) {
+    ad.initDynamicContent();
+  } else {
+    Enabler.addEventListener(studio.events.StudioEvent.INIT, ad.initDynamicContent);
+  }
+});
+</script></body>
+
+</html>

@@ -90,6 +90,7 @@
       flex-wrap: wrap;
       box-sizing: border-box;
     }
+
     div.col-12 {
       flex: 1 0 100%;
       box-sizing: border-box;
@@ -99,6 +100,7 @@
       border-radius: 3px;
       margin-bottom: 8px;
     }
+
     div.col-6 {
       flex: 1 0 50%;
       box-sizing: border-box;
@@ -108,101 +110,38 @@
       border-radius: 3px;
       margin-bottom: 8px;
     }
+    div.col-auto {
+      flex: 1 0 auto;
+      box-sizing: border-box;
+      padding: 4px 8px;
+      word-break: break-all;
+      /* border: 1px solid grey;
+      border-radius: 3px; */
+      margin-bottom: 8px;
+    }
   </style>
 </head>
 
 <body>
   <div id="bg-exit" class="wrapper-banner">
     <h2>McDelivery CH DCO 2022-2023 UTILS</h2>
-    <div id="copy"></div>
+    <div id="content"></div>
   </div>
   <script src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.5.1_min.js"></script>
   <script src="./McDelivery_DCO_2023_Cities_adjusted.js"></script>
   <script src="./geotargets-switzerland-2022-12-02.js"></script>
+  <script src="./geotargets-2022-12-21.js"></script>
   <script>
     // csv to json
     console.log("McDelivery CH DCO 2022-2023 UTILS");
     console.log("geotargetsCHMcDelivery");
     console.log(geotargetsCHMcDelivery);
-    console.log("geotargetsCH");
-    console.log(geotargetsCH);
+    //console.log("geotargetsCH");
+    //console.log(geotargetsCH);
+    //console.log("geoAll");
+    //console.log(geoAll);
     //
-    const copyElem = document.getElementById('copy');
-
-    const canonicalDE = [];
-    const canonicalFR = [];
-    const canonicalIT = [];
-
-    for (let i = 0, l = geotargetsCHMcDelivery.length; i < l; i++) {
-      const itemDelivery = geotargetsCHMcDelivery[i];
-      const itemDeliveryID = itemDelivery.id;
-      const itemDeliveryLang = itemDelivery.countryCode.split("CH-")[1];
-      //console.log("id:", itemDeliveryID, "lang:", itemDeliveryLang);
-      for (let c = 0, lc = geotargetsCH.length; c < lc; c++) {
-        const item = geotargetsCH[c];
-        if (itemDeliveryID === item.id) {
-          //GOTTCHA
-          if (itemDeliveryLang === "DE") {
-            canonicalDE.push(item.canonical);
-          } else if (itemDeliveryLang === "FR") {
-            canonicalFR.push(item.canonical);
-          } else if (itemDeliveryLang === "IT") {
-            canonicalIT.push(item.canonical);
-          }
-        }
-      }
-    }
-    console.log("canonicalDE");
-    console.log(canonicalDE);
-    console.log("canonicalFR");
-    console.log(canonicalFR);
-    console.log("canonicalIT");
-    console.log(canonicalIT);
-
-    let output = '<div class="container">';
-    output += '<div class="col-12">CANONICAL DE: <b>' + canonicalDE.length + '</b></div>';
-    output += '<div class="col-12">' + canonicalDE.join("|") + '</div>';
-
-    output += '<div class="col-12">CANONICAL FR: <b>' + canonicalFR.length + '</b></div>';
-    output += '<div class="col-12">' + canonicalFR.join("|") + '</div>';
-
-    output += '<div class="col-12">CANONICAL IT: <b>' + canonicalIT.length + '</b></div>';
-    output += '<div class="col-12">' + canonicalIT.join("|") + '</div>';
-
-    output += '</div>';
-    
-    copyElem.innerHTML = output;
-
-    const getCanonical = function (target) {
-      var i, d, value, result,
-        length = data.length,
-        json = [],
-        msg = '',
-        targetsArr = Array.isArray(target) ? target : target.split(', '),
-        l = targetsArr.length;
-      //console.log("##########", "getCanonical", "targetsArr:", targetsArr);
-      for (i = 0; i < length; i++) {
-        value = data[i];
-        if (value.country === 'CH') {
-          for (d = 0; d < l; d++) {
-            result = value.name.match('\\b' + targetsArr[d] + '\\b');
-            if (result) {
-              json.push({
-                name: value.name,
-                canonical: value.canonical,
-                //type: value.type,
-                country: value.country
-              });
-              return json;
-            }
-          }
-        }
-      }
-      //console.log("##########", "getCanonical", "json:", json);
-      return json;
-    };
-
-    const print = function (name, target, type, input) {
+    function print(name, target, type, input) {
       var i, d, value, result,
         length = data.length,
         json = [],
@@ -253,8 +192,9 @@
       output += '<div class="target">' + target + '</div>';
       output += '<p>' + msg + '</p>';
       copyElem.innerHTML = output;
-    };
-    const printRestaurants = function () {
+    }
+
+    function printRestaurants() {
       var i, d, item, value, canonical,
         count = 0,
         l = restaurants.length;
@@ -276,8 +216,128 @@
         //canonical = value.canonical ? value.canonical.join('|') : 'NOT FIND';
         copyElem.innerHTML = copyElem.innerHTML + '<div class="container"><div class="col-6"><p class="small">' + item.short + ' ' + item.city + ' ' + item.street + '</p></div><div class="col-6"><p class="small"># Canonical: ' + canonical + '</p></div></div>';
       }
-    };
-      //
+    }
+
+    function ret_getCanonical(target) {
+      var i, d, value, result,
+        length = data.length,
+        json = [],
+        msg = '',
+        targetsArr = Array.isArray(target) ? target : target.split(', '),
+        l = targetsArr.length;
+      //console.log("##########", "getCanonical", "targetsArr:", targetsArr);
+      for (i = 0; i < length; i++) {
+        value = data[i];
+        if (value.country === 'CH') {
+          for (d = 0; d < l; d++) {
+            result = value.name.match('\\b' + targetsArr[d] + '\\b');
+            if (result) {
+              json.push({
+                name: value.name,
+                canonical: value.canonical,
+                //type: value.type,
+                country: value.country
+              });
+              return json;
+            }
+          }
+        }
+      }
+      //console.log("##########", "getCanonical", "json:", json);
+      return json;
+    }
+
+    function getCanonicalArrays() {
+      const canonicals = { de: [], fr: [], it: [] };
+      for (let i = 0, l = geotargetsCHMcDelivery.length; i < l; i++) {
+        const itemDelivery = geotargetsCHMcDelivery[i];
+        const itemDeliveryID = itemDelivery.id;
+        const itemDeliveryLang = itemDelivery.countryCode.split("CH-")[1];
+        console.log("id:", itemDeliveryID, "lang:", itemDeliveryLang, itemDelivery.name);
+        for (let c = 0, lc = geotargetsCH.length; c < lc; c++) {
+          const item = geotargetsCH[c];
+          if (itemDeliveryID === item.id) {
+            //GOTTCHA
+            if (itemDeliveryLang === "DE") {
+              canonicals.de.push(item.canonical);
+            } else if (itemDeliveryLang === "FR") {
+              canonicals.fr.push(item.canonical);
+            } else if (itemDeliveryLang === "IT") {
+              canonicals.it.push(item.canonical);
+            }
+          }
+        }
+      }
+      console.log("canonicals");
+      console.log(canonicals);
+      return canonicals;
+    }
+
+    function getSwitzerland() {
+      const ch = [];
+      for (let i = 0, l = geoAll.length; i < l; i++) {
+        const item = geoAll[i];
+        const countryCode = item["Country Code"];
+        if (countryCode === "CH") {
+          ch.push(item);
+          //console.log(item);
+        }
+      }
+      //console.log("TOTAL:", ch.length);
+      //console.log(ch);
+      return ch;
+    }
+
+    /* function getCanonicalByLanguage(canonicals, lang) {
+      const items = [];
+      for (let i = 0, l = canonicals.length; i < l; i++) {
+        const item = canonicals[i];
+        const countryCode = item["Country Code"];
+        if (item)
+      }
+    } */
+
+    function wrapContainer(content) {
+      return '<div class="container">' + content + '</div>';
+    }
+
+    const copyElem = document.getElementById("content");
+
+    const switzerland = getSwitzerland();
+    const canonicals = getCanonicalArrays();
+
+    let output = '';
+    let temp = '';
+
+    temp += '<div class="col-12">CANONICALS CH DE-FR-IT: <b>' + switzerland.length + '</b></div>';
+    temp += '<div class="col-auto"><input class="form-control radius" placeholder="John Smith" name="name" type="text"></div>';
+    temp += '<div class="col-auto"grow-1><button type="submit" class="btn color-white radius background-color-green hover-background-color-blue transition-fast cursor-pointer">Find</button></div>';
+
+    output = wrapContainer(temp);
+
+    //komplette schweizer liste
+    /* temp = '';
+    for (let i = 0, l = switzerland.length; i < l; i++) {
+      const item = switzerland[i];
+      temp += '<div class="col-auto">' + item.Name + '</div>';
+    }
+    temp = wrapContainer(temp);
+    output += temp; */
+
+    temp = '';
+    temp += '<div class="col-12">CANONICAL DE: <b>' + canonicals.de.length + '</b></div>';
+    temp += '<div class="col-12">' + canonicals.de.join("|") + '</div>';
+    temp += '<div class="col-12">CANONICAL FR: <b>' + canonicals.fr.length + '</b></div>';
+    temp += '<div class="col-12">' + canonicals.fr.join("|") + '</div>';
+    temp += '<div class="col-12">CANONICAL IT: <b>' + canonicals.it.length + '</b></div>';
+    temp += '<div class="col-12">' + canonicals.it.join("|") + '</div>';
+    temp = wrapContainer(temp);
+    output += temp;
+
+    copyElem.innerHTML = output;
+
+
+    //
     /* print('DE TEST', targetsDE_TEST, 0, inputDE_TEST);
     copyElem.innerHTML = copyElem.innerHTML + '<hr>';
     print('DE UEAT', targetsDE_UEAT, 1, inputDE_UEAT);

@@ -4,4 +4,7 @@
 // DYNAMIC CONTENT EXPORT
 const dco = require("./gulp-dco.js");
 exports.default = dco.default;
+exports.fr = dco.fr;
+exports.it = dco.it;
+exports.de = dco.default;
 exports.build = dco.build;

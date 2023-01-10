@@ -363,4 +363,6 @@ const buildAll = series(
 );
 
 exports.default = series(initTplNamesTPL_DE_DCO, createNext, watchDirectory);
+exports.fr = series(initTplNamesTPL_FR_DCO, createNext, watchDirectory);
+exports.it = series(initTplNamesTPL_IT_DCO, createNext, watchDirectory);
 exports.build = buildAll;
