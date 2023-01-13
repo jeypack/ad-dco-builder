@@ -1,4 +1,4 @@
-//DCO-ANIMATIONS EG+ 2023 - Author: Joerg Pfeifer egplusww.com
+//DCO-ANIMATIONS EG+ 2023 - Author: Joerg Pfeifer egplusww.com 
 (function (egp) {
   "use strict";
 

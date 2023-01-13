@@ -37,6 +37,21 @@ div.wrapper-banner {
     }
     $i: $i + 1;
   }
+  //WORD SPACING HACK
+  $i: -10;
+  $max: 11;
+  @while $i<$max {
+    &.word-space-#{$i} {
+      .typo {
+        word-spacing: #{$i}px;
+      }
+    }
+    @if $i != -1 {
+      $i: $i + 1;
+    } @else {
+      $i: $i + 2;
+    }
+  }
   // CTA SIZE
   &.cta-small {
     font-size: $cta-font-size-small;

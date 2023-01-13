@@ -8,12 +8,13 @@
 
   //+++FR+++
   // change sheet-name and asset-path here
-  ad.sheetName = 'MC_DELIVERY_CH_IT_DCO_FEED_300X600_02_Sheet1';
+  //ad.sheetName = 'MC_DELIVERY_CH_IT_DCO_FEED_300X600_02_Sheet1';
+  ad.sheetName = 'MC_DELIVERY_CH_IT_DCO_FEED_300X600_2023_1_Sheet1';
   ad.imagesPath = '';
   ad.feedPropertyNames = [];
   ad.dynamicContent = {};
   //feednameforforcedpreview:mcdeliverychdedcofeed300x60001sheet1:10286221,request:datetime,request:dbmlineitemid,request:location
-  (function helper() {
+  /* (function helper() {
     var i, rows = 52,
       count = 1,
       pack = 4,
@@ -23,7 +24,7 @@
     for (i = max - 1; i >= min; i--) {
       out += '\n' + i + ',2022-12-31T00:00+00:00';
     }
-    /* out = '';
+    out = '';
     count = 1;
     for (i = min; i < max; i++) {
       out += '\n' + i;
@@ -31,16 +32,16 @@
         out += '\n';
       }
       count++;
-    } */
+    }
     //
     console.log(out);
-  }());
+  }()); */
 
   ad.initDynamicContent = function () {
-    console.log("MC_DELIVERY_CH_IT_DCO_FEED_300X600_02_Sheet1  ID: 10725295");
+    console.log("MC_DELIVERY_CH_IT_DCO_FEED_300X600_02_Sheet1  ID: 10809521");
     console.log("TPL_DCO_AUTO_211101_IT_DATA ad.initDynamicContent", window.EGPlus);
-    //+++IT+++
-    Enabler.setProfileId(10725295);
+    //+++IT+++ OLD: 10725295
+    Enabler.setProfileId(10809521);
     //Template function
     ad.setDynamicContent();
   };

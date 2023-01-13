@@ -9,11 +9,11 @@ window.EGPlus.ad.devFeedContent = {
     start_date: "2023-01-01",
     end_date: "2023-12-31",
     reporting_label: "MC_DELIVERY_300x600_",
-    theme: "pad-top-22 pad-left-18 copy-58 hline-50",
+    theme: "pad-left-20 copy-48 hline-43",
     anim: "std",
     //image_1: './img/mcchicken-2023-01-300x600.jpg',
-    //image_1: './img/bigmac-2023-01-300x600.jpg',
-    image_1: "./img/fries-2023-01-300x600.jpg",
+    image_1: './img/bigmac-2023-01-300x600.jpg',
+    //image_1: "./img/fries-2023-01-300x600.jpg",
     //image_1: "./img/mcraclette-2023-01-300x600.jpg",
     video_1: "./img/no-video.mp4",
     //<span></span> <br>
@@ -34,7 +34,7 @@ window.EGPlus.ad.devFeedContent = {
     //copy_1: "Jetzt McChicken®<br>für die ganze<br>Familie bestellen.", //pad-left-18 copy-46 hline-44
     //copy_1: "Überrasche deine<br>Familie mit einem<br>Big Mac®.", //pad-left-18 pad-top-20 copy-46 hline-40
     //copy_1: "Eine Runde extra<br>Fries für alle.", //pad-left-15 pad-top-22 copy-50 hline-46
-    //copy_1: "Eine köstliche<br>Überraschung<br>für alle.", //pad-left-24 pad-top-20 copy-50 hline-46
+    //copy_1: "Eine köstliche<br>Überraschung<br>für alle.", //pad-left-24 pad-top-16 copy-50 hline-46
     //copy_1: "Jetzt McChicken®<br>statt Pizza<br>bestellen.", //pad-left-16 pad-top-20 copy-47 hline-42
     //copy_1: "Der Big Mac®:<br>Kultiger als beim<br>Italiener.", //pad-left-18 pad-top-17 copy-47 hline-43
     //copy_1: "Fries auf Pizza?<br>Doch lieber Burger<br>mit Pommes.", //pad-left-16 pad-top-21 copy-44 hline-40
@@ -53,9 +53,11 @@ window.EGPlus.ad.devFeedContent = {
     //copy_1: "McRaclette: Das<br>Schweizer Original<br>ist zurück.", //pad-top-20 pad-left-16 copy-44 hline-41
     //copy_1: "Zeit für uns.<br>Zeit für<br>McChicken®.", //pad-top-14 pad-left-24 copy-56 hline-45
     //copy_1: "Zeit für einen<br>Klassiker. Jetzt<br>Big Mac® bestellen.", //pad-top-18 pad-left-18 copy-42 hline-40
-    copy_1: "Endlich Fries,<br>nur für uns.", //pad-top-22 pad-left-18 copy-58 hline-50
+    //copy_1: "Endlich Fries,<br>nur für uns.", //pad-top-22 pad-left-18 copy-58 hline-50
     //copy_1: "McRaclette: Das<br>Schweizer Original<br>ist zurück.", //pad-top-20 pad-left-16 copy-44 hline-41
     
+    //alternative
+    copy_1: "Für ganz grosses<br>Kino: Big Mac®<br>Jetzt bestellen.", //pad-left-20 copy-48 hline-43
     copy_2: "",
     delivery: "./img/ueat-jeat-smood-01-300x600.png",
     info: "",
