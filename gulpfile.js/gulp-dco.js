@@ -12,11 +12,13 @@ const removeLogging = require("gulp-remove-logging");
 const uglify = require("gulp-uglify");
 const saveLicense = require("uglify-save-license");
 //const data = require('gulp-data');
+//const tap = require('gulp-tap');
 //const path = require("path");
 const htmlReplace = require("gulp-html-replace");
 const rename = require("gulp-rename");
-//const tap = require('gulp-tap');
-//const through = require('through2');
+const browserSync = require("browser-sync").create();
+const reload = browserSync.reload;
+const cache = require('gulp-cache');
 const { cleanDir, moveFiles, buildCssFromScss, handleJS, watchBrowser } = require("./gulp-dco-utils");
 
 //const htdocsPath = '/Applications/MAMP/htdocs/';
@@ -120,6 +122,10 @@ const cleanDirectory = (cb) => {
   cleanDir([config.DEST_TEMP + "/**", "!" + config.DEST_TEMP], true);
   cleanDir([config.DEST_BUILD + "/**", "!" + config.DEST_BUILD], true);
   cb();
+};
+
+const clearCache = (cb) => {
+  cache.clearAll(cb);
 };
 
 const handleImages = (cb) => {
@@ -317,7 +323,8 @@ const watchDirectory = (cb) => {
   //watchBrowser({ proxy: "http://localhost/" + buildFolder });
   watch(config.SRC_IMAGES, handleImages);
   watch(config.SRC_TPL_HTML, handleDefaultWatch);
-  watch([srcPath + "tpl/scss/*.scss"], handleSass);
+  watch([srcPath + "tpl/scss/*.scss"], handleSass).on('change', reload);
+  //watch([srcPath + "tpl/scss/*.scss"], handleSass).on('change', clearCache, reload); // <-NOT WORKING
   //watch(config.SRC_TPL_JS_ANIM_LIVE, handleAnimJS);
   //watch(config.SRC_DATA, handleDataJSCH);
   watch([srcPath + "js/*.js"], handleDefaultWatch);

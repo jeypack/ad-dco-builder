@@ -8,7 +8,8 @@
 
   //+++FR+++
   // change sheet-name and asset-path here
-  ad.sheetName = 'MC_DELIVERY_CH_FR_DCO_FEED_300X600_02_Sheet1';
+  //ad.sheetName = 'MC_DELIVERY_CH_FR_DCO_FEED_300X600_02_Sheet1'; <-OLD
+  ad.sheetName = 'MC_DELIVERY_CH_FR_DCO_FEED_300X600_2023_1_Sheet1';
   ad.imagesPath = '';
   ad.feedPropertyNames = [];
   ad.dynamicContent = {};
@@ -37,10 +38,10 @@
   }());
 
   ad.initDynamicContent = function () {
-    console.log("MC_DELIVERY_CH_FR_DCO_FEED_300X600_02_Sheet1  ID: 10725292");
+    console.log("MC_DELIVERY_CH_FR_DCO_FEED_300X600_02_Sheet1  ID: 10809518");
     console.log("TPL_DCO_AUTO_211101_FR_DATA ad.initDynamicContent", window.EGPlus);
-    //+++FR+++
-    Enabler.setProfileId(10725292);
+    //+++FR+++ ->OLD: 10725292
+    Enabler.setProfileId(10809518);
     //Template function
     ad.setDynamicContent();
   };

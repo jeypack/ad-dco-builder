@@ -4,7 +4,7 @@
 //THEMES
 div.wrapper-banner {
   // SIZES LINEHEIGHTS
-  $i: 36;
+  $i: 28;
   $max: 65;
   @while $i<$max {
     &.copy-#{$i} {
@@ -46,11 +46,13 @@ div.wrapper-banner {
         word-spacing: #{$i}px;
       }
     }
-    @if $i != -1 {
-      $i: $i + 1;
-    } @else {
-      $i: $i + 2;
-    }
+    $i: $i + 1;
+    //without '0'
+    // @if $i != -1 {
+    //   $i: $i + 1;
+    // } @else {
+    //   $i: $i + 2;
+    // }
   }
   // CTA SIZE
   &.cta-small {

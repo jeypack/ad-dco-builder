@@ -125,6 +125,8 @@
     console.log("ad.init:", "typoSplit", typoSplit);
     // or start immediately
     //ad.start();
+    //fade in outside timeline
+    gsap.to($anim, { opacity: 1, duration: 0.3 });
   };
 
   /**
@@ -143,9 +145,6 @@
     });
     //100 140 | 106 136 transformOrigin: '108% 136%',
     gsap.set($logos, { force3D: true });
-
-    //fade in outside timeline
-    gsap.to($anim, { opacity: 1, duration: 0.2 });
   };
 
   /**
@@ -157,7 +156,7 @@
     ad.tl.repeat(ad.dynamicContent.max_loop).repeatDelay(ad.dynamicContent.repeat_delay);
     //ad.tl.repeat(repeat).repeatDelay(repeatDelay);
     //var frameOrderRaw = ad.dynamicContent.frame_order,
-    ad.tl.add(ad.stepA(), 0.25);
+    ad.tl.add(ad.stepA(), 0.5);
     ad.tl.add(ad.stepB(), "+=2.25");
     console.log("ad.setTimelines", "anim:", ad.dynamicContent.anim, "total:", ad.tl.totalDuration());
   };

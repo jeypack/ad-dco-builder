@@ -9,7 +9,7 @@ window.EGPlus.ad.devFeedContent = {
     start_date: "2023-01-01",
     end_date: "2023-12-31",
     reporting_label: "MC_DELIVERY_300x600_",
-    theme: "pad-left-20 copy-48 hline-43",
+    theme: "pad-left-16 pad-top-18 word-space--2 copy-42 hline-42",
     anim: "std",
     //image_1: './img/mcchicken-2023-01-300x600.jpg',
     image_1: './img/bigmac-2023-01-300x600.jpg',
@@ -57,7 +57,8 @@ window.EGPlus.ad.devFeedContent = {
     //copy_1: "McRaclette: Das<br>Schweizer Original<br>ist zurück.", //pad-top-20 pad-left-16 copy-44 hline-41
     
     //alternative
-    copy_1: "Für ganz grosses<br>Kino: Big Mac®<br>Jetzt bestellen.", //pad-left-20 copy-48 hline-43
+    //copy_1: "Für ganz grosses<br>Kino: Big Mac®<br>Jetzt bestellen.", //pad-left-20 copy-48 hline-43
+    copy_1: "Für ganz grosses Kino: Jetzt Big&nbsp;Mac® bestellen.", //pad-left-20 copy-48 hline-43
     copy_2: "",
     delivery: "./img/ueat-jeat-smood-01-300x600.png",
     info: "",
