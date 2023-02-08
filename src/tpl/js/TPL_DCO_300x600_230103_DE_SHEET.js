@@ -9,7 +9,7 @@ window.EGPlus.ad.devFeedContent = {
     start_date: "2023-01-01",
     end_date: "2023-12-31",
     reporting_label: "MC_DELIVERY_300x600_",
-    theme: "pad-left-16 pad-top-18 word-space--2 copy-42 hline-42",
+    theme: "pad-top-18 copy-53 hline-50",
     anim: "std",
     //image_1: './img/mcchicken-2023-01-300x600.jpg',
     image_1: './img/bigmac-2023-01-300x600.jpg',
@@ -17,7 +17,7 @@ window.EGPlus.ad.devFeedContent = {
     //image_1: "./img/mcraclette-2023-01-300x600.jpg",
     video_1: "./img/no-video.mp4",
     //<span></span> <br>
-    //copy_1: 'Lass dir liefern,<br>was du liebst.', //pad-top-18 copy-53 hline-50
+    copy_1: 'Lass dir liefern,<br>was du liebst.', //pad-top-18 copy-53 hline-50
 
     //copy_1: "Boosten? Bestell<br>dir deinen<br>McChicken®.", //copy-43 hline-42
     //copy_1: "Cheaten ohne<br>Cheatcode. Jetzt<br>Big Mac® bestellen.", //pad-top-12 copy-42 hline-42
@@ -58,9 +58,10 @@ window.EGPlus.ad.devFeedContent = {
     
     //alternative
     //copy_1: "Für ganz grosses<br>Kino: Big Mac®<br>Jetzt bestellen.", //pad-left-20 copy-48 hline-43
-    copy_1: "Für ganz grosses Kino: Jetzt Big&nbsp;Mac® bestellen.", //pad-left-20 copy-48 hline-43
+    //copy_1: "Für ganz grosses Kino: Jetzt Big&nbsp;Mac® bestellen.", //pad-left-20 copy-48 hline-43
     copy_2: "",
-    delivery: "./img/ueat-jeat-smood-01-300x600.png",
+    //delivery: "./img/ueat-jeat-smood-01-300x600.png",
+    delivery: "./img/mc-delivery-01-300x600.png",
     info: "",
     cta: "Jetzt bestellen!",
     //'cta': 'Ordina ora!',

@@ -2,6 +2,8 @@
 
 >Create DCO ads for Studio
 
+
+
 ## DCO McDonalds CH Studio
 
 ### Verknüpfung mit Werbetreibendem in Campaign Manager 360
@@ -73,9 +75,9 @@ CH-I : Smood, Divoora
 
 ### CREATIVES 
 ```js
-MC_DELIVERY_TPL_DCO_DE_300x600_221215
-MC_DELIVERY_TPL_DCO_FR_300x600_221215
-MC_DELIVERY_TPL_DCO_IT_300x600_221215
+MC_DELIVERY_TPL_DCO_DE_300x600_221215 - ID: 62272826
+MC_DELIVERY_TPL_DCO_FR_300x600_221215 - ID: 62278751
+MC_DELIVERY_TPL_DCO_IT_300x600_221215 - ID: 62274935
 ```
 
 ---
@@ -164,5 +166,8 @@ MC_DELIVERY_TPL_DCO_DE_300x600_220212
 MC_DELIVERY_TPL_DCO_FR_300x600_220212
 MC_DELIVERY_TPL_DCO_IT_300x600_220212
 ```
+
+#### PUBLISH CM360 E-MAILS
+>laszlo.lugosi@omnicommediagroup.com,melanie.ohnemueller@omnicommediagroup.com,tamara.gasser@omd.com,christopher.nussbaum@omnicommediagroup.com
 
 ---
